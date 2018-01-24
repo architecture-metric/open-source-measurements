@@ -1,0 +1,111 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-cinder" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="executable"
+"cinder.scheduler@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.scheduler" ]
+"cinder.db@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="cinder.db" ]
+"cinder.message@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.message" ]
+"cinder.cmd@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.cmd" ]
+"cinder.transfer@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.transfer" ]
+"cinder.keymgr@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.keymgr" ]
+"cinder.wsgi@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.wsgi" ]
+"cinder.objects@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.objects" ]
+"cinder.replication@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.replication" ]
+"cinder.common@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.common" ]
+"cinder.compute@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.compute" ]
+"cinder.interface@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.interface" ]
+"cinder.zonemanager@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="cinder.zonemanager" ]
+"cinder.api@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="cinder.api" ]
+"cinder.consistencygroup@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.consistencygroup" ]
+"cinder.hacking@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.hacking" ]
+"cinder.backup@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="cinder.backup" ]
+"cinder.volume@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="cinder.volume" ]
+"cinder.image@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.image" ]
+"cinder.brick@cinder" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="cinder.brick" ]
+}
+"631f5dd6-8beb-4802-bcf5-10217a854288@NOT_DEPLOYED" [ shape="box" penwidth="0" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" image="icon-datastore.png" width="1.000" height="1.000" fixedsize="true" label="" ]
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="REMAINDER" ]
+"cinder.scheduler@cinder" -> "cinder.message@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.scheduler@cinder" -> "cinder.compute@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.scheduler@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"cinder.db@cinder" -> "cinder.objects@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.db@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"cinder.db@cinder" -> "cinder.api@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"cinder.message@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.cmd@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"cinder.cmd@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"cinder.cmd@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.cmd@cinder" -> "631f5dd6-8beb-4802-bcf5-10217a854288@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"cinder.transfer@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.transfer@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.wsgi@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.objects@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.objects@cinder" -> "631f5dd6-8beb-4802-bcf5-10217a854288@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"cinder.replication@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.replication@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.compute@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.zonemanager@cinder" -> "cinder.interface@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.zonemanager@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"cinder.api@cinder" -> "cinder.message@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.api@cinder" -> "cinder.wsgi@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"cinder.api@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.api@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"cinder.api@cinder" -> "cinder.image@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.consistencygroup@cinder" -> "cinder.scheduler@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.consistencygroup@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.consistencygroup@cinder" -> "cinder.objects@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.consistencygroup@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.consistencygroup@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.backup@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"cinder.backup@cinder" -> "cinder.objects@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"cinder.backup@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.backup@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"cinder.volume@cinder" -> "cinder.scheduler@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.volume@cinder" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"cinder.volume@cinder" -> "cinder.message@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.volume@cinder" -> "cinder.objects@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"cinder.volume@cinder" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.volume@cinder" -> "cinder.zonemanager@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  28" ]
+"cinder.volume@cinder" -> "cinder.api@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.volume@cinder" -> "cinder.backup@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"cinder.volume@cinder" -> "cinder.image@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  31" ]
+"cinder.volume@cinder" -> "cinder.brick@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"cinder.volume@cinder" -> "631f5dd6-8beb-4802-bcf5-10217a854288@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"cinder.volume@cinder" -> "631f5dd6-8beb-4802-bcf5-10217a854288@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"cinder.image@cinder" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.scheduler@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.db@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.message@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.cmd@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.transfer@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.keymgr@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.wsgi@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.objects@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.common@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.compute@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.interface@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.zonemanager@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.api@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.backup@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.volume@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  31" ]
+"REMAINDER@NOT_DEPLOYED" -> "cinder.image@cinder" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#8212;</FONT></TD><TD ALIGN="left">Provides</TD></TR>
+<TR><TD><FONT COLOR="#820445">&rarr;</FONT></TD><TD ALIGN="left">Interface call</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&rarr;</FONT></TD><TD ALIGN="left">Data store read</TD></TR>
+<TR><TD><FONT COLOR="#A4A38F">&rarr;</FONT></TD><TD ALIGN="left">Data store write</TD></TR>
+</TABLE>
+>  ]
+}

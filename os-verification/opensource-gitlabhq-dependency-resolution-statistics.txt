@@ -1,0 +1,11 @@
+Dependency resolution statistics
+Resolved:    0 (0.0%)
+Unresolved:  195 (100.0%)
+Ambiguous:   0 (0.0%)
+
+
+Resolved
+
+Unresolved
+
+Ambiguous

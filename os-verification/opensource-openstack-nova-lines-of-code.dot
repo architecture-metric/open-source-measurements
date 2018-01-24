@@ -1,0 +1,205 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"nova.conf" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="nova.conf
+
+lines of code: 4174.0" ]
+"nova.console" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.console
+
+lines of code: 505.0" ]
+"nova.scheduler" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="nova.scheduler
+
+lines of code: 2686.0" ]
+"nova.api" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="19" margin="0.304" label="nova.api
+
+lines of code: 14966.0" ]
+"nova.vnc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.vnc
+
+lines of code: 117.0" ]
+"nova.compute" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="nova.compute
+
+lines of code: 11074.0" ]
+"nova.network" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="nova.network
+
+lines of code: 6960.0" ]
+"nova.conductor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="nova.conductor
+
+lines of code: 1262.0" ]
+"nova.hacking" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.hacking
+
+lines of code: 466.0" ]
+"nova.cells" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="nova.cells
+
+lines of code: 3002.0" ]
+"nova.notifications" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.notifications
+
+lines of code: 674.0" ]
+"nova.pci" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.pci
+
+lines of code: 679.0" ]
+"nova.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.common
+
+lines of code: 22.0" ]
+"nova.image" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="nova.image
+
+lines of code: 1225.0" ]
+"nova.cert" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.cert
+
+lines of code: 99.0" ]
+"nova.servicegroup" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.servicegroup
+
+lines of code: 167.0" ]
+"nova.cmd" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="nova.cmd
+
+lines of code: 1810.0" ]
+"nova.objects" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="15" margin="0.24" label="nova.objects
+
+lines of code: 8455.0" ]
+"nova.ipv6" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.ipv6
+
+lines of code: 63.0" ]
+"nova.virt" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="nova.virt
+
+lines of code: 31859.0" ]
+"nova.cloudpipe" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.cloudpipe
+
+lines of code: 112.0" ]
+"nova.consoleauth" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.consoleauth
+
+lines of code: 158.0" ]
+"nova.policies" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="nova.policies
+
+lines of code: 1631.0" ]
+"nova.db" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="nova.db
+
+lines of code: 10192.0" ]
+"REMAINDER" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="REMAINDER
+
+lines of code: 10404.0" ]
+"nova.volume" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.volume
+
+lines of code: 604.0" ]
+"nova.keymgr" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="nova.keymgr
+
+lines of code: 111.0" ]
+"nova.console" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"nova.console" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.console" -> "nova.consoleauth" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.console" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.scheduler" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  21" ]
+"nova.scheduler" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.scheduler" -> "nova.pci" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.scheduler" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.scheduler" -> "nova.virt" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.api" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"nova.api" -> "nova.console" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.api" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"nova.api" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"nova.api" -> "nova.cells" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.api" -> "nova.image" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"nova.api" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"nova.api" -> "nova.virt" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.api" -> "nova.cloudpipe" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.api" -> "nova.consoleauth" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.api" -> "nova.policies" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  73" ]
+"nova.vnc" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.vnc" -> "nova.consoleauth" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"nova.compute" -> "nova.scheduler" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.compute" -> "nova.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"nova.compute" -> "nova.cells" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.compute" -> "nova.notifications" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.pci" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.compute" -> "nova.image" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"nova.compute" -> "nova.virt" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"nova.compute" -> "nova.cloudpipe" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.consoleauth" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.compute" -> "nova.volume" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.network" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"nova.network" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.network" -> "nova.pci" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.network" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"nova.network" -> "nova.policies" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.network" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.conductor" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"nova.conductor" -> "nova.scheduler" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.conductor" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.conductor" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.conductor" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cells" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"nova.cells" -> "nova.scheduler" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cells" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.cells" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"nova.cells" -> "nova.consoleauth" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cells" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.notifications" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.notifications" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.notifications" -> "nova.image" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.notifications" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"nova.pci" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.pci" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.pci" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.image" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.image" -> "nova.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.image" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cert" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.servicegroup" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.cmd" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"nova.cmd" -> "nova.console" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cmd" -> "nova.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cmd" -> "nova.vnc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.cmd" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cmd" -> "nova.conductor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"nova.cmd" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"nova.cmd" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.objects" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.objects" -> "nova.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.objects" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.objects" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.objects" -> "nova.cells" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"nova.objects" -> "nova.notifications" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.objects" -> "nova.virt" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.objects" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"nova.ipv6" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.virt" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  62" ]
+"nova.virt" -> "nova.console" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"nova.virt" -> "nova.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"nova.virt" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  23" ]
+"nova.virt" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"nova.virt" -> "nova.pci" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"nova.virt" -> "nova.image" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.virt" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"nova.virt" -> "nova.cloudpipe" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.virt" -> "nova.volume" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.cloudpipe" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.cloudpipe" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.consoleauth" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"nova.consoleauth" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.consoleauth" -> "nova.cells" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.db" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"nova.db" -> "nova.compute" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.db" -> "nova.cells" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.db" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"REMAINDER" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"REMAINDER" -> "nova.network" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER" -> "nova.notifications" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER" -> "nova.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER" -> "nova.objects" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER" -> "nova.virt" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"REMAINDER" -> "nova.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER" -> "nova.volume" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.volume" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"nova.keymgr" -> "nova.conf" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

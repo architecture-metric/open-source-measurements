@@ -1,0 +1,907 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-org.cloudfoundry:cloudfoundry-client" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="cloudfoundry-client
+
+code breakdown: 91.0"
+"org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.uaa.users
+
+code breakdown: 467.0" ]
+"org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.securitygroups
+
+code breakdown: 219.0" ]
+"org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.shareddomains
+
+code breakdown: 77.0" ]
+"org.cloudfoundry.uaa.authorizations@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.uaa.authorizations
+
+code breakdown: 66.0" ]
+"org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2
+
+code breakdown: 202.0" ]
+"org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.servicekeys
+
+code breakdown: 112.0" ]
+"org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.spacequotadefinitions
+
+code breakdown: 115.0" ]
+"org.cloudfoundry.doppler@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.doppler
+
+code breakdown: 542.0" ]
+"org.cloudfoundry.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.environmentvariablegroups
+
+code breakdown: 148.0" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.cloudfoundry.client.v2.spaces
+
+code breakdown: 946.0" ]
+"org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.serviceplans
+
+code breakdown: 186.0" ]
+"org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.services
+
+code breakdown: 188.0" ]
+"org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.organizationquotadefinitions
+
+code breakdown: 219.0" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client
+
+code breakdown: 75.0" ]
+"org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.servicebindings
+
+code breakdown: 141.0" ]
+"org.cloudfoundry.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.applicationusageevents
+
+code breakdown: 116.0" ]
+"org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.users
+
+code breakdown: 104.0" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.uaa
+
+code breakdown: 144.0" ]
+"org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v3
+
+code breakdown: 214.0" ]
+"org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.userprovidedserviceinstances
+
+code breakdown: 173.0" ]
+"org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.servicebrokers
+
+code breakdown: 145.0" ]
+"org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v3.tasks
+
+code breakdown: 164.0" ]
+"org.cloudfoundry.client.v2.info@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.info
+
+code breakdown: 71.0" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.client.v3.applications
+
+code breakdown: 458.0" ]
+"org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry
+
+code breakdown: 39.0" ]
+"org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.serviceplanvisibilities
+
+code breakdown: 142.0" ]
+"org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v3.processes
+
+code breakdown: 316.0" ]
+"org.cloudfoundry.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.uaa.identityproviders
+
+code breakdown: 629.0" ]
+"org.cloudfoundry.uaa.tokens@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.uaa.tokens
+
+code breakdown: 355.0" ]
+"org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.domains
+
+code breakdown: 194.0" ]
+"org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.privatedomains
+
+code breakdown: 117.0" ]
+"org.cloudfoundry.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.featureflags
+
+code breakdown: 111.0" ]
+"org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.client.v2.serviceinstances
+
+code breakdown: 498.0" ]
+"org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.uaa.groups
+
+code breakdown: 424.0" ]
+"org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.routes
+
+code breakdown: 306.0" ]
+"org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.routemappings
+
+code breakdown: 129.0" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.cloudfoundry.client.v2.organizations
+
+code breakdown: 932.0" ]
+"org.cloudfoundry.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v3.servicebindings
+
+code breakdown: 170.0" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.client.v2.applications
+
+code breakdown: 876.0" ]
+"org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v3.packages
+
+code breakdown: 315.0" ]
+"org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.buildpacks
+
+code breakdown: 186.0" ]
+"org.cloudfoundry.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.serviceusageevents
+
+code breakdown: 109.0" ]
+"org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.stacks
+
+code breakdown: 69.0" ]
+"org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.events
+
+code breakdown: 105.0" ]
+"org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v3.droplets
+
+code breakdown: 219.0" ]
+"org.cloudfoundry.uaa.identityzones@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.uaa.identityzones
+
+code breakdown: 341.0" ]
+"org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.client.v2.jobs
+
+code breakdown: 63.0" ]
+}
+subgraph "cluster-org.cloudfoundry:cloudfoundry-operations" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="cloudfoundry-operations
+
+code breakdown: 102.0"
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.operations.routes
+
+code breakdown: 454.0" ]
+"org.cloudfoundry.operations.stacks@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.stacks
+
+code breakdown: 77.0" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.operations.organizations
+
+code breakdown: 375.0" ]
+"org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.domains
+
+code breakdown: 215.0" ]
+"org.cloudfoundry.operations.serviceadmin@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.serviceadmin
+
+code breakdown: 129.0" ]
+"org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.organizationadmin
+
+code breakdown: 277.0" ]
+"org.cloudfoundry.operations.advanced@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.advanced
+
+code breakdown: 27.0" ]
+"org.cloudfoundry.operations.buildpacks@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.buildpacks
+
+code breakdown: 103.0" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations
+
+code breakdown: 213.0" ]
+"org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.operations.spaceadmin
+
+code breakdown: 88.0" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="org.cloudfoundry.operations.applications
+
+code breakdown: 1610.0" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.operations.spaces
+
+code breakdown: 563.0" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.cloudfoundry.operations.services
+
+code breakdown: 1007.0" ]
+}
+subgraph "cluster-org.cloudfoundry:cloudfoundry-util" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="cloudfoundry-util
+
+code breakdown: 96.0"
+"org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.util
+
+code breakdown: 280.0" ]
+"org.cloudfoundry.util.tuple@org.cloudfoundry:cloudfoundry-util" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.util.tuple
+
+code breakdown: 163.0" ]
+}
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="REMAINDER
+
+code breakdown: 28.0" ]
+subgraph "cluster-org.cloudfoundry:cloudfoundry-client-reactor" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="cloudfoundry-client-reactor
+
+code breakdown: 155.0"
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa
+
+code breakdown: 276.0" ]
+"org.cloudfoundry.reactor.uaa.tokens@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa.tokens
+
+code breakdown: 72.0" ]
+"org.cloudfoundry.reactor.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.userprovidedserviceinstances
+
+code breakdown: 48.0" ]
+"org.cloudfoundry.reactor.tokenprovider@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.tokenprovider
+
+code breakdown: 57.0" ]
+"org.cloudfoundry.reactor.client.v2.organizations@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.organizations
+
+code breakdown: 221.0" ]
+"org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa.authorizations
+
+code breakdown: 72.0" ]
+"org.cloudfoundry.reactor.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.environmentvariablegroups
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.reactor.client
+
+code breakdown: 384.0" ]
+"org.cloudfoundry.reactor.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.servicekeys
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.client.v2.routes@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.routes
+
+code breakdown: 68.0" ]
+"org.cloudfoundry.reactor.client.v2.stacks@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.stacks
+
+code breakdown: 24.0" ]
+"org.cloudfoundry.reactor.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa.identityproviders
+
+code breakdown: 42.0" ]
+"org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.cloudfoundry.reactor.util
+
+code breakdown: 604.0" ]
+"org.cloudfoundry.reactor.client.v2.info@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.info
+
+code breakdown: 18.0" ]
+"org.cloudfoundry.reactor.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.routemappings
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.securitygroups
+
+code breakdown: 64.0" ]
+"org.cloudfoundry.reactor.client.v2.events@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.events
+
+code breakdown: 24.0" ]
+"org.cloudfoundry.reactor.client.v3.processes@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3.processes
+
+code breakdown: 47.0" ]
+"org.cloudfoundry.reactor.uaa.users@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa.users
+
+code breakdown: 66.0" ]
+"org.cloudfoundry.reactor.client.v2.services@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.services
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.servicebrokers
+
+code breakdown: 41.0" ]
+"org.cloudfoundry.reactor.client.v2.domains@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.domains
+
+code breakdown: 42.0" ]
+"org.cloudfoundry.reactor.client.v2.users@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.users
+
+code breakdown: 18.0" ]
+"org.cloudfoundry.reactor.client.v3.tasks@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3.tasks
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.doppler@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.doppler
+
+code breakdown: 132.0" ]
+"org.cloudfoundry.reactor.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.shareddomains
+
+code breakdown: 24.0" ]
+"org.cloudfoundry.reactor.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.servicebindings
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.uaa.groups@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa.groups
+
+code breakdown: 96.0" ]
+"org.cloudfoundry.reactor.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.buildpacks
+
+code breakdown: 54.0" ]
+"org.cloudfoundry.reactor.client.v3.packages@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3.packages
+
+code breakdown: 66.0" ]
+"org.cloudfoundry.reactor.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.applicationusageevents
+
+code breakdown: 29.0" ]
+"org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2
+
+code breakdown: 115.0" ]
+"org.cloudfoundry.reactor.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.featureflags
+
+code breakdown: 30.0" ]
+"org.cloudfoundry.reactor.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.serviceplans
+
+code breakdown: 43.0" ]
+"org.cloudfoundry.reactor.client.v2.jobs@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.jobs
+
+code breakdown: 18.0" ]
+"org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor
+
+code breakdown: 136.0" ]
+"org.cloudfoundry.reactor.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.organizationquotadefinitions
+
+code breakdown: 42.0" ]
+"org.cloudfoundry.reactor.client.v2.applications@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.applications
+
+code breakdown: 139.0" ]
+"org.cloudfoundry.reactor.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.serviceinstances
+
+code breakdown: 66.0" ]
+"org.cloudfoundry.reactor.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3.servicebindings
+
+code breakdown: 35.0" ]
+"org.cloudfoundry.reactor.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.spacequotadefinitions
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.privatedomains
+
+code breakdown: 36.0" ]
+"org.cloudfoundry.reactor.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.serviceplanvisibilities
+
+code breakdown: 42.0" ]
+"org.cloudfoundry.reactor.uaa.identityzones@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.uaa.identityzones
+
+code breakdown: 42.0" ]
+"org.cloudfoundry.reactor.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.serviceusageevents
+
+code breakdown: 29.0" ]
+"org.cloudfoundry.reactor.client.v3.applications@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3.applications
+
+code breakdown: 124.0" ]
+"org.cloudfoundry.reactor.client.v3.droplets@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3.droplets
+
+code breakdown: 29.0" ]
+"org.cloudfoundry.reactor.client.v2.spaces@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v2.spaces
+
+code breakdown: 194.0" ]
+"org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.cloudfoundry.reactor.client.v3
+
+code breakdown: 104.0" ]
+}
+"org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.uaa.authorizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.doppler@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  39" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.info@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.authorizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.tokens@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.identityzones@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v2.info@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.cloudfoundry.uaa.tokens@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.uaa.tokens@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  35" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.uaa.identityzones@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.operations.stacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.stacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.stacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.serviceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.serviceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.serviceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.serviceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.advanced@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.uaa.authorizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.advanced@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.buildpacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.buildpacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.buildpacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.operations.buildpacks@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.doppler@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.routes@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.stacks@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.organizations@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.domains@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.serviceadmin@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.organizationadmin@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.advanced@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.buildpacks@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.doppler@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  29" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.applications@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  14" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.operations.spaceadmin@org.cloudfoundry:cloudfoundry-operations" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.spaces@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.operations.services@org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.authorizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.tokens@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.identityzones@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa.tokens@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa.users@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa.groups@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa.identityzones@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.tokens@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.tokens@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.tokens@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.cloudfoundry.reactor.uaa.tokens@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.tokens@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.cloudfoundry.reactor.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.tokenprovider@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.tokenprovider@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.tokenprovider@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.tokenprovider@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.organizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  64" ]
+"org.cloudfoundry.reactor.client.v2.organizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.organizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.authorizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.authorizations@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.reactor.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.info@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.organizations@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.userprovidedserviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.organizations@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.environmentvariablegroups@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.routes@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.stacks@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.info@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.events@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3.processes@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.services@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.domains@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.users@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3.tasks@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3.packages@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.jobs@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.applications@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3.applications@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3.droplets@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2.spaces@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.reactor.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.servicekeys@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.routes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.routes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"org.cloudfoundry.reactor.client.v2.routes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.util@org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.routes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.routes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.stacks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.stacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.reactor.client.v2.stacks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.stacks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.identityproviders@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client.v2.info@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.info@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client.v2.info@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.info@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.reactor.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.routemappings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"org.cloudfoundry.reactor.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.securitygroups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.events@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.events@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.reactor.client.v2.events@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.events@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.processes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.processes@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.cloudfoundry.reactor.client.v3.processes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.processes@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.users@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.cloudfoundry.reactor.uaa.users@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.users@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.services@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.services@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.reactor.client.v2.services@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.services@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.cloudfoundry.reactor.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.servicebrokers@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.domains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.domains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.client.v2.domains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.domains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.users@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.users@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client.v2.users@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.users@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.tasks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.tasks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.reactor.client.v3.tasks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.tasks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.doppler@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.doppler@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.doppler@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.doppler@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.doppler@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.reactor.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.reactor.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.shareddomains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.reactor.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.uaa.groups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.groups@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"org.cloudfoundry.reactor.uaa.groups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.groups@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.cloudfoundry.reactor.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.buildpacks@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.packages@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.packages@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"org.cloudfoundry.reactor.client.v3.packages@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.packages@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.reactor.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.applicationusageevents@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.cloudfoundry.reactor.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.featureflags@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.serviceplans@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.jobs@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.jobs@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client.v2.jobs@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.jobs@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.cloudfoundry.reactor.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.organizationquotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.applications@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  35" ]
+"org.cloudfoundry.reactor.client.v2.applications@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.applications@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.cloudfoundry.reactor.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.serviceinstances@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.reactor.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.servicebindings@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.cloudfoundry.reactor.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.spacequotadefinitions@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.cloudfoundry.reactor.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.privatedomains@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.serviceplanvisibilities@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.uaa.identityzones@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.uaa.identityzones@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry.reactor.uaa.identityzones@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.uaa@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.uaa.identityzones@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.reactor.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.serviceusageevents@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.applications@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.applications@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  37" ]
+"org.cloudfoundry.reactor.client.v3.applications@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.applications@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v3.droplets@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3.droplets@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.cloudfoundry.reactor.client.v3.droplets@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3.droplets@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.spaces@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v2.spaces@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  59" ]
+"org.cloudfoundry.reactor.client.v2.spaces@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client.v2@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v2.spaces@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.client.v3@org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.client@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor.util@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.cloudfoundry.reactor.client.v3@org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry.reactor@org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

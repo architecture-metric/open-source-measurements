@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemLevel name="opensource-echarts" id="258ed431-bb7f-4349-8ef0-6e98bdb7d385" volume="57431.0">
+    <CodeComponent name="REMAINDER" id="ff6461ca-5425-4573-b509-16a26f521ce9" volume="57431.0">
+        <SourceFile name="benchmark/dep/bootstrap/bootstrap.min.css" id="ed62380a-b9b1-47be-8c25-b3b86c621ea8" volume="1.0" />
+        <SourceFile name="benchmark/dep/jquery/jquery-2.2.4.js" id="f918ef2b-7771-4f7f-96f1-5e972b264532" volume="6382.0" />
+        <SourceFile name="benchmark/dep/lodash/lodash.js" id="b29e4192-538f-4017-b973-a7e4c061c8ae" volume="5599.0" />
+        <SourceFile name="benchmark/gulpfile.js" id="3a10d1c3-c18f-4aed-88c7-9ef7df51c3e1" volume="11.0" />
+        <SourceFile name="benchmark/index.html" id="53190e27-ad24-4419-a6e2-acd31ba7272b" volume="61.0" />
+        <SourceFile name="benchmark/src/app.js" id="0831eff0-652d-48b7-9af0-78e0c0f4e5b8" volume="78.0" />
+        <SourceFile name="echarts.all.js" id="3f1debc0-8864-4bcc-a9cc-9ae733536e4d" volume="44.0" />
+        <SourceFile name="echarts.blank.js" id="0dd04ad2-48be-4bc7-9309-535e198ab41c" volume="2.0" />
+        <SourceFile name="echarts.common.js" id="b7b81b47-14ed-4553-bdd2-7252956ad1bb" volume="19.0" />
+        <SourceFile name="echarts.simple.js" id="f60d2c2a-8c3e-461b-8f96-9de56fc153c7" volume="5.0" />
+        <SourceFile name="extension-src/bmap/BMapCoordSys.js" id="bb3efadf-ef42-44db-9dc9-cffd635a23b9" volume="141.0" />
+        <SourceFile name="extension-src/bmap/BMapModel.js" id="bfddc1d6-d840-4a18-8a52-0a3aadc85a68" volume="24.0" />
+        <SourceFile name="extension-src/bmap/BMapView.js" id="6ca15f56-08a3-418a-b8a6-9f320c5bda7f" volume="68.0" />
+        <SourceFile name="extension-src/bmap/bmap.js" id="ec6b1034-9571-4fb5-b62a-0657aa1ce3b9" volume="18.0" />
+        <SourceFile name="extension-src/dataTool/gexf.js" id="bec41963-aa94-4e1d-9d30-def49e96dff9" volume="156.0" />
+        <SourceFile name="extension-src/dataTool/index.js" id="6ce9ff7f-c4d3-44be-819b-ffaff933f35d" volume="11.0" />
+        <SourceFile name="extension-src/dataTool/prepareBoxplotData.js" id="5cffde64-3c1c-4315-b257-440d24332ab9" volume="40.0" />
+        <SourceFile name="extension-src/dataTool/quantile.js" id="65ed7073-b0c0-4802-a624-4739240bb8bf" volume="7.0" />
+        <SourceFile name="extension/bmap/BMapCoordSys.js" id="8b09b309-de87-4e29-ac36-ded406f3000b" volume="143.0" />
+        <SourceFile name="extension/bmap/BMapModel.js" id="d6f24c5c-8c75-4a02-9583-740ef9f08c11" volume="25.0" />
+        <SourceFile name="extension/bmap/BMapView.js" id="496b2295-65ce-45ac-bc20-30e44f5a1356" volume="64.0" />
+        <SourceFile name="extension/bmap/bmap.js" id="f97958f8-0e29-4be0-9383-71c5a0a543f7" volume="18.0" />
+        <SourceFile name="extension/dataTool/gexf.js" id="a24be315-e23b-41aa-9203-94de8699d269" volume="144.0" />
+        <SourceFile name="extension/dataTool/index.js" id="d210a40f-ffe5-484b-98f7-166be616a11e" volume="12.0" />
+        <SourceFile name="extension/dataTool/prepareBoxplotData.js" id="8d5bece3-d30a-4e75-b093-ebb8cd2e1445" volume="37.0" />
+        <SourceFile name="extension/dataTool/quantile.js" id="a60b1c6c-6a86-4af9-a4cd-2faf9702a150" volume="8.0" />
+        <SourceFile name="extension/echarts.js" id="a0eed671-1b68-4864-a903-432b7d3fb55a" volume="1.0" />
+        <SourceFile name="extension/webpack.config.js" id="3bb791a3-0fb6-4db4-ba25-b8084dc3a744" volume="16.0" />
+        <SourceFile name="index.common.js" id="8cf7d06e-6f32-4064-a01a-636587e70c4f" volume="31.0" />
+        <SourceFile name="index.js" id="92a0f5f5-bfe0-45b8-8318-e1fe2906c72b" volume="56.0" />
+        <SourceFile name="index.simple.js" id="225c6634-fc25-4345-81ed-7a7d71b21ec3" volume="11.0" />
+        <SourceFile name="map/js/china-contour.js" id="54f2dc66-4729-4e4e-ba41-452ba81dbaf8" volume="24.0" />
+        <SourceFile name="map/js/china.js" id="697f1d81-a93e-4810-ae0f-8aaf94472b57" volume="24.0" />
+        <SourceFile name="map/js/province/anhui.js" id="3eca8fd4-6f28-4c2e-a30c-6e8abde5fa01" volume="24.0" />
+        <SourceFile name="map/js/province/aomen.js" id="46ce5c8f-40c5-4a0e-a803-98f9c1060a8d" volume="24.0" />
+        <SourceFile name="map/js/province/beijing.js" id="0d8737f9-c330-4f25-a791-457135ea1fcd" volume="24.0" />
+        <SourceFile name="map/js/province/chongqing.js" id="93403f5d-aed1-43e2-adf9-0b6b13903113" volume="24.0" />
+        <SourceFile name="map/js/province/fujian.js" id="0134b412-5e25-45e6-98ef-0db0db50dd45" volume="24.0" />
+        <SourceFile name="map/js/province/gansu.js" id="0b5accc1-dd21-4b8e-8f02-a60a015d2100" volume="24.0" />
+        <SourceFile name="map/js/province/guangdong.js" id="23f0be61-6029-464b-b30e-7b5eb41ca558" volume="24.0" />
+        <SourceFile name="map/js/province/guangxi.js" id="c4d016c7-b8fa-4b15-b8ee-737f8a18042f" volume="24.0" />
+        <SourceFile name="map/js/province/guizhou.js" id="0a6087e3-35c7-4cf7-8d1a-187bd6c31099" volume="24.0" />
+        <SourceFile name="map/js/province/hainan.js" id="65a83a08-680e-49b4-a894-2b4de36183ac" volume="24.0" />
+        <SourceFile name="map/js/province/hebei.js" id="0cb6f458-30b9-41d0-9520-0ba4f0f5e3d0" volume="24.0" />
+        <SourceFile name="map/js/province/heilongjiang.js" id="ead6bdc1-aa37-4bd4-a7a6-9d26ade48178" volume="24.0" />
+        <SourceFile name="map/js/province/henan.js" id="54932a71-83db-4a37-a000-a07bdd51e277" volume="24.0" />
+        <SourceFile name="map/js/province/hubei.js" id="b96aced6-fbc7-4725-9ed5-ef04bbd85bcc" volume="24.0" />
+        <SourceFile name="map/js/province/hunan.js" id="f8ae920f-431f-436e-b6be-8b6804f83268" volume="24.0" />
+        <SourceFile name="map/js/province/jiangsu.js" id="98cac8ba-7c0e-4270-b5fd-7a6c75a089ae" volume="24.0" />
+        <SourceFile name="map/js/province/jiangxi.js" id="5c4fb046-c68c-4aed-ba95-5409b3402112" volume="24.0" />
+        <SourceFile name="map/js/province/jilin.js" id="9acf7ec5-7796-4b36-b66b-9ce47c450925" volume="24.0" />
+        <SourceFile name="map/js/province/liaoning.js" id="29d41d1c-ab3b-47d6-8fef-bcadfb246999" volume="24.0" />
+        <SourceFile name="map/js/province/neimenggu.js" id="2e219c5d-bc1e-4d6e-adf5-083bc4c2bd0b" volume="24.0" />
+        <SourceFile name="map/js/province/ningxia.js" id="7db55654-7a2d-4112-9c91-90b1e0f5d021" volume="24.0" />
+        <SourceFile name="map/js/province/qinghai.js" id="c9716534-78e3-43ad-8352-3444f325ebae" volume="24.0" />
+        <SourceFile name="map/js/province/shandong.js" id="17843aeb-374d-47f3-a8a7-985969f0962b" volume="24.0" />
+        <SourceFile name="map/js/province/shanghai.js" id="15a619dc-6ec1-4c9d-baad-5cb9f5ccd36f" volume="24.0" />
+        <SourceFile name="map/js/province/shanxi.js" id="ef79e91b-5e13-4474-b5b4-089efbf77dd5" volume="24.0" />
+        <SourceFile name="map/js/province/shanxi1.js" id="b0af6a47-3d2f-4794-af14-c2cf297168bc" volume="24.0" />
+        <SourceFile name="map/js/province/sichuan.js" id="46a100e0-1482-4d7a-be25-0049e05badc8" volume="24.0" />
+        <SourceFile name="map/js/province/taiwan.js" id="f5da1f49-cc7d-4e1e-bd25-51c369ff0091" volume="1.0" />
+        <SourceFile name="map/js/province/tianjin.js" id="9dce644a-1ff2-4ccf-84a3-24d499e8df0b" volume="24.0" />
+        <SourceFile name="map/js/province/xianggang.js" id="a88e8feb-ca07-4756-ada4-d90c3bfbe5ea" volume="24.0" />
+        <SourceFile name="map/js/province/xinjiang.js" id="b9518713-e43c-4cd9-85f2-67ff030478f6" volume="24.0" />
+        <SourceFile name="map/js/province/xizang.js" id="8461b725-7b9c-42d8-89a7-4367ef91c997" volume="24.0" />
+        <SourceFile name="map/js/province/yunnan.js" id="809944ca-add5-4b4e-997f-bc60b8ffafbf" volume="24.0" />
+        <SourceFile name="map/js/province/zhejiang.js" id="e34ab08e-6d19-4faf-a44d-9d2e251c1b51" volume="24.0" />
+        <SourceFile name="package.json" id="9476154e-b837-40da-b2a4-c930ea9da042" volume="58.0" />
+        <SourceFile name="src/CoordinateSystem.js" id="f0d782a4-586a-4d29-8121-aa209439d3f1" volume="31.0" />
+        <SourceFile name="src/ExtensionAPI.js" id="30fc8631-bec1-4991-b347-fdb69ff561b7" volume="12.0" />
+        <SourceFile name="src/action/createDataSelectAction.js" id="d390ecdc-52a0-44a9-b6f2-79a967453005" volume="31.0" />
+        <SourceFile name="src/action/geoRoam.js" id="9ece8122-bcd5-45b3-a75e-cfe9c7d1026b" volume="32.0" />
+        <SourceFile name="src/action/roamHelper.js" id="1543f3e1-d2e0-48b4-9b72-7794e469fcd5" volume="39.0" />
+        <SourceFile name="src/chart/bar.js" id="070fb3b1-8fb4-4a43-aa92-b477f1b0b6f2" volume="14.0" />
+        <SourceFile name="src/chart/bar/BarSeries.js" id="f98edb05-fd19-4983-b0f0-3e2722c678f4" volume="6.0" />
+        <SourceFile name="src/chart/bar/BarView.js" id="1b2ec413-9e6f-492a-bea0-58b8c94b3bd6" volume="225.0" />
+        <SourceFile name="src/chart/bar/BaseBarSeries.js" id="b7d21578-6de2-4888-8c0e-732eb713fc49" volume="31.0" />
+        <SourceFile name="src/chart/bar/PictorialBarSeries.js" id="04bf09ea-78d2-4b0c-835d-6caaf7d6dab4" volume="26.0" />
+        <SourceFile name="src/chart/bar/PictorialBarView.js" id="bd8a2307-670f-4b1b-ac77-97a2d6149416" volume="602.0" />
+        <SourceFile name="src/chart/bar/barItemStyle.js" id="0c2a64c1-50f9-49de-8202-75f038018022" volume="25.0" />
+        <SourceFile name="src/chart/bar/helper.js" id="078f6ca6-7551-48e1-a0a2-1e1b740d7d3b" volume="24.0" />
+        <SourceFile name="src/chart/boxplot.js" id="eb90750e-ff85-4bc3-8256-ba53b44090ba" volume="7.0" />
+        <SourceFile name="src/chart/boxplot/BoxplotSeries.js" id="c46800d5-d9a4-46c7-b6e1-c33c1dcade77" volume="35.0" />
+        <SourceFile name="src/chart/boxplot/BoxplotView.js" id="2c2b8830-78ca-436c-be5f-dcdb6a8a836f" volume="31.0" />
+        <SourceFile name="src/chart/boxplot/boxplotLayout.js" id="3dce87ff-aa16-4f56-ab8b-95d5d6641fde" volume="155.0" />
+        <SourceFile name="src/chart/boxplot/boxplotVisual.js" id="fed5c070-61f2-464f-8096-fd13ac927c9a" volume="22.0" />
+        <SourceFile name="src/chart/candlestick.js" id="4e6919d9-6c0f-45b3-9e80-23377d887c95" volume="9.0" />
+        <SourceFile name="src/chart/candlestick/CandlestickSeries.js" id="0656c3a7-d4cb-4fbb-989a-ff295761814a" volume="44.0" />
+        <SourceFile name="src/chart/candlestick/CandlestickView.js" id="5c403133-a0d9-4af8-9e32-516344a1c2b5" volume="33.0" />
+        <SourceFile name="src/chart/candlestick/candlestickLayout.js" id="385be864-0b88-46b1-ad05-306df4f3b01f" volume="146.0" />
+        <SourceFile name="src/chart/candlestick/candlestickVisual.js" id="9f702793-a8ac-4591-9fb8-47d1c3147d20" volume="30.0" />
+        <SourceFile name="src/chart/candlestick/preprocessor.js" id="645e6e1e-6e3f-48b2-b8f8-a3cdbc919246" volume="11.0" />
+        <SourceFile name="src/chart/chord.js" id="a7074a7a-7712-4e2a-819a-27ec1c9f10c2" volume="10.0" />
+        <SourceFile name="src/chart/chord/ChordSeries.js" id="7dfdb447-d5c8-46be-bab0-26166c4ec9f7" volume="43.0" />
+        <SourceFile name="src/chart/chord/ChordView.js" id="5abf7ff1-bc39-4d0f-b4af-78a060c26b9d" volume="63.0" />
+        <SourceFile name="src/chart/chord/Ribbon.js" id="0ecc0654-d5d7-4f13-812d-c46fe358c64a" volume="56.0" />
+        <SourceFile name="src/chart/chord/chordCircularLayout.js" id="1169adbf-913e-4cd3-8299-753fb371dcc1" volume="97.0" />
+        <SourceFile name="src/chart/custom.js" id="86ea2275-2b21-4596-af5d-8530c3094539" volume="386.0" />
+        <SourceFile name="src/chart/effectScatter.js" id="3c1c0940-daaa-47e9-8438-d63e13d4d21f" volume="12.0" />
+        <SourceFile name="src/chart/effectScatter/EffectScatterSeries.js" id="440b0346-d8b3-46ae-9796-36ca26ef27fe" volume="26.0" />
+        <SourceFile name="src/chart/effectScatter/EffectScatterView.js" id="9418e714-ef3e-49f3-accf-ef9ad96e249d" volume="22.0" />
+        <SourceFile name="src/chart/funnel.js" id="91015a29-3be1-4d11-b059-7bb3cdea4534" volume="10.0" />
+        <SourceFile name="src/chart/funnel/FunnelSeries.js" id="d9fb1dc4-7471-45b8-846c-96531ad3a523" volume="80.0" />
+        <SourceFile name="src/chart/funnel/FunnelView.js" id="3f3db2e5-954c-415f-a13a-4def4c14135b" volume="157.0" />
+        <SourceFile name="src/chart/funnel/funnelLayout.js" id="882b6253-3ac1-46d2-b199-c122c85d2928" volume="145.0" />
+        <SourceFile name="src/chart/gauge.js" id="27e75eed-830b-45e3-b893-88f63faba539" volume="2.0" />
+        <SourceFile name="src/chart/gauge/GaugeSeries.js" id="2cf403ef-873b-4ebd-9c89-e18c22608653" volume="88.0" />
+        <SourceFile name="src/chart/gauge/GaugeView.js" id="7328256f-3dcc-407f-9ea3-189adaaec254" volume="330.0" />
+        <SourceFile name="src/chart/gauge/PointerPath.js" id="a06069c0-2144-42be-aecf-8aa5f400aded" volume="36.0" />
+        <SourceFile name="src/chart/graph.js" id="ed8e1bbf-d556-41e9-802a-157873dd637a" volume="25.0" />
+        <SourceFile name="src/chart/graph/GraphSeries.js" id="938faf5d-3aae-4668-a90c-2979f9a22745" volume="174.0" />
+        <SourceFile name="src/chart/graph/GraphView.js" id="ae0280b7-50ca-4b0a-a202-ec8b739be577" volume="307.0" />
+        <SourceFile name="src/chart/graph/adjustEdge.js" id="42e06bce-61de-4cc6-94b5-367441dd151a" volume="130.0" />
+        <SourceFile name="src/chart/graph/backwardCompat.js" id="07e47a13-7a0e-40aa-9418-6eedd29767b9" />
+        <SourceFile name="src/chart/graph/categoryFilter.js" id="ec2d5d28-3a68-436d-9ce3-1ac6cb42dd86" volume="30.0" />
+        <SourceFile name="src/chart/graph/categoryVisual.js" id="9710d5b4-a028-4033-9316-d9c75246ab39" volume="34.0" />
+        <SourceFile name="src/chart/graph/circularLayout.js" id="a6d2cf5d-9de7-4d65-ac90-ece8771ebed4" volume="8.0" />
+        <SourceFile name="src/chart/graph/circularLayoutHelper.js" id="bd0d0eb0-eb1b-479a-bba6-ad00fe1cd0a0" volume="45.0" />
+        <SourceFile name="src/chart/graph/createView.js" id="f4071569-9ba2-4f24-8466-650af49960bb" volume="58.0" />
+        <SourceFile name="src/chart/graph/edgeVisual.js" id="3ab9ebad-6665-47a8-a5d9-860a1e80ba97" volume="45.0" />
+        <SourceFile name="src/chart/graph/forceHelper.js" id="3a4225b9-08c7-4ad2-8b48-f6d82687a747" volume="83.0" />
+        <SourceFile name="src/chart/graph/forceLayout.js" id="b14a5274-795a-480b-9b65-b86687e3b1f8" volume="119.0" />
+        <SourceFile name="src/chart/graph/graphAction.js" id="24581bc3-9696-4aa2-936e-d007735ebeb9" volume="27.0" />
+        <SourceFile name="src/chart/graph/simpleLayout.js" id="91eb971e-529b-4544-a8cc-c94b68425d18" volume="33.0" />
+        <SourceFile name="src/chart/graph/simpleLayoutHelper.js" id="031ff62c-0eb7-4b24-afb4-c4009249697b" volume="28.0" />
+        <SourceFile name="src/chart/heatmap.js" id="bec82bae-386f-420a-9488-99aaae66fa1b" volume="2.0" />
+        <SourceFile name="src/chart/heatmap/HeatmapLayer.js" id="f0cc1c8a-2fc3-4864-b88e-2d80cdbc3670" volume="93.0" />
+        <SourceFile name="src/chart/heatmap/HeatmapSeries.js" id="ac5a6564-c15e-41e2-8568-625b724696fd" volume="18.0" />
+        <SourceFile name="src/chart/heatmap/HeatmapView.js" id="612ac599-8eeb-4ceb-a9c0-22d6544326a5" volume="231.0" />
+        <SourceFile name="src/chart/helper/EffectLine.js" id="64d58712-437f-40b9-b162-73c92e647400" volume="131.0" />
+        <SourceFile name="src/chart/helper/EffectPolyline.js" id="68805fcb-e8bc-4ec5-b4e6-b187ea892308" volume="76.0" />
+        <SourceFile name="src/chart/helper/EffectSymbol.js" id="2d68e5e4-e75e-41a0-a1ba-eef915cd1dda" volume="160.0" />
+        <SourceFile name="src/chart/helper/LargeLineDraw.js" id="c145bf54-225a-482a-80bc-e994bfc2db86" volume="108.0" />
+        <SourceFile name="src/chart/helper/LargeSymbolDraw.js" id="d545e58b-cf62-4f61-955f-8ffa7430e3f5" volume="104.0" />
+        <SourceFile name="src/chart/helper/Line.js" id="cd1d9061-1163-4de9-a530-f8dd0523dc36" volume="297.0" />
+        <SourceFile name="src/chart/helper/LineDraw.js" id="3be7bd8d-a40b-44a9-991f-eff33fdfe34f" volume="65.0" />
+        <SourceFile name="src/chart/helper/LinePath.js" id="05f0086a-0acf-424b-bac2-3aaecb046f27" volume="39.0" />
+        <SourceFile name="src/chart/helper/Polyline.js" id="c6541771-fad6-4f51-bc23-96dfdd98025f" volume="56.0" />
+        <SourceFile name="src/chart/helper/Symbol.js" id="0b040f98-09b3-42b0-ac0d-05af2cfc2079" volume="201.0" />
+        <SourceFile name="src/chart/helper/SymbolDraw.js" id="6f2e2d65-1511-401f-a74d-aa3e3b1e3ebd" volume="93.0" />
+        <SourceFile name="src/chart/helper/WhiskerBoxDraw.js" id="4399bb40-f82e-4e00-9299-d9755ba6af66" volume="130.0" />
+        <SourceFile name="src/chart/helper/createGraphFromNodeEdge.js" id="13e3d27d-90fd-4922-a91d-fe61925d6fd7" volume="54.0" />
+        <SourceFile name="src/chart/helper/createGraphFromNodeMatrix.js" id="5198c0bc-3f3a-4ad1-ac7a-7ad2dd8c8f1e" volume="60.0" />
+        <SourceFile name="src/chart/helper/createListFromArray.js" id="0817cb68-3d31-4cb7-84bb-a45d0c5b4723" volume="254.0" />
+        <SourceFile name="src/chart/helper/labelHelper.js" id="9d0f2a1e-d125-4e80-a08c-e9e48ed7c4b1" volume="19.0" />
+        <SourceFile name="src/chart/helper/whiskerBoxCommon.js" id="f2d401c9-60bb-456c-9aed-f28332aa595c" volume="78.0" />
+        <SourceFile name="src/chart/line.js" id="0444f22d-0028-4de0-aca7-cffe638e104d" volume="17.0" />
+        <SourceFile name="src/chart/line/LineSeries.js" id="61699364-3aff-46c9-af6c-d7e2bb0c5ac7" volume="48.0" />
+        <SourceFile name="src/chart/line/LineView.js" id="9f65bf9d-5119-4401-a109-0002d68af435" volume="538.0" />
+        <SourceFile name="src/chart/line/lineAnimationDiff.js" id="e718c3c2-38a5-4743-8ed9-c254a471a301" volume="134.0" />
+        <SourceFile name="src/chart/line/poly.js" id="4b0af0a9-7a3f-4e87-8d35-9ee1d95ae13f" volume="196.0" />
+        <SourceFile name="src/chart/lines.js" id="972c78c6-bb2f-4b62-937c-4d2c4ad9f1f1" volume="7.0" />
+        <SourceFile name="src/chart/lines/LinesSeries.js" id="64315621-dc31-44a1-ba0d-81b4247123cc" volume="116.0" />
+        <SourceFile name="src/chart/lines/LinesView.js" id="8f85f33e-4755-4de1-8728-d20f8335c5d6" volume="88.0" />
+        <SourceFile name="src/chart/lines/linesLayout.js" id="33fa31da-5dc4-4820-8d84-e916e80bb553" volume="35.0" />
+        <SourceFile name="src/chart/lines/linesVisual.js" id="8e0c2cad-3aa8-4862-a74b-a9cb6889704b" volume="31.0" />
+        <SourceFile name="src/chart/map.js" id="6b1e24a4-8214-4c32-8488-af059d14a5f2" volume="27.0" />
+        <SourceFile name="src/chart/map/MapSeries.js" id="97009aab-a2c1-43bd-bf24-c9aa4e6f9505" volume="117.0" />
+        <SourceFile name="src/chart/map/MapView.js" id="55c37d5c-02f5-475a-be90-ae7565f6623a" volume="118.0" />
+        <SourceFile name="src/chart/map/backwardCompat.js" id="11618c95-6caf-4f12-81b4-67fc9e75947c" volume="11.0" />
+        <SourceFile name="src/chart/map/mapDataStatistic.js" id="53969463-8dbb-4a89-a36c-41753e9b3715" volume="65.0" />
+        <SourceFile name="src/chart/map/mapSymbolLayout.js" id="6e404250-bbd4-427b-8cd4-aa3a47fb3ed0" volume="39.0" />
+        <SourceFile name="src/chart/map/mapVisual.js" id="cecc1af2-f680-4de0-b71c-38fadd4db0f4" volume="14.0" />
+        <SourceFile name="src/chart/parallel.js" id="98730cf6-076e-4927-9015-8439e6a55ffa" volume="6.0" />
+        <SourceFile name="src/chart/parallel/ParallelSeries.js" id="ee938f8a-8f56-476c-8054-cd3c02690194" volume="111.0" />
+        <SourceFile name="src/chart/parallel/ParallelView.js" id="6b1c9cb8-d502-4aef-8922-d35dd3601411" volume="125.0" />
+        <SourceFile name="src/chart/parallel/parallelVisual.js" id="44233d4d-8a9f-4342-97a2-cd7601e8215f" volume="32.0" />
+        <SourceFile name="src/chart/pictorialBar.js" id="118e76f4-d342-4c6d-ba2d-5f4fdfb53b05" volume="14.0" />
+        <SourceFile name="src/chart/pie.js" id="4b5d5539-65a9-44f2-831d-fe9fcab49d0e" volume="24.0" />
+        <SourceFile name="src/chart/pie/PieSeries.js" id="f5aa0aea-1feb-4a56-a505-7e459564d5db" volume="99.0" />
+        <SourceFile name="src/chart/pie/PieView.js" id="a3c1f7a4-980f-4022-a2f0-fc4e580d2905" volume="300.0" />
+        <SourceFile name="src/chart/pie/labelLayout.js" id="58d456c5-90f8-41b4-9910-7b436a132e8b" volume="189.0" />
+        <SourceFile name="src/chart/pie/pieLayout.js" id="a12957fe-83d8-4b06-8105-0b151d6bc769" volume="117.0" />
+        <SourceFile name="src/chart/radar.js" id="48dbf468-52e6-45e2-9a67-bd361436ec7b" volume="16.0" />
+        <SourceFile name="src/chart/radar/RadarSeries.js" id="f76570f5-add3-4eb3-a323-2558cbe34ba6" volume="55.0" />
+        <SourceFile name="src/chart/radar/RadarView.js" id="072c347d-b4e4-4eda-9a3b-3d156bf878af" volume="188.0" />
+        <SourceFile name="src/chart/radar/backwardCompat.js" id="d7765346-54d7-4eab-9e72-78365ade8918" volume="32.0" />
+        <SourceFile name="src/chart/radar/radarLayout.js" id="134ad2a8-7fe0-4430-83f9-5e1fd9e6a30b" volume="23.0" />
+        <SourceFile name="src/chart/sankey.js" id="af6e00dd-466f-4b54-b537-44050668504b" volume="7.0" />
+        <SourceFile name="src/chart/sankey/SankeySeries.js" id="4eef664c-5f5b-47a1-813c-9ead3845d61e" volume="77.0" />
+        <SourceFile name="src/chart/sankey/SankeyView.js" id="91ffb247-cc23-45e7-8e27-ad9403ed3087" volume="138.0" />
+        <SourceFile name="src/chart/sankey/sankeyLayout.js" id="e737ce51-038d-4541-8741-eeab393df708" volume="237.0" />
+        <SourceFile name="src/chart/sankey/sankeyVisual.js" id="6ad74600-9fa7-4628-8809-e99923a9ac6e" volume="29.0" />
+        <SourceFile name="src/chart/scatter.js" id="38e9b4e6-d9eb-440b-b066-7ca756adbdf9" volume="9.0" />
+        <SourceFile name="src/chart/scatter/ScatterSeries.js" id="8327b558-a3f8-46a8-8a84-9f3637b1c79a" volume="25.0" />
+        <SourceFile name="src/chart/scatter/ScatterView.js" id="20b4338a-a06e-4c81-aa7c-7870f4e90882" volume="32.0" />
+        <SourceFile name="src/chart/themeRiver.js" id="687c8f1e-0a14-4c65-8cfa-92ad7e0959c0" volume="11.0" />
+        <SourceFile name="src/chart/themeRiver/ThemeRiverSeries.js" id="2acde955-f109-4af3-b805-dc209d8e27d8" volume="200.0" />
+        <SourceFile name="src/chart/themeRiver/ThemeRiverView.js" id="57c0a224-e2bc-4efd-8197-47db91db99e8" volume="137.0" />
+        <SourceFile name="src/chart/themeRiver/themeRiverLayout.js" id="b2c7fd8b-af60-4636-8eae-c95e161f7952" volume="97.0" />
+        <SourceFile name="src/chart/themeRiver/themeRiverVisual.js" id="4bd516d7-28fa-43db-b92a-fdfbe858ef22" volume="22.0" />
+        <SourceFile name="src/chart/tree.js" id="2f88073b-367b-473f-b01c-f507ee59be2c" volume="11.0" />
+        <SourceFile name="src/chart/tree/TreeSeries.js" id="251317e0-a3d2-4c67-bf0c-0e660f88e9cb" volume="90.0" />
+        <SourceFile name="src/chart/tree/TreeView.js" id="5f942905-5c14-4341-8fc5-e90290c025f1" volume="274.0" />
+        <SourceFile name="src/chart/tree/commonLayout.js" id="70daa91b-a460-46b1-9a26-f0880f2a4cf2" volume="89.0" />
+        <SourceFile name="src/chart/tree/layoutHelper.js" id="604d432b-fda4-4fae-979d-81e2334ea1b0" volume="154.0" />
+        <SourceFile name="src/chart/tree/orthogonalLayout.js" id="3faab7ce-15c0-4f0d-b488-fa8cb2f21433" volume="6.0" />
+        <SourceFile name="src/chart/tree/radialLayout.js" id="a60e3d98-d0ac-4a59-a7b3-e6a836ecd36f" volume="6.0" />
+        <SourceFile name="src/chart/tree/traversalHelper.js" id="e6f85599-3997-42ba-b550-fc673e951a9c" volume="35.0" />
+        <SourceFile name="src/chart/tree/treeAction.js" id="07fb7fb2-c6c3-425c-a46f-d00a1b6cadd5" volume="13.0" />
+        <SourceFile name="src/chart/treemap.js" id="013414ee-0c11-44c4-842e-ea595f99e6ec" volume="8.0" />
+        <SourceFile name="src/chart/treemap/Breadcrumb.js" id="06ba2e57-4f9a-483c-a294-b18cbe226bcd" volume="127.0" />
+        <SourceFile name="src/chart/treemap/TreemapSeries.js" id="2dd3cd98-2173-482d-865b-25c8ff9289a9" volume="207.0" />
+        <SourceFile name="src/chart/treemap/TreemapView.js" id="25a5f967-de45-48e8-8314-57aec928ddf9" volume="610.0" />
+        <SourceFile name="src/chart/treemap/helper.js" id="cd1df10f-e2aa-4cb3-a9c5-81e5c0832870" volume="45.0" />
+        <SourceFile name="src/chart/treemap/treemapAction.js" id="b7b7c051-22f7-451f-9ab3-cb4d81a13dc2" volume="31.0" />
+        <SourceFile name="src/chart/treemap/treemapLayout.js" id="f10d73c1-99fc-4998-a322-b5158b546d66" volume="383.0" />
+        <SourceFile name="src/chart/treemap/treemapVisual.js" id="9e3cbeef-035d-4db2-8ebe-fe135d0d9588" volume="172.0" />
+        <SourceFile name="src/component/angleAxis.js" id="438da08d-d087-4011-a0ed-5e8329f9de44" volume="2.0" />
+        <SourceFile name="src/component/axis.js" id="eaace64d-1050-4b5d-ad2c-b429e1a384a6" volume="2.0" />
+        <SourceFile name="src/component/axis/AngleAxisView.js" id="2c29aef8-f082-459a-a04d-855ad976dbaa" volume="172.0" />
+        <SourceFile name="src/component/axis/AxisBuilder.js" id="05f39d5b-938b-4c85-94f6-e40a473d39b2" volume="517.0" />
+        <SourceFile name="src/component/axis/AxisView.js" id="a7505ecc-2628-49ff-9eaf-66827b97906e" volume="54.0" />
+        <SourceFile name="src/component/axis/CartesianAxisView.js" id="21094b28-7879-46ec-ab6b-a58119ecc470" volume="163.0" />
+        <SourceFile name="src/component/axis/ParallelAxisView.js" id="2f2703c7-5f38-4b33-9e22-5d23cc4ce643" volume="130.0" />
+        <SourceFile name="src/component/axis/RadiusAxisView.js" id="2950fdf6-97d2-4f78-bd7d-ead7454dde5a" volume="108.0" />
+        <SourceFile name="src/component/axis/SingleAxisView.js" id="70081981-2159-4ffc-aa4c-7bdc83118fe3" volume="96.0" />
+        <SourceFile name="src/component/axis/cartesianAxisHelper.js" id="8686e16b-20ed-451f-83be-b7fc3e2959e9" volume="41.0" />
+        <SourceFile name="src/component/axis/parallelAxisAction.js" id="6dc9dba3-4130-4cc3-b838-a84bc27a055b" volume="22.0" />
+        <SourceFile name="src/component/axis/singleAxisHelper.js" id="ba8697f8-8178-407e-9226-d5ac3d8c99b8" volume="41.0" />
+        <SourceFile name="src/component/axisPointer.js" id="821133a1-b768-436a-9c77-4e222e7378e3" volume="26.0" />
+        <SourceFile name="src/component/axisPointer/AxisPointerModel.js" id="7725f2cb-c2d7-411c-be50-65b417fa29f4" volume="53.0" />
+        <SourceFile name="src/component/axisPointer/AxisPointerView.js" id="c2f9f867-f8ca-450e-b55e-51338d249e80" volume="35.0" />
+        <SourceFile name="src/component/axisPointer/BaseAxisPointer.js" id="9a19f140-4da1-44a4-a7f5-c65a3d678e06" volume="313.0" />
+        <SourceFile name="src/component/axisPointer/CartesianAxisPointer.js" id="d5e17b7e-1586-4440-966d-373d33664b12" volume="97.0" />
+        <SourceFile name="src/component/axisPointer/PolarAxisPointer.js" id="35cf55a2-4298-4b19-852e-c20d1e8062af" volume="115.0" />
+        <SourceFile name="src/component/axisPointer/SingleAxisPointer.js" id="fb61c0ad-4b1c-4213-972b-9ec4635de7f9" volume="97.0" />
+        <SourceFile name="src/component/axisPointer/axisTrigger.js" id="c09ac044-2546-4950-8099-dcd4c6b72f32" volume="272.0" />
+        <SourceFile name="src/component/axisPointer/findPointFromSeries.js" id="e0dc684d-bdb6-4618-9ca2-4272ec47ce8b" volume="40.0" />
+        <SourceFile name="src/component/axisPointer/globalListener.js" id="b5c7b504-8fb6-43f5-a8b0-adf710cf24f5" volume="84.0" />
+        <SourceFile name="src/component/axisPointer/modelHelper.js" id="671f0be4-a78b-4f4c-9e1a-6bbe5ada63e1" volume="212.0" />
+        <SourceFile name="src/component/axisPointer/viewHelper.js" id="bc89ddd9-4aa6-4073-ad2c-3e64f0616c0f" volume="155.0" />
+        <SourceFile name="src/component/brush.js" id="66c96598-ccd0-48f8-a1e7-05d20bc3a0f4" volume="9.0" />
+        <SourceFile name="src/component/brush/BrushModel.js" id="ca3880bc-c7b4-47ce-b1e6-2035a9922bf7" volume="75.0" />
+        <SourceFile name="src/component/brush/BrushView.js" id="835578b0-c68a-401b-9baf-5bb9f089123e" volume="40.0" />
+        <SourceFile name="src/component/brush/brushAction.js" id="b83fec8f-1405-4cca-ae4c-b0d4fc917951" volume="13.0" />
+        <SourceFile name="src/component/brush/preprocessor.js" id="4b4f0f48-fb88-419d-b98c-24d5495d9043" volume="45.0" />
+        <SourceFile name="src/component/brush/selector.js" id="faa55b85-28f9-48a5-b321-a0e6bed3820b" volume="105.0" />
+        <SourceFile name="src/component/brush/visualEncoding.js" id="68704eb6-1eb6-4c8f-ad52-a7e78118ade2" volume="234.0" />
+        <SourceFile name="src/component/calendar.js" id="b5796e71-d8cb-4600-9668-df7a290b2ded" volume="4.0" />
+        <SourceFile name="src/component/calendar/CalendarView.js" id="0b450c6b-5e77-495d-abfb-de0f654c6116" volume="331.0" />
+        <SourceFile name="src/component/dataZoom.js" id="3fc2dfae-ab48-4821-8359-ed0f0129aebd" volume="10.0" />
+        <SourceFile name="src/component/dataZoom/AxisProxy.js" id="0a0f0ff0-1627-438e-83a6-3c96088e970c" volume="270.0" />
+        <SourceFile name="src/component/dataZoom/DataZoomModel.js" id="43f5f8aa-27bb-4185-930a-2e29cca453a6" volume="321.0" />
+        <SourceFile name="src/component/dataZoom/DataZoomView.js" id="d828b943-6c2f-4e75-af91-420a1df3f966" volume="42.0" />
+        <SourceFile name="src/component/dataZoom/InsideZoomModel.js" id="cd277d64-3e9f-4aab-90c8-3cdb7fe53bd5" volume="11.0" />
+        <SourceFile name="src/component/dataZoom/InsideZoomView.js" id="1f124062-4353-4c7d-ace7-efdd256ba0df" volume="151.0" />
+        <SourceFile name="src/component/dataZoom/SelectZoomModel.js" id="dbe649d8-ea5e-48d9-8ab6-a0033dd531fa" volume="4.0" />
+        <SourceFile name="src/component/dataZoom/SelectZoomView.js" id="8914c7e6-3f49-4d0d-8826-960dcfa83f18" volume="4.0" />
+        <SourceFile name="src/component/dataZoom/SliderZoomModel.js" id="2977e66f-1d61-42ef-b9c3-24c4eb84fd40" volume="43.0" />
+        <SourceFile name="src/component/dataZoom/SliderZoomView.js" id="17c107bc-3d0e-4035-9339-77dac369b52d" volume="530.0" />
+        <SourceFile name="src/component/dataZoom/dataZoomAction.js" id="707135d8-d930-47c0-a1e8-68eb0883316d" volume="29.0" />
+        <SourceFile name="src/component/dataZoom/dataZoomProcessor.js" id="5b0ac977-8665-4c0c-932b-c924e9157700" volume="24.0" />
+        <SourceFile name="src/component/dataZoom/helper.js" id="d35dd96b-c972-46f9-a5f2-ec9be6cbfdee" volume="71.0" />
+        <SourceFile name="src/component/dataZoom/history.js" id="658a4254-148a-4462-91bb-5957658fa286" volume="58.0" />
+        <SourceFile name="src/component/dataZoom/roams.js" id="f64148fe-3a36-42cb-8222-0e7289ce71d3" volume="131.0" />
+        <SourceFile name="src/component/dataZoom/typeDefaulter.js" id="9e8abceb-f4ba-456c-8b4d-f36604c42140" volume="4.0" />
+        <SourceFile name="src/component/dataZoomInside.js" id="1f0ae01e-8cd0-4d14-98db-0230d887dd87" volume="8.0" />
+        <SourceFile name="src/component/dataZoomSelect.js" id="c213d1f6-4d47-4e66-af93-abd44d07582a" volume="8.0" />
+        <SourceFile name="src/component/geo.js" id="7e4b2481-4305-4be2-8c38-855010e2a31a" volume="38.0" />
+        <SourceFile name="src/component/geo/GeoView.js" id="d22f32a9-4b91-4bfe-b25b-5a1fe9163295" volume="28.0" />
+        <SourceFile name="src/component/graphic.js" id="1abcc6fd-1c0c-4806-ac74-92e2e891a1b0" volume="285.0" />
+        <SourceFile name="src/component/grid.js" id="371beba4-2fcc-453c-b734-a6495c2ca0cf" volume="3.0" />
+        <SourceFile name="src/component/gridSimple.js" id="39b88a7a-e9b9-401e-b7c3-d9d14bdefccf" volume="26.0" />
+        <SourceFile name="src/component/helper/BrushController.js" id="c197881a-7f9a-455a-991d-653a2ba5a8c4" volume="680.0" />
+        <SourceFile name="src/component/helper/BrushTargetManager.js" id="3be16ca3-91e8-456e-9b5b-f9dc64cd95b6" volume="291.0" />
+        <SourceFile name="src/component/helper/MapDraw.js" id="674bf928-93ec-4deb-a8c0-e562e4cfc9be" volume="248.0" />
+        <SourceFile name="src/component/helper/RoamController.js" id="25fa59bb-73b3-4630-8da7-02ae7df3c565" volume="119.0" />
+        <SourceFile name="src/component/helper/brushHelper.js" id="de806b83-4e3f-460a-8bc2-e28a197d3f91" volume="28.0" />
+        <SourceFile name="src/component/helper/cursorHelper.js" id="c9e34cfd-6898-4dac-a02e-8ba18f899a12" volume="10.0" />
+        <SourceFile name="src/component/helper/interactionMutex.js" id="bcbe1423-b943-4dbb-aa60-73b9f65798c7" volume="23.0" />
+        <SourceFile name="src/component/helper/listComponent.js" id="4b0665d1-0988-4ae2-b8b6-17fb9a2220b6" volume="50.0" />
+        <SourceFile name="src/component/helper/roamHelper.js" id="5cf3f8ec-4068-47ce-a528-02503ed7917d" volume="30.0" />
+        <SourceFile name="src/component/helper/selectableMixin.js" id="ec21749b-8a09-4e7e-a159-b169fc9041d0" volume="44.0" />
+        <SourceFile name="src/component/helper/sliderMove.js" id="b473e610-2f65-4d2f-add9-77fc07336eb3" volume="41.0" />
+        <SourceFile name="src/component/legend.js" id="8468d728-2e4e-4aca-8b4c-acc71ba930fe" volume="11.0" />
+        <SourceFile name="src/component/legend/LegendModel.js" id="e75f8a6c-0804-44a5-91fc-4ff952181308" volume="112.0" />
+        <SourceFile name="src/component/legend/LegendView.js" id="cd3661fb-5d73-4af0-8389-6959e12fd965" volume="242.0" />
+        <SourceFile name="src/component/legend/ScrollableLegendModel.js" id="30384152-4996-4017-9a82-9fe9a44dbdc8" volume="52.0" />
+        <SourceFile name="src/component/legend/ScrollableLegendView.js" id="512b7188-b463-4c64-b0a9-ccdaf054a2a8" volume="254.0" />
+        <SourceFile name="src/component/legend/legendAction.js" id="9474a765-0bb9-48bf-bc16-12784727d675" volume="46.0" />
+        <SourceFile name="src/component/legend/legendFilter.js" id="b9901bff-6521-455a-8124-de14282ddea0" volume="15.0" />
+        <SourceFile name="src/component/legend/scrollableLegendAction.js" id="5be5cdd8-549c-40ab-827c-d065ecf1eec3" volume="13.0" />
+        <SourceFile name="src/component/legendScroll.js" id="682c5163-b3f8-46f4-8708-6a56ba92196b" volume="5.0" />
+        <SourceFile name="src/component/markArea.js" id="fef2caa3-b25a-4281-9357-71b391ba3684" volume="6.0" />
+        <SourceFile name="src/component/markLine.js" id="bcfb30bc-9781-4cf1-a4c9-5bf81b4808a9" volume="6.0" />
+        <SourceFile name="src/component/markPoint.js" id="ab321809-d961-485f-b15f-cf2ddd07f515" volume="7.0" />
+        <SourceFile name="src/component/marker/MarkAreaModel.js" id="759a9729-282f-417a-b96b-aec9bbe9541a" volume="27.0" />
+        <SourceFile name="src/component/marker/MarkAreaView.js" id="410fb30f-ac60-43ff-9c0b-1aad62e331bd" volume="194.0" />
+        <SourceFile name="src/component/marker/MarkLineModel.js" id="79e9e6f9-9058-4af5-9176-a9cae30ad67d" volume="32.0" />
+        <SourceFile name="src/component/marker/MarkLineView.js" id="03da2ba3-94c4-4cbe-a004-ea3d5bd5b5a2" volume="213.0" />
+        <SourceFile name="src/component/marker/MarkPointModel.js" id="62903101-33f1-4301-98de-22f252e91b53" volume="27.0" />
+        <SourceFile name="src/component/marker/MarkPointView.js" id="8c7d4452-a4be-461e-8178-eef848e0ab74" volume="82.0" />
+        <SourceFile name="src/component/marker/MarkerModel.js" id="3a50771b-d216-42bd-87f9-32d58f19fcab" volume="102.0" />
+        <SourceFile name="src/component/marker/MarkerView.js" id="24ba9901-39ba-49e5-89d0-3ea6ebded655" volume="23.0" />
+        <SourceFile name="src/component/marker/markerHelper.js" id="38fb2e09-74a9-4011-a8a0-dd64972283a2" volume="43.0" />
+        <SourceFile name="src/component/parallel.js" id="3f2f3b5b-6cb7-46c0-9f72-db4e6913301e" volume="89.0" />
+        <SourceFile name="src/component/parallelAxis.js" id="193c8905-6aad-4397-aeb0-3217a8077468" volume="3.0" />
+        <SourceFile name="src/component/polar.js" id="b05b4009-ef95-477e-9f73-36a7fe73e872" volume="12.0" />
+        <SourceFile name="src/component/radar.js" id="5f87c285-79e7-492c-a687-841c4403b071" volume="3.0" />
+        <SourceFile name="src/component/radar/RadarView.js" id="9d211793-42cf-4e30-86ff-5f7bb595f54d" volume="156.0" />
+        <SourceFile name="src/component/radiusAxis.js" id="d5586223-673b-44ce-b1a6-2942009e4bcf" volume="2.0" />
+        <SourceFile name="src/component/singleAxis.js" id="48397587-51bc-4507-be6c-c545412332aa" volume="9.0" />
+        <SourceFile name="src/component/timeline.js" id="229440bd-0ad8-40e1-b5fa-d0ae7e09b08f" volume="8.0" />
+        <SourceFile name="src/component/timeline/SliderTimelineModel.js" id="61d5055e-25c3-4234-8603-081dc2e4e9eb" volume="81.0" />
+        <SourceFile name="src/component/timeline/SliderTimelineView.js" id="e047b15f-0fd4-4f9c-b7d1-f7943c3a3abc" volume="517.0" />
+        <SourceFile name="src/component/timeline/TimelineAxis.js" id="103f3d38-12cc-497c-9744-90293d886708" volume="41.0" />
+        <SourceFile name="src/component/timeline/TimelineModel.js" id="8332496d-5af6-4eff-877e-1aead5f5d5b2" volume="113.0" />
+        <SourceFile name="src/component/timeline/TimelineView.js" id="08cbf0bd-0cf4-4cca-b2e2-600fc527218d" volume="4.0" />
+        <SourceFile name="src/component/timeline/preprocessor.js" id="3288afa3-8289-42fb-b7ab-e3426c32f560" volume="60.0" />
+        <SourceFile name="src/component/timeline/timelineAction.js" id="4b02b219-0262-4e3b-b2d0-f19956c5c105" volume="27.0" />
+        <SourceFile name="src/component/timeline/typeDefaulter.js" id="f82703dd-4c98-46b0-829c-795e7b5ca7d4" volume="4.0" />
+        <SourceFile name="src/component/title.js" id="a4f707d4-a570-48b8-acfb-22d9cb71d496" volume="138.0" />
+        <SourceFile name="src/component/toolbox.js" id="97360805-63ed-48c9-9b2b-6f5e21b5291e" volume="7.0" />
+        <SourceFile name="src/component/toolbox/ToolboxModel.js" id="58ecb983-ebb7-4567-a31d-daa47db8abab" volume="43.0" />
+        <SourceFile name="src/component/toolbox/ToolboxView.js" id="dcd85a64-5171-4457-b86b-baa44649b942" volume="186.0" />
+        <SourceFile name="src/component/toolbox/feature/Brush.js" id="fa75869f-64e0-4bbf-a817-a5ebae3a0d05" volume="93.0" />
+        <SourceFile name="src/component/toolbox/feature/DataView.js" id="0e3504bd-e65c-440d-a933-c9f7b72335f7" volume="358.0" />
+        <SourceFile name="src/component/toolbox/feature/DataZoom.js" id="7b7436b0-7ff4-43a4-8d5c-4578fbc19d0d" volume="221.0" />
+        <SourceFile name="src/component/toolbox/feature/MagicType.js" id="c6208aec-9384-4b95-99e4-35e8785d6b60" volume="149.0" />
+        <SourceFile name="src/component/toolbox/feature/Restore.js" id="948a5d68-f612-45e6-aa14-3f09e0d87d10" volume="29.0" />
+        <SourceFile name="src/component/toolbox/feature/SaveAsImage.js" id="6c388f26-c1d2-4030-84d1-1a21717947a2" volume="68.0" />
+        <SourceFile name="src/component/toolbox/featureManager.js" id="1aa73783-5bdf-44c1-853f-89862d62dbed" volume="7.0" />
+        <SourceFile name="src/component/tooltip.js" id="a65ab7b1-9bea-4072-bdca-103fbf255ad5" volume="21.0" />
+        <SourceFile name="src/component/tooltip/TooltipContent.js" id="76e6f7a7-8bec-47c8-bf73-aa5dccf54145" volume="163.0" />
+        <SourceFile name="src/component/tooltip/TooltipModel.js" id="c44ece3e-f5db-4629-ae03-01b1f7cc016f" volume="43.0" />
+        <SourceFile name="src/component/tooltip/TooltipView.js" id="6821b795-97c2-4e67-9157-385637f1e471" volume="566.0" />
+        <SourceFile name="src/component/visualMap.js" id="80c43b6c-b4ac-43fc-9ef6-be0d333415de" volume="3.0" />
+        <SourceFile name="src/component/visualMap/ContinuousModel.js" id="e973cb2e-dbee-4067-8712-9c4a15516381" volume="150.0" />
+        <SourceFile name="src/component/visualMap/ContinuousView.js" id="7c69d453-51f9-49c1-afb7-f6a5ac158e1d" volume="556.0" />
+        <SourceFile name="src/component/visualMap/PiecewiseModel.js" id="123484e1-7d62-4839-be8c-d9c802bd95eb" volume="336.0" />
+        <SourceFile name="src/component/visualMap/PiecewiseView.js" id="918aceb4-2105-4023-aee4-1445d2d0fad4" volume="155.0" />
+        <SourceFile name="src/component/visualMap/VisualMapModel.js" id="0e3780e2-bcc5-43fe-886b-aef1a541c4db" volume="285.0" />
+        <SourceFile name="src/component/visualMap/VisualMapView.js" id="09f71ed0-be7c-4e19-ad8e-ad47b8df1c56" volume="89.0" />
+        <SourceFile name="src/component/visualMap/helper.js" id="04053653-8cad-436a-8ef8-e64ba4ea3c50" volume="37.0" />
+        <SourceFile name="src/component/visualMap/preprocessor.js" id="15bb1ac9-0474-4e19-b796-afaad6cdf367" volume="33.0" />
+        <SourceFile name="src/component/visualMap/typeDefaulter.js" id="ca89b760-1086-4861-b200-c40519e5b703" volume="15.0" />
+        <SourceFile name="src/component/visualMap/visualEncoding.js" id="a9fa1885-3582-4aaf-95d9-4439bf3e71eb" volume="60.0" />
+        <SourceFile name="src/component/visualMap/visualMapAction.js" id="d5b4657c-8a8a-41cd-811f-7ae5a10d0d2e" volume="11.0" />
+        <SourceFile name="src/component/visualMapContinuous.js" id="11bc2a45-dcbb-4806-81e8-ef0c6b08a485" volume="9.0" />
+        <SourceFile name="src/component/visualMapPiecewise.js" id="0268bd0c-52dd-4d15-90a8-d2a1763b1253" volume="9.0" />
+        <SourceFile name="src/config.js" id="46eafb12-0747-40b8-aa68-a58b9e9e61ff" volume="12.0" />
+        <SourceFile name="src/coord/Axis.js" id="b6bdee76-93c8-4e4c-b829-c181d6dc5305" volume="15.0" />
+        <SourceFile name="src/coord/View.js" id="570c78db-dbe6-412d-afd2-b560ae427546" volume="146.0" />
+        <SourceFile name="src/coord/axisDefault.js" id="2858be16-892d-4841-b957-5b10f364bc97" volume="94.0" />
+        <SourceFile name="src/coord/axisHelper.js" id="359f9dec-f2f5-46de-9a65-2c903aeda206" volume="142.0" />
+        <SourceFile name="src/coord/axisModelCommonMixin.js" id="7c273562-3be9-4b31-abf8-ef67ea21caff" volume="63.0" />
+        <SourceFile name="src/coord/axisModelCreator.js" id="45d92abf-7f00-404e-aa48-4d0038cf1266" volume="39.0" />
+        <SourceFile name="src/coord/calendar/Calendar.js" id="61cea013-ec45-441c-8b91-92a3fa067c21" volume="264.0" />
+        <SourceFile name="src/coord/calendar/CalendarModel.js" id="7757673c-2eba-4314-b3b5-37780fec0c8a" volume="89.0" />
+        <SourceFile name="src/coord/calendar/prepareCustom.js" id="c8b7a569-a114-4788-98e5-ee856957dc16" volume="25.0" />
+        <SourceFile name="src/coord/cartesian/Axis2D.js" id="33ece7fd-ea18-4ec8-b26c-7f87586895fc" volume="42.0" />
+        <SourceFile name="src/coord/cartesian/AxisModel.js" id="3d5b6a3a-2416-428e-b09d-293caa84b752" volume="37.0" />
+        <SourceFile name="src/coord/cartesian/Cartesian.js" id="d3c0f122-709b-45aa-bb77-7f98c773cc95" volume="51.0" />
+        <SourceFile name="src/coord/cartesian/Cartesian2D.js" id="d9af36ad-30ce-4aa7-82fd-0ab2a2e3637a" volume="47.0" />
+        <SourceFile name="src/coord/cartesian/Grid.js" id="b89e3938-d263-43c3-beea-1888448129f7" volume="434.0" />
+        <SourceFile name="src/coord/cartesian/GridModel.js" id="a0c8a62c-887b-4327-a427-b7f832627ab7" volume="22.0" />
+        <SourceFile name="src/coord/cartesian/prepareCustom.js" id="13f3a6ee-c104-433d-9258-9a9c1f3b09ab" volume="28.0" />
+        <SourceFile name="src/coord/geo/Geo.js" id="cb96091a-220c-467d-86b8-357513191dae" volume="133.0" />
+        <SourceFile name="src/coord/geo/GeoModel.js" id="1d2e8015-176f-41b7-b263-148a418f38f9" volume="87.0" />
+        <SourceFile name="src/coord/geo/Region.js" id="4730de66-be8c-4e51-8668-47c2f2fa0ed8" volume="109.0" />
+        <SourceFile name="src/coord/geo/fix/diaoyuIsland.js" id="a3b3988b-9c89-4b1a-a1ef-bd7d744e393d" volume="22.0" />
+        <SourceFile name="src/coord/geo/fix/geoCoord.js" id="79f5b5fc-f608-4ced-bbfb-8b791c21f90b" volume="16.0" />
+        <SourceFile name="src/coord/geo/fix/nanhai.js" id="5cb0ee03-6304-4df4-803c-f4d511175ebd" volume="41.0" />
+        <SourceFile name="src/coord/geo/fix/textCoord.js" id="a9e3bafd-aa80-4d52-9f6c-bf43469e3fe6" volume="18.0" />
+        <SourceFile name="src/coord/geo/geoCreator.js" id="525017a1-82e2-4765-88a5-355d8859cf9c" volume="180.0" />
+        <SourceFile name="src/coord/geo/parseGeoJson.js" id="591b919f-d9a7-4b3e-8f9f-394b6a98b602" volume="96.0" />
+        <SourceFile name="src/coord/geo/prepareCustom.js" id="dd9dccc5-0a46-4bd6-aee0-bd6e6a1ad716" volume="30.0" />
+        <SourceFile name="src/coord/parallel/AxisModel.js" id="361f0d73-d160-456b-b3a0-1ed8978e3a6d" volume="64.0" />
+        <SourceFile name="src/coord/parallel/Parallel.js" id="e8c1520f-6c86-42ed-88ba-39307beac16f" volume="336.0" />
+        <SourceFile name="src/coord/parallel/ParallelAxis.js" id="9a5ea2e8-111d-4660-9a66-70f0204b2813" volume="16.0" />
+        <SourceFile name="src/coord/parallel/ParallelModel.js" id="3f4bbe61-e240-4ac0-a301-a85ae790e981" volume="65.0" />
+        <SourceFile name="src/coord/parallel/parallelCreator.js" id="1ed97b16-fd48-48fd-921b-902c0804694e" volume="26.0" />
+        <SourceFile name="src/coord/parallel/parallelPreprocessor.js" id="986b7e31-00ed-4876-8758-f3e376894877" volume="33.0" />
+        <SourceFile name="src/coord/polar/AngleAxis.js" id="ffbed982-e38f-440f-b98c-98f466451465" volume="17.0" />
+        <SourceFile name="src/coord/polar/AxisModel.js" id="4ef9e5c7-30ad-4a3a-821d-85a9d2498f5a" volume="34.0" />
+        <SourceFile name="src/coord/polar/Polar.js" id="9d96a00f-21b1-405e-b51f-ac02bf59f4ef" volume="105.0" />
+        <SourceFile name="src/coord/polar/PolarModel.js" id="2aa7ffc7-7657-4dbd-9a9c-9056415cfa34" volume="23.0" />
+        <SourceFile name="src/coord/polar/RadiusAxis.js" id="cb6d7d1c-91a9-475f-b225-5105e7c9d011" volume="16.0" />
+        <SourceFile name="src/coord/polar/polarCreator.js" id="3b5d1c75-c9d0-4538-aa44-8330bca1433f" volume="102.0" />
+        <SourceFile name="src/coord/polar/prepareCustom.js" id="f377db80-1df9-467c-8dce-2e89f06336a3" volume="41.0" />
+        <SourceFile name="src/coord/radar/IndicatorAxis.js" id="ea850fb2-fd59-4d12-b37c-a8a3558741ca" volume="11.0" />
+        <SourceFile name="src/coord/radar/Radar.js" id="eaf03890-786c-435a-a603-4961dfc502cc" volume="172.0" />
+        <SourceFile name="src/coord/radar/RadarModel.js" id="0d386a09-28b0-43d8-aa7a-5fd73cf87154" volume="103.0" />
+        <SourceFile name="src/coord/single/AxisModel.js" id="75c7a2fb-348f-4b85-9c58-9f38e3be886e" volume="56.0" />
+        <SourceFile name="src/coord/single/Single.js" id="c4cfa902-60c7-43aa-b510-dd8866fb20bc" volume="139.0" />
+        <SourceFile name="src/coord/single/SingleAxis.js" id="04ff6d48-26cd-4977-ab79-93a8d5574b68" volume="24.0" />
+        <SourceFile name="src/coord/single/prepareCustom.js" id="4cf65b4c-00e2-4724-89f4-3043e775bab2" volume="25.0" />
+        <SourceFile name="src/coord/single/singleCreator.js" id="25343484-9e9c-4bf5-9bb2-da41ff4ad213" volume="28.0" />
+        <SourceFile name="src/data/DataDiffer.js" id="fdbebfbd-9b27-4404-8268-6a69610695be" volume="89.0" />
+        <SourceFile name="src/data/Graph.js" id="68d6735c-5865-4fc3-86ec-590a6205aeb4" volume="262.0" />
+        <SourceFile name="src/data/List.js" id="ad7e717a-f6d5-42be-83b9-6802823a315c" volume="666.0" />
+        <SourceFile name="src/data/Tree.js" id="a53c4c99-6309-4448-ba7d-90942a293488" volume="207.0" />
+        <SourceFile name="src/data/helper/completeDimensions.js" id="39b052ef-257f-492d-a368-5f98aeff85a3" volume="144.0" />
+        <SourceFile name="src/data/helper/linkList.js" id="e4c60859-4601-4e2c-af67-88efc30fd91d" volume="72.0" />
+        <SourceFile name="src/echarts.js" id="37d6180b-7091-4572-aa75-20e1f2d9ae8b" volume="1156.0" />
+        <SourceFile name="src/export.js" id="28daa4b3-5678-4073-99b5-a3d333301169" volume="36.0" />
+        <SourceFile name="src/helper.js" id="c9a10988-5592-4add-ba62-25e7ee606632" volume="25.0" />
+        <SourceFile name="src/lang.js" id="7e8415dd-5d2b-410a-a072-e29137d55916" volume="40.0" />
+        <SourceFile name="src/langEN.js" id="21fbd86a-d06e-4af7-b671-d302b89a6938" volume="40.0" />
+        <SourceFile name="src/langFI.js" id="77838822-dea4-43c3-a7aa-92fbaece9cb2" volume="40.0" />
+        <SourceFile name="src/layout/barGrid.js" id="534e098c-33ac-44ab-a72c-7c4b0b162884" volume="245.0" />
+        <SourceFile name="src/layout/barPolar.js" id="d4045a9c-50b2-4be4-94bd-0acb2e3fd824" volume="221.0" />
+        <SourceFile name="src/layout/points.js" id="b548232b-609f-4d29-9619-f31abe354426" volume="26.0" />
+        <SourceFile name="src/loading/default.js" id="e52730fd-a28e-4a78-9cc0-67d6af2cdf1b" volume="83.0" />
+        <SourceFile name="src/model/Component.js" id="98a7b999-4e13-42d6-a9d0-6d7836892a9d" volume="87.0" />
+        <SourceFile name="src/model/Global.js" id="084444df-1487-44d0-a4d1-3c12a59431f5" volume="397.0" />
+        <SourceFile name="src/model/Model.js" id="f050c7b1-0939-4337-a92b-6237655874e6" volume="106.0" />
+        <SourceFile name="src/model/OptionManager.js" id="8f2ec8dd-96fc-46eb-b50c-a9106d3f7990" volume="203.0" />
+        <SourceFile name="src/model/Series.js" id="50a41b33-1e52-4db3-a1e1-3de1e32417db" volume="183.0" />
+        <SourceFile name="src/model/globalDefault.js" id="35fbfa83-c812-46fa-88a4-ade0fb016856" volume="25.0" />
+        <SourceFile name="src/model/mixin/areaStyle.js" id="35b136d6-cb24-4730-b329-ab01031414d4" volume="16.0" />
+        <SourceFile name="src/model/mixin/boxLayout.js" id="b1622b54-d117-4d6a-bf7f-aa65bfdcbb57" volume="13.0" />
+        <SourceFile name="src/model/mixin/colorPalette.js" id="2ea2e576-c047-4155-91f8-d93455684037" volume="25.0" />
+        <SourceFile name="src/model/mixin/itemStyle.js" id="67256bbb-8438-4177-85d8-2610626f2cd9" volume="28.0" />
+        <SourceFile name="src/model/mixin/lineStyle.js" id="abe54f5a-d298-4467-b814-d89801c1eecf" volume="30.0" />
+        <SourceFile name="src/model/mixin/makeStyleMapper.js" id="599f46b2-3c75-4be8-bcb8-e5b44dac3771" volume="25.0" />
+        <SourceFile name="src/model/mixin/textStyle.js" id="99103aac-d7e9-4aae-be2d-2c3b7e6b0c50" volume="31.0" />
+        <SourceFile name="src/preprocessor/backwardCompat.js" id="f059cfd4-de71-42bf-a611-aaca98bf5798" volume="88.0" />
+        <SourceFile name="src/preprocessor/helper/compatStyle.js" id="1747314b-c4c6-4354-b90a-e60f2113c00f" volume="156.0" />
+        <SourceFile name="src/processor/dataFilter.js" id="76ee77a2-e547-4761-bef3-94994f45dcdc" volume="20.0" />
+        <SourceFile name="src/processor/dataSample.js" id="d3f73449-ca90-4084-9c1a-7539bc5c3f02" volume="70.0" />
+        <SourceFile name="src/scale/Interval.js" id="a6653939-cc10-4809-a1ee-08f11374efdd" volume="114.0" />
+        <SourceFile name="src/scale/Log.js" id="97c54ad3-b7ef-4dc9-9403-aa70e4035e66" volume="111.0" />
+        <SourceFile name="src/scale/Ordinal.js" id="c4c64976-87d7-4e6e-ae2f-42e486eef4c4" volume="52.0" />
+        <SourceFile name="src/scale/Scale.js" id="098a8942-27be-4932-9b2a-bd183f8476d2" volume="68.0" />
+        <SourceFile name="src/scale/Time.js" id="32aa7e87-fb14-494a-a258-a063e4576092" volume="133.0" />
+        <SourceFile name="src/scale/helper.js" id="5beda93c-f135-4c9f-851b-d93291cdf618" volume="61.0" />
+        <SourceFile name="src/util/KDTree.js" id="a34ba1b8-b9d4-43a3-8087-a5c36e8c4bcc" volume="170.0" />
+        <SourceFile name="src/util/animation.js" id="4baba161-c10b-4d57-bf88-01dca2e69636" volume="42.0" />
+        <SourceFile name="src/util/array/nest.js" id="5b326a8a-0c4a-43f7-afe6-9024c71ddc80" volume="62.0" />
+        <SourceFile name="src/util/clazz.js" id="e6fc4989-a3ae-4a0f-97ea-574f06f0ccf9" volume="155.0" />
+        <SourceFile name="src/util/component.js" id="93e45d7e-68be-478b-b996-7466da13213d" volume="101.0" />
+        <SourceFile name="src/util/format.js" id="c9d26df7-7bb0-47c2-9dc5-1faf1c419c90" volume="74.0" />
+        <SourceFile name="src/util/graphic.js" id="bd2b761a-dc74-493d-b8c0-e95b82d3e8aa" volume="624.0" />
+        <SourceFile name="src/util/layout.js" id="bd8ffe6b-409a-42da-a9a4-408c4fa25f5f" volume="265.0" />
+        <SourceFile name="src/util/model.js" id="ecc4713d-8fe9-4bee-b6bf-7e6cddd65f60" volume="367.0" />
+        <SourceFile name="src/util/number.js" id="452ab92d-7e9c-4823-aa53-ff0521a9cb94" volume="267.0" />
+        <SourceFile name="src/util/quickSelect.js" id="9b302f29-28db-4d12-b8c7-cf457b76d017" volume="49.0" />
+        <SourceFile name="src/util/symbol.js" id="aa3eb0a7-76e0-4579-a1e6-5051af8a913e" volume="266.0" />
+        <SourceFile name="src/util/throttle.js" id="4a83c44f-8945-476b-b2df-ffa316c3f945" volume="79.0" />
+        <SourceFile name="src/view/Chart.js" id="3b1a3282-fb95-46d2-9485-cf617f7cb80c" volume="57.0" />
+        <SourceFile name="src/view/Component.js" id="34467f80-e1e8-4935-a859-e783aab2b2c2" volume="22.0" />
+        <SourceFile name="src/visual/VisualMapping.js" id="c850d699-1407-48de-9e07-ed220ddcacc7" volume="399.0" />
+        <SourceFile name="src/visual/dataColor.js" id="90bb066a-f53d-4279-91ae-5d453c873194" volume="32.0" />
+        <SourceFile name="src/visual/seriesColor.js" id="bae5d573-2614-4f52-9507-87923dae8f9d" volume="27.0" />
+        <SourceFile name="src/visual/symbol.js" id="d158baef-df52-4171-8a17-ddbceccdc273" volume="33.0" />
+        <SourceFile name="src/visual/visualDefault.js" id="d80c0667-123f-4ae8-85ad-99863745efb7" volume="47.0" />
+        <SourceFile name="src/visual/visualSolution.js" id="1a1f8ca8-596c-44d0-8368-6f2c86aaff24" volume="94.0" />
+        <SourceFile name="theme/dark.js" id="2303a9e3-4848-4c79-ae86-f73e20aa453f" volume="147.0" />
+        <SourceFile name="theme/infographic.js" id="b6939199-6184-4171-b11c-13a56f8f41b3" volume="184.0" />
+        <SourceFile name="theme/macarons.js" id="af92c058-afdd-44f6-a3e8-c1bf05337ca3" volume="176.0" />
+        <SourceFile name="theme/roma.js" id="cd8e614c-936d-460e-bd24-233d71529736" volume="57.0" />
+        <SourceFile name="theme/shine.js" id="14f4bda1-7b43-4961-a82e-24d7e2b26634" volume="141.0" />
+        <SourceFile name="theme/tool/option/area.js" id="8d7d611e-3734-4ad0-8680-a3e9db14d91e" volume="70.0" />
+        <SourceFile name="theme/tool/option/bar.js" id="ea04fe75-b7e6-4a4b-8cd7-8b234e4ef57e" volume="98.0" />
+        <SourceFile name="theme/tool/option/graph.js" id="f3d53b71-40b2-41e2-b731-9e020b3bc5d2" volume="2963.0" />
+        <SourceFile name="theme/tool/option/map.js" id="1a3e0b66-a916-4742-a188-4a48b90097e4" volume="121.0" />
+        <SourceFile name="theme/tool/option/pie.js" id="f6fc3886-abb2-4cdf-95e7-00fdda97aa3b" volume="72.0" />
+        <SourceFile name="theme/tool/option/scatter.js" id="d003a7a2-6a3b-4eae-9e18-16403aa3e8f5" volume="182.0" />
+        <SourceFile name="theme/tool/thumb.js" id="932a2acc-0608-4aff-86ca-5ecc23795fe9" volume="57.0" />
+        <SourceFile name="theme/vintage.js" id="554d3500-024f-4a04-b90d-020d9f20ae8c" volume="27.0" />
+    </CodeComponent>
+    <dependencies>
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="benchmark/dep/bootstrap/bootstrap.min.css" targetId="ed62380a-b9b1-47be-8c25-b3b86c621ea8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="benchmark/dep/jquery/jquery-2.2.4.js" targetId="f918ef2b-7771-4f7f-96f1-5e972b264532" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="benchmark/dep/lodash/lodash.js" targetId="b29e4192-538f-4017-b973-a7e4c061c8ae" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="benchmark/gulpfile.js" targetId="3a10d1c3-c18f-4aed-88c7-9ef7df51c3e1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="benchmark/index.html" targetId="53190e27-ad24-4419-a6e2-acd31ba7272b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="benchmark/src/app.js" targetId="0831eff0-652d-48b7-9af0-78e0c0f4e5b8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="echarts.all.js" targetId="3f1debc0-8864-4bcc-a9cc-9ae733536e4d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="echarts.blank.js" targetId="0dd04ad2-48be-4bc7-9309-535e198ab41c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="echarts.common.js" targetId="b7b81b47-14ed-4553-bdd2-7252956ad1bb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="echarts.simple.js" targetId="f60d2c2a-8c3e-461b-8f96-9de56fc153c7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/bmap/BMapCoordSys.js" targetId="bb3efadf-ef42-44db-9dc9-cffd635a23b9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/bmap/BMapModel.js" targetId="bfddc1d6-d840-4a18-8a52-0a3aadc85a68" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/bmap/BMapView.js" targetId="6ca15f56-08a3-418a-b8a6-9f320c5bda7f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/bmap/bmap.js" targetId="ec6b1034-9571-4fb5-b62a-0657aa1ce3b9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/dataTool/gexf.js" targetId="bec41963-aa94-4e1d-9d30-def49e96dff9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/dataTool/index.js" targetId="6ce9ff7f-c4d3-44be-819b-ffaff933f35d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/dataTool/prepareBoxplotData.js" targetId="5cffde64-3c1c-4315-b257-440d24332ab9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension-src/dataTool/quantile.js" targetId="65ed7073-b0c0-4802-a624-4739240bb8bf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/bmap/BMapCoordSys.js" targetId="8b09b309-de87-4e29-ac36-ded406f3000b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/bmap/BMapModel.js" targetId="d6f24c5c-8c75-4a02-9583-740ef9f08c11" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/bmap/BMapView.js" targetId="496b2295-65ce-45ac-bc20-30e44f5a1356" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/bmap/bmap.js" targetId="f97958f8-0e29-4be0-9383-71c5a0a543f7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/dataTool/gexf.js" targetId="a24be315-e23b-41aa-9203-94de8699d269" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/dataTool/index.js" targetId="d210a40f-ffe5-484b-98f7-166be616a11e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/dataTool/prepareBoxplotData.js" targetId="8d5bece3-d30a-4e75-b093-ebb8cd2e1445" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/dataTool/quantile.js" targetId="a60b1c6c-6a86-4af9-a4cd-2faf9702a150" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/echarts.js" targetId="a0eed671-1b68-4864-a903-432b7d3fb55a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="extension/webpack.config.js" targetId="3bb791a3-0fb6-4db4-ba25-b8084dc3a744" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="index.common.js" targetId="8cf7d06e-6f32-4064-a01a-636587e70c4f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="index.js" targetId="92a0f5f5-bfe0-45b8-8318-e1fe2906c72b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="index.simple.js" targetId="225c6634-fc25-4345-81ed-7a7d71b21ec3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/china-contour.js" targetId="54f2dc66-4729-4e4e-ba41-452ba81dbaf8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/china.js" targetId="697f1d81-a93e-4810-ae0f-8aaf94472b57" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/anhui.js" targetId="3eca8fd4-6f28-4c2e-a30c-6e8abde5fa01" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/aomen.js" targetId="46ce5c8f-40c5-4a0e-a803-98f9c1060a8d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/beijing.js" targetId="0d8737f9-c330-4f25-a791-457135ea1fcd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/chongqing.js" targetId="93403f5d-aed1-43e2-adf9-0b6b13903113" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/fujian.js" targetId="0134b412-5e25-45e6-98ef-0db0db50dd45" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/gansu.js" targetId="0b5accc1-dd21-4b8e-8f02-a60a015d2100" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/guangdong.js" targetId="23f0be61-6029-464b-b30e-7b5eb41ca558" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/guangxi.js" targetId="c4d016c7-b8fa-4b15-b8ee-737f8a18042f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/guizhou.js" targetId="0a6087e3-35c7-4cf7-8d1a-187bd6c31099" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/hainan.js" targetId="65a83a08-680e-49b4-a894-2b4de36183ac" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/hebei.js" targetId="0cb6f458-30b9-41d0-9520-0ba4f0f5e3d0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/heilongjiang.js" targetId="ead6bdc1-aa37-4bd4-a7a6-9d26ade48178" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/henan.js" targetId="54932a71-83db-4a37-a000-a07bdd51e277" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/hubei.js" targetId="b96aced6-fbc7-4725-9ed5-ef04bbd85bcc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/hunan.js" targetId="f8ae920f-431f-436e-b6be-8b6804f83268" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/jiangsu.js" targetId="98cac8ba-7c0e-4270-b5fd-7a6c75a089ae" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/jiangxi.js" targetId="5c4fb046-c68c-4aed-ba95-5409b3402112" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/jilin.js" targetId="9acf7ec5-7796-4b36-b66b-9ce47c450925" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/liaoning.js" targetId="29d41d1c-ab3b-47d6-8fef-bcadfb246999" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/neimenggu.js" targetId="2e219c5d-bc1e-4d6e-adf5-083bc4c2bd0b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/ningxia.js" targetId="7db55654-7a2d-4112-9c91-90b1e0f5d021" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/qinghai.js" targetId="c9716534-78e3-43ad-8352-3444f325ebae" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/shandong.js" targetId="17843aeb-374d-47f3-a8a7-985969f0962b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/shanghai.js" targetId="15a619dc-6ec1-4c9d-baad-5cb9f5ccd36f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/shanxi.js" targetId="ef79e91b-5e13-4474-b5b4-089efbf77dd5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/shanxi1.js" targetId="b0af6a47-3d2f-4794-af14-c2cf297168bc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/sichuan.js" targetId="46a100e0-1482-4d7a-be25-0049e05badc8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/taiwan.js" targetId="f5da1f49-cc7d-4e1e-bd25-51c369ff0091" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/tianjin.js" targetId="9dce644a-1ff2-4ccf-84a3-24d499e8df0b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/xianggang.js" targetId="a88e8feb-ca07-4756-ada4-d90c3bfbe5ea" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/xinjiang.js" targetId="b9518713-e43c-4cd9-85f2-67ff030478f6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/xizang.js" targetId="8461b725-7b9c-42d8-89a7-4367ef91c997" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/yunnan.js" targetId="809944ca-add5-4b4e-997f-bc60b8ffafbf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="map/js/province/zhejiang.js" targetId="e34ab08e-6d19-4faf-a44d-9d2e251c1b51" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="package.json" targetId="9476154e-b837-40da-b2a4-c930ea9da042" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/CoordinateSystem.js" targetId="f0d782a4-586a-4d29-8121-aa209439d3f1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/ExtensionAPI.js" targetId="30fc8631-bec1-4991-b347-fdb69ff561b7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/action/createDataSelectAction.js" targetId="d390ecdc-52a0-44a9-b6f2-79a967453005" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/action/geoRoam.js" targetId="9ece8122-bcd5-45b3-a75e-cfe9c7d1026b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/action/roamHelper.js" targetId="1543f3e1-d2e0-48b4-9b72-7794e469fcd5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar.js" targetId="070fb3b1-8fb4-4a43-aa92-b477f1b0b6f2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/BarSeries.js" targetId="f98edb05-fd19-4983-b0f0-3e2722c678f4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/BarView.js" targetId="1b2ec413-9e6f-492a-bea0-58b8c94b3bd6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/BaseBarSeries.js" targetId="b7d21578-6de2-4888-8c0e-732eb713fc49" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/PictorialBarSeries.js" targetId="04bf09ea-78d2-4b0c-835d-6caaf7d6dab4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/PictorialBarView.js" targetId="bd8a2307-670f-4b1b-ac77-97a2d6149416" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/barItemStyle.js" targetId="0c2a64c1-50f9-49de-8202-75f038018022" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/bar/helper.js" targetId="078f6ca6-7551-48e1-a0a2-1e1b740d7d3b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/boxplot.js" targetId="eb90750e-ff85-4bc3-8256-ba53b44090ba" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/boxplot/BoxplotSeries.js" targetId="c46800d5-d9a4-46c7-b6e1-c33c1dcade77" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/boxplot/BoxplotView.js" targetId="2c2b8830-78ca-436c-be5f-dcdb6a8a836f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/boxplot/boxplotLayout.js" targetId="3dce87ff-aa16-4f56-ab8b-95d5d6641fde" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/boxplot/boxplotVisual.js" targetId="fed5c070-61f2-464f-8096-fd13ac927c9a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/candlestick.js" targetId="4e6919d9-6c0f-45b3-9e80-23377d887c95" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/candlestick/CandlestickSeries.js" targetId="0656c3a7-d4cb-4fbb-989a-ff295761814a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/candlestick/CandlestickView.js" targetId="5c403133-a0d9-4af8-9e32-516344a1c2b5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/candlestick/candlestickLayout.js" targetId="385be864-0b88-46b1-ad05-306df4f3b01f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/candlestick/candlestickVisual.js" targetId="9f702793-a8ac-4591-9fb8-47d1c3147d20" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/candlestick/preprocessor.js" targetId="645e6e1e-6e3f-48b2-b8f8-a3cdbc919246" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/chord.js" targetId="a7074a7a-7712-4e2a-819a-27ec1c9f10c2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/chord/ChordSeries.js" targetId="7dfdb447-d5c8-46be-bab0-26166c4ec9f7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/chord/ChordView.js" targetId="5abf7ff1-bc39-4d0f-b4af-78a060c26b9d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/chord/Ribbon.js" targetId="0ecc0654-d5d7-4f13-812d-c46fe358c64a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/chord/chordCircularLayout.js" targetId="1169adbf-913e-4cd3-8299-753fb371dcc1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/custom.js" targetId="86ea2275-2b21-4596-af5d-8530c3094539" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/effectScatter.js" targetId="3c1c0940-daaa-47e9-8438-d63e13d4d21f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/effectScatter/EffectScatterSeries.js" targetId="440b0346-d8b3-46ae-9796-36ca26ef27fe" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/effectScatter/EffectScatterView.js" targetId="9418e714-ef3e-49f3-accf-ef9ad96e249d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/funnel.js" targetId="91015a29-3be1-4d11-b059-7bb3cdea4534" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/funnel/FunnelSeries.js" targetId="d9fb1dc4-7471-45b8-846c-96531ad3a523" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/funnel/FunnelView.js" targetId="3f3db2e5-954c-415f-a13a-4def4c14135b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/funnel/funnelLayout.js" targetId="882b6253-3ac1-46d2-b199-c122c85d2928" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/gauge.js" targetId="27e75eed-830b-45e3-b893-88f63faba539" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/gauge/GaugeSeries.js" targetId="2cf403ef-873b-4ebd-9c89-e18c22608653" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/gauge/GaugeView.js" targetId="7328256f-3dcc-407f-9ea3-189adaaec254" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/gauge/PointerPath.js" targetId="a06069c0-2144-42be-aecf-8aa5f400aded" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph.js" targetId="ed8e1bbf-d556-41e9-802a-157873dd637a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/GraphSeries.js" targetId="938faf5d-3aae-4668-a90c-2979f9a22745" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/GraphView.js" targetId="ae0280b7-50ca-4b0a-a202-ec8b739be577" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/adjustEdge.js" targetId="42e06bce-61de-4cc6-94b5-367441dd151a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/backwardCompat.js" targetId="07e47a13-7a0e-40aa-9418-6eedd29767b9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/categoryFilter.js" targetId="ec2d5d28-3a68-436d-9ce3-1ac6cb42dd86" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/categoryVisual.js" targetId="9710d5b4-a028-4033-9316-d9c75246ab39" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/circularLayout.js" targetId="a6d2cf5d-9de7-4d65-ac90-ece8771ebed4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/circularLayoutHelper.js" targetId="bd0d0eb0-eb1b-479a-bba6-ad00fe1cd0a0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/createView.js" targetId="f4071569-9ba2-4f24-8466-650af49960bb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/edgeVisual.js" targetId="3ab9ebad-6665-47a8-a5d9-860a1e80ba97" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/forceHelper.js" targetId="3a4225b9-08c7-4ad2-8b48-f6d82687a747" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/forceLayout.js" targetId="b14a5274-795a-480b-9b65-b86687e3b1f8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/graphAction.js" targetId="24581bc3-9696-4aa2-936e-d007735ebeb9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/simpleLayout.js" targetId="91eb971e-529b-4544-a8cc-c94b68425d18" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/graph/simpleLayoutHelper.js" targetId="031ff62c-0eb7-4b24-afb4-c4009249697b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/heatmap.js" targetId="bec82bae-386f-420a-9488-99aaae66fa1b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/heatmap/HeatmapLayer.js" targetId="f0cc1c8a-2fc3-4864-b88e-2d80cdbc3670" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/heatmap/HeatmapSeries.js" targetId="ac5a6564-c15e-41e2-8568-625b724696fd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/heatmap/HeatmapView.js" targetId="612ac599-8eeb-4ceb-a9c0-22d6544326a5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/EffectLine.js" targetId="64d58712-437f-40b9-b162-73c92e647400" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/EffectPolyline.js" targetId="68805fcb-e8bc-4ec5-b4e6-b187ea892308" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/EffectSymbol.js" targetId="2d68e5e4-e75e-41a0-a1ba-eef915cd1dda" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/LargeLineDraw.js" targetId="c145bf54-225a-482a-80bc-e994bfc2db86" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/LargeSymbolDraw.js" targetId="d545e58b-cf62-4f61-955f-8ffa7430e3f5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/Line.js" targetId="cd1d9061-1163-4de9-a530-f8dd0523dc36" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/LineDraw.js" targetId="3be7bd8d-a40b-44a9-991f-eff33fdfe34f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/LinePath.js" targetId="05f0086a-0acf-424b-bac2-3aaecb046f27" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/Polyline.js" targetId="c6541771-fad6-4f51-bc23-96dfdd98025f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/Symbol.js" targetId="0b040f98-09b3-42b0-ac0d-05af2cfc2079" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/SymbolDraw.js" targetId="6f2e2d65-1511-401f-a74d-aa3e3b1e3ebd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/WhiskerBoxDraw.js" targetId="4399bb40-f82e-4e00-9299-d9755ba6af66" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/createGraphFromNodeEdge.js" targetId="13e3d27d-90fd-4922-a91d-fe61925d6fd7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/createGraphFromNodeMatrix.js" targetId="5198c0bc-3f3a-4ad1-ac7a-7ad2dd8c8f1e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/createListFromArray.js" targetId="0817cb68-3d31-4cb7-84bb-a45d0c5b4723" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/labelHelper.js" targetId="9d0f2a1e-d125-4e80-a08c-e9e48ed7c4b1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/helper/whiskerBoxCommon.js" targetId="f2d401c9-60bb-456c-9aed-f28332aa595c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/line.js" targetId="0444f22d-0028-4de0-aca7-cffe638e104d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/line/LineSeries.js" targetId="61699364-3aff-46c9-af6c-d7e2bb0c5ac7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/line/LineView.js" targetId="9f65bf9d-5119-4401-a109-0002d68af435" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/line/lineAnimationDiff.js" targetId="e718c3c2-38a5-4743-8ed9-c254a471a301" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/line/poly.js" targetId="4b0af0a9-7a3f-4e87-8d35-9ee1d95ae13f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/lines.js" targetId="972c78c6-bb2f-4b62-937c-4d2c4ad9f1f1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/lines/LinesSeries.js" targetId="64315621-dc31-44a1-ba0d-81b4247123cc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/lines/LinesView.js" targetId="8f85f33e-4755-4de1-8728-d20f8335c5d6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/lines/linesLayout.js" targetId="33fa31da-5dc4-4820-8d84-e916e80bb553" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/lines/linesVisual.js" targetId="8e0c2cad-3aa8-4862-a74b-a9cb6889704b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map.js" targetId="6b1e24a4-8214-4c32-8488-af059d14a5f2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map/MapSeries.js" targetId="97009aab-a2c1-43bd-bf24-c9aa4e6f9505" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map/MapView.js" targetId="55c37d5c-02f5-475a-be90-ae7565f6623a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map/backwardCompat.js" targetId="11618c95-6caf-4f12-81b4-67fc9e75947c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map/mapDataStatistic.js" targetId="53969463-8dbb-4a89-a36c-41753e9b3715" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map/mapSymbolLayout.js" targetId="6e404250-bbd4-427b-8cd4-aa3a47fb3ed0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/map/mapVisual.js" targetId="cecc1af2-f680-4de0-b71c-38fadd4db0f4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/parallel.js" targetId="98730cf6-076e-4927-9015-8439e6a55ffa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/parallel/ParallelSeries.js" targetId="ee938f8a-8f56-476c-8054-cd3c02690194" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/parallel/ParallelView.js" targetId="6b1c9cb8-d502-4aef-8922-d35dd3601411" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/parallel/parallelVisual.js" targetId="44233d4d-8a9f-4342-97a2-cd7601e8215f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/pictorialBar.js" targetId="118e76f4-d342-4c6d-ba2d-5f4fdfb53b05" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/pie.js" targetId="4b5d5539-65a9-44f2-831d-fe9fcab49d0e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/pie/PieSeries.js" targetId="f5aa0aea-1feb-4a56-a505-7e459564d5db" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/pie/PieView.js" targetId="a3c1f7a4-980f-4022-a2f0-fc4e580d2905" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/pie/labelLayout.js" targetId="58d456c5-90f8-41b4-9910-7b436a132e8b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/pie/pieLayout.js" targetId="a12957fe-83d8-4b06-8105-0b151d6bc769" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/radar.js" targetId="48dbf468-52e6-45e2-9a67-bd361436ec7b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/radar/RadarSeries.js" targetId="f76570f5-add3-4eb3-a323-2558cbe34ba6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/radar/RadarView.js" targetId="072c347d-b4e4-4eda-9a3b-3d156bf878af" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/radar/backwardCompat.js" targetId="d7765346-54d7-4eab-9e72-78365ade8918" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/radar/radarLayout.js" targetId="134ad2a8-7fe0-4430-83f9-5e1fd9e6a30b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/sankey.js" targetId="af6e00dd-466f-4b54-b537-44050668504b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/sankey/SankeySeries.js" targetId="4eef664c-5f5b-47a1-813c-9ead3845d61e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/sankey/SankeyView.js" targetId="91ffb247-cc23-45e7-8e27-ad9403ed3087" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/sankey/sankeyLayout.js" targetId="e737ce51-038d-4541-8741-eeab393df708" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/sankey/sankeyVisual.js" targetId="6ad74600-9fa7-4628-8809-e99923a9ac6e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/scatter.js" targetId="38e9b4e6-d9eb-440b-b066-7ca756adbdf9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/scatter/ScatterSeries.js" targetId="8327b558-a3f8-46a8-8a84-9f3637b1c79a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/scatter/ScatterView.js" targetId="20b4338a-a06e-4c81-aa7c-7870f4e90882" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/themeRiver.js" targetId="687c8f1e-0a14-4c65-8cfa-92ad7e0959c0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/themeRiver/ThemeRiverSeries.js" targetId="2acde955-f109-4af3-b805-dc209d8e27d8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/themeRiver/ThemeRiverView.js" targetId="57c0a224-e2bc-4efd-8197-47db91db99e8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/themeRiver/themeRiverLayout.js" targetId="b2c7fd8b-af60-4636-8eae-c95e161f7952" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/themeRiver/themeRiverVisual.js" targetId="4bd516d7-28fa-43db-b92a-fdfbe858ef22" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree.js" targetId="2f88073b-367b-473f-b01c-f507ee59be2c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/TreeSeries.js" targetId="251317e0-a3d2-4c67-bf0c-0e660f88e9cb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/TreeView.js" targetId="5f942905-5c14-4341-8fc5-e90290c025f1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/commonLayout.js" targetId="70daa91b-a460-46b1-9a26-f0880f2a4cf2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/layoutHelper.js" targetId="604d432b-fda4-4fae-979d-81e2334ea1b0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/orthogonalLayout.js" targetId="3faab7ce-15c0-4f0d-b488-fa8cb2f21433" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/radialLayout.js" targetId="a60e3d98-d0ac-4a59-a7b3-e6a836ecd36f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/traversalHelper.js" targetId="e6f85599-3997-42ba-b550-fc673e951a9c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/tree/treeAction.js" targetId="07fb7fb2-c6c3-425c-a46f-d00a1b6cadd5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap.js" targetId="013414ee-0c11-44c4-842e-ea595f99e6ec" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/Breadcrumb.js" targetId="06ba2e57-4f9a-483c-a294-b18cbe226bcd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/TreemapSeries.js" targetId="2dd3cd98-2173-482d-865b-25c8ff9289a9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/TreemapView.js" targetId="25a5f967-de45-48e8-8314-57aec928ddf9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/helper.js" targetId="cd1df10f-e2aa-4cb3-a9c5-81e5c0832870" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/treemapAction.js" targetId="b7b7c051-22f7-451f-9ab3-cb4d81a13dc2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/treemapLayout.js" targetId="f10d73c1-99fc-4998-a322-b5158b546d66" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/chart/treemap/treemapVisual.js" targetId="9e3cbeef-035d-4db2-8ebe-fe135d0d9588" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/angleAxis.js" targetId="438da08d-d087-4011-a0ed-5e8329f9de44" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis.js" targetId="eaace64d-1050-4b5d-ad2c-b429e1a384a6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/AngleAxisView.js" targetId="2c29aef8-f082-459a-a04d-855ad976dbaa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/AxisBuilder.js" targetId="05f39d5b-938b-4c85-94f6-e40a473d39b2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/AxisView.js" targetId="a7505ecc-2628-49ff-9eaf-66827b97906e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/CartesianAxisView.js" targetId="21094b28-7879-46ec-ab6b-a58119ecc470" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/ParallelAxisView.js" targetId="2f2703c7-5f38-4b33-9e22-5d23cc4ce643" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/RadiusAxisView.js" targetId="2950fdf6-97d2-4f78-bd7d-ead7454dde5a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/SingleAxisView.js" targetId="70081981-2159-4ffc-aa4c-7bdc83118fe3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/cartesianAxisHelper.js" targetId="8686e16b-20ed-451f-83be-b7fc3e2959e9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/parallelAxisAction.js" targetId="6dc9dba3-4130-4cc3-b838-a84bc27a055b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axis/singleAxisHelper.js" targetId="ba8697f8-8178-407e-9226-d5ac3d8c99b8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer.js" targetId="821133a1-b768-436a-9c77-4e222e7378e3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/AxisPointerModel.js" targetId="7725f2cb-c2d7-411c-be50-65b417fa29f4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/AxisPointerView.js" targetId="c2f9f867-f8ca-450e-b55e-51338d249e80" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/BaseAxisPointer.js" targetId="9a19f140-4da1-44a4-a7f5-c65a3d678e06" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/CartesianAxisPointer.js" targetId="d5e17b7e-1586-4440-966d-373d33664b12" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/PolarAxisPointer.js" targetId="35cf55a2-4298-4b19-852e-c20d1e8062af" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/SingleAxisPointer.js" targetId="fb61c0ad-4b1c-4213-972b-9ec4635de7f9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/axisTrigger.js" targetId="c09ac044-2546-4950-8099-dcd4c6b72f32" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/findPointFromSeries.js" targetId="e0dc684d-bdb6-4618-9ca2-4272ec47ce8b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/globalListener.js" targetId="b5c7b504-8fb6-43f5-a8b0-adf710cf24f5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/modelHelper.js" targetId="671f0be4-a78b-4f4c-9e1a-6bbe5ada63e1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/axisPointer/viewHelper.js" targetId="bc89ddd9-4aa6-4073-ad2c-3e64f0616c0f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush.js" targetId="66c96598-ccd0-48f8-a1e7-05d20bc3a0f4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush/BrushModel.js" targetId="ca3880bc-c7b4-47ce-b1e6-2035a9922bf7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush/BrushView.js" targetId="835578b0-c68a-401b-9baf-5bb9f089123e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush/brushAction.js" targetId="b83fec8f-1405-4cca-ae4c-b0d4fc917951" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush/preprocessor.js" targetId="4b4f0f48-fb88-419d-b98c-24d5495d9043" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush/selector.js" targetId="faa55b85-28f9-48a5-b321-a0e6bed3820b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/brush/visualEncoding.js" targetId="68704eb6-1eb6-4c8f-ad52-a7e78118ade2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/calendar.js" targetId="b5796e71-d8cb-4600-9668-df7a290b2ded" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/calendar/CalendarView.js" targetId="0b450c6b-5e77-495d-abfb-de0f654c6116" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom.js" targetId="3fc2dfae-ab48-4821-8359-ed0f0129aebd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/AxisProxy.js" targetId="0a0f0ff0-1627-438e-83a6-3c96088e970c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/DataZoomModel.js" targetId="43f5f8aa-27bb-4185-930a-2e29cca453a6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/DataZoomView.js" targetId="d828b943-6c2f-4e75-af91-420a1df3f966" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/InsideZoomModel.js" targetId="cd277d64-3e9f-4aab-90c8-3cdb7fe53bd5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/InsideZoomView.js" targetId="1f124062-4353-4c7d-ace7-efdd256ba0df" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/SelectZoomModel.js" targetId="dbe649d8-ea5e-48d9-8ab6-a0033dd531fa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/SelectZoomView.js" targetId="8914c7e6-3f49-4d0d-8826-960dcfa83f18" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/SliderZoomModel.js" targetId="2977e66f-1d61-42ef-b9c3-24c4eb84fd40" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/SliderZoomView.js" targetId="17c107bc-3d0e-4035-9339-77dac369b52d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/dataZoomAction.js" targetId="707135d8-d930-47c0-a1e8-68eb0883316d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/dataZoomProcessor.js" targetId="5b0ac977-8665-4c0c-932b-c924e9157700" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/helper.js" targetId="d35dd96b-c972-46f9-a5f2-ec9be6cbfdee" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/history.js" targetId="658a4254-148a-4462-91bb-5957658fa286" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/roams.js" targetId="f64148fe-3a36-42cb-8222-0e7289ce71d3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoom/typeDefaulter.js" targetId="9e8abceb-f4ba-456c-8b4d-f36604c42140" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoomInside.js" targetId="1f0ae01e-8cd0-4d14-98db-0230d887dd87" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/dataZoomSelect.js" targetId="c213d1f6-4d47-4e66-af93-abd44d07582a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/geo.js" targetId="7e4b2481-4305-4be2-8c38-855010e2a31a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/geo/GeoView.js" targetId="d22f32a9-4b91-4bfe-b25b-5a1fe9163295" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/graphic.js" targetId="1abcc6fd-1c0c-4806-ac74-92e2e891a1b0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/grid.js" targetId="371beba4-2fcc-453c-b734-a6495c2ca0cf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/gridSimple.js" targetId="39b88a7a-e9b9-401e-b7c3-d9d14bdefccf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/BrushController.js" targetId="c197881a-7f9a-455a-991d-653a2ba5a8c4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/BrushTargetManager.js" targetId="3be16ca3-91e8-456e-9b5b-f9dc64cd95b6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/MapDraw.js" targetId="674bf928-93ec-4deb-a8c0-e562e4cfc9be" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/RoamController.js" targetId="25fa59bb-73b3-4630-8da7-02ae7df3c565" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/brushHelper.js" targetId="de806b83-4e3f-460a-8bc2-e28a197d3f91" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/cursorHelper.js" targetId="c9e34cfd-6898-4dac-a02e-8ba18f899a12" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/interactionMutex.js" targetId="bcbe1423-b943-4dbb-aa60-73b9f65798c7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/listComponent.js" targetId="4b0665d1-0988-4ae2-b8b6-17fb9a2220b6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/roamHelper.js" targetId="5cf3f8ec-4068-47ce-a528-02503ed7917d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/selectableMixin.js" targetId="ec21749b-8a09-4e7e-a159-b169fc9041d0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/helper/sliderMove.js" targetId="b473e610-2f65-4d2f-add9-77fc07336eb3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend.js" targetId="8468d728-2e4e-4aca-8b4c-acc71ba930fe" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/LegendModel.js" targetId="e75f8a6c-0804-44a5-91fc-4ff952181308" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/LegendView.js" targetId="cd3661fb-5d73-4af0-8389-6959e12fd965" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/ScrollableLegendModel.js" targetId="30384152-4996-4017-9a82-9fe9a44dbdc8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/ScrollableLegendView.js" targetId="512b7188-b463-4c64-b0a9-ccdaf054a2a8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/legendAction.js" targetId="9474a765-0bb9-48bf-bc16-12784727d675" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/legendFilter.js" targetId="b9901bff-6521-455a-8124-de14282ddea0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legend/scrollableLegendAction.js" targetId="5be5cdd8-549c-40ab-827c-d065ecf1eec3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/legendScroll.js" targetId="682c5163-b3f8-46f4-8708-6a56ba92196b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/markArea.js" targetId="fef2caa3-b25a-4281-9357-71b391ba3684" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/markLine.js" targetId="bcfb30bc-9781-4cf1-a4c9-5bf81b4808a9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/markPoint.js" targetId="ab321809-d961-485f-b15f-cf2ddd07f515" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkAreaModel.js" targetId="759a9729-282f-417a-b96b-aec9bbe9541a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkAreaView.js" targetId="410fb30f-ac60-43ff-9c0b-1aad62e331bd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkLineModel.js" targetId="79e9e6f9-9058-4af5-9176-a9cae30ad67d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkLineView.js" targetId="03da2ba3-94c4-4cbe-a004-ea3d5bd5b5a2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkPointModel.js" targetId="62903101-33f1-4301-98de-22f252e91b53" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkPointView.js" targetId="8c7d4452-a4be-461e-8178-eef848e0ab74" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkerModel.js" targetId="3a50771b-d216-42bd-87f9-32d58f19fcab" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/MarkerView.js" targetId="24ba9901-39ba-49e5-89d0-3ea6ebded655" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/marker/markerHelper.js" targetId="38fb2e09-74a9-4011-a8a0-dd64972283a2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/parallel.js" targetId="3f2f3b5b-6cb7-46c0-9f72-db4e6913301e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/parallelAxis.js" targetId="193c8905-6aad-4397-aeb0-3217a8077468" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/polar.js" targetId="b05b4009-ef95-477e-9f73-36a7fe73e872" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/radar.js" targetId="5f87c285-79e7-492c-a687-841c4403b071" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/radar/RadarView.js" targetId="9d211793-42cf-4e30-86ff-5f7bb595f54d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/radiusAxis.js" targetId="d5586223-673b-44ce-b1a6-2942009e4bcf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/singleAxis.js" targetId="48397587-51bc-4507-be6c-c545412332aa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline.js" targetId="229440bd-0ad8-40e1-b5fa-d0ae7e09b08f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/SliderTimelineModel.js" targetId="61d5055e-25c3-4234-8603-081dc2e4e9eb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/SliderTimelineView.js" targetId="e047b15f-0fd4-4f9c-b7d1-f7943c3a3abc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/TimelineAxis.js" targetId="103f3d38-12cc-497c-9744-90293d886708" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/TimelineModel.js" targetId="8332496d-5af6-4eff-877e-1aead5f5d5b2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/TimelineView.js" targetId="08cbf0bd-0cf4-4cca-b2e2-600fc527218d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/preprocessor.js" targetId="3288afa3-8289-42fb-b7ab-e3426c32f560" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/timelineAction.js" targetId="4b02b219-0262-4e3b-b2d0-f19956c5c105" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/timeline/typeDefaulter.js" targetId="f82703dd-4c98-46b0-829c-795e7b5ca7d4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/title.js" targetId="a4f707d4-a570-48b8-acfb-22d9cb71d496" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox.js" targetId="97360805-63ed-48c9-9b2b-6f5e21b5291e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/ToolboxModel.js" targetId="58ecb983-ebb7-4567-a31d-daa47db8abab" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/ToolboxView.js" targetId="dcd85a64-5171-4457-b86b-baa44649b942" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/feature/Brush.js" targetId="fa75869f-64e0-4bbf-a817-a5ebae3a0d05" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/feature/DataView.js" targetId="0e3504bd-e65c-440d-a933-c9f7b72335f7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/feature/DataZoom.js" targetId="7b7436b0-7ff4-43a4-8d5c-4578fbc19d0d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/feature/MagicType.js" targetId="c6208aec-9384-4b95-99e4-35e8785d6b60" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/feature/Restore.js" targetId="948a5d68-f612-45e6-aa14-3f09e0d87d10" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/feature/SaveAsImage.js" targetId="6c388f26-c1d2-4030-84d1-1a21717947a2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/toolbox/featureManager.js" targetId="1aa73783-5bdf-44c1-853f-89862d62dbed" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/tooltip.js" targetId="a65ab7b1-9bea-4072-bdca-103fbf255ad5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/tooltip/TooltipContent.js" targetId="76e6f7a7-8bec-47c8-bf73-aa5dccf54145" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/tooltip/TooltipModel.js" targetId="c44ece3e-f5db-4629-ae03-01b1f7cc016f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/tooltip/TooltipView.js" targetId="6821b795-97c2-4e67-9157-385637f1e471" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap.js" targetId="80c43b6c-b4ac-43fc-9ef6-be0d333415de" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/ContinuousModel.js" targetId="e973cb2e-dbee-4067-8712-9c4a15516381" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/ContinuousView.js" targetId="7c69d453-51f9-49c1-afb7-f6a5ac158e1d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/PiecewiseModel.js" targetId="123484e1-7d62-4839-be8c-d9c802bd95eb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/PiecewiseView.js" targetId="918aceb4-2105-4023-aee4-1445d2d0fad4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/VisualMapModel.js" targetId="0e3780e2-bcc5-43fe-886b-aef1a541c4db" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/VisualMapView.js" targetId="09f71ed0-be7c-4e19-ad8e-ad47b8df1c56" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/helper.js" targetId="04053653-8cad-436a-8ef8-e64ba4ea3c50" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/preprocessor.js" targetId="15bb1ac9-0474-4e19-b796-afaad6cdf367" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/typeDefaulter.js" targetId="ca89b760-1086-4861-b200-c40519e5b703" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/visualEncoding.js" targetId="a9fa1885-3582-4aaf-95d9-4439bf3e71eb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMap/visualMapAction.js" targetId="d5b4657c-8a8a-41cd-811f-7ae5a10d0d2e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMapContinuous.js" targetId="11bc2a45-dcbb-4806-81e8-ef0c6b08a485" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/component/visualMapPiecewise.js" targetId="0268bd0c-52dd-4d15-90a8-d2a1763b1253" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/config.js" targetId="46eafb12-0747-40b8-aa68-a58b9e9e61ff" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/Axis.js" targetId="b6bdee76-93c8-4e4c-b829-c181d6dc5305" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/View.js" targetId="570c78db-dbe6-412d-afd2-b560ae427546" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/axisDefault.js" targetId="2858be16-892d-4841-b957-5b10f364bc97" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/axisHelper.js" targetId="359f9dec-f2f5-46de-9a65-2c903aeda206" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/axisModelCommonMixin.js" targetId="7c273562-3be9-4b31-abf8-ef67ea21caff" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/axisModelCreator.js" targetId="45d92abf-7f00-404e-aa48-4d0038cf1266" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/calendar/Calendar.js" targetId="61cea013-ec45-441c-8b91-92a3fa067c21" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/calendar/CalendarModel.js" targetId="7757673c-2eba-4314-b3b5-37780fec0c8a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/calendar/prepareCustom.js" targetId="c8b7a569-a114-4788-98e5-ee856957dc16" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/Axis2D.js" targetId="33ece7fd-ea18-4ec8-b26c-7f87586895fc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/AxisModel.js" targetId="3d5b6a3a-2416-428e-b09d-293caa84b752" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/Cartesian.js" targetId="d3c0f122-709b-45aa-bb77-7f98c773cc95" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/Cartesian2D.js" targetId="d9af36ad-30ce-4aa7-82fd-0ab2a2e3637a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/Grid.js" targetId="b89e3938-d263-43c3-beea-1888448129f7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/GridModel.js" targetId="a0c8a62c-887b-4327-a427-b7f832627ab7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/cartesian/prepareCustom.js" targetId="13f3a6ee-c104-433d-9258-9a9c1f3b09ab" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/Geo.js" targetId="cb96091a-220c-467d-86b8-357513191dae" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/GeoModel.js" targetId="1d2e8015-176f-41b7-b263-148a418f38f9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/Region.js" targetId="4730de66-be8c-4e51-8668-47c2f2fa0ed8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/fix/diaoyuIsland.js" targetId="a3b3988b-9c89-4b1a-a1ef-bd7d744e393d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/fix/geoCoord.js" targetId="79f5b5fc-f608-4ced-bbfb-8b791c21f90b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/fix/nanhai.js" targetId="5cb0ee03-6304-4df4-803c-f4d511175ebd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/fix/textCoord.js" targetId="a9e3bafd-aa80-4d52-9f6c-bf43469e3fe6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/geoCreator.js" targetId="525017a1-82e2-4765-88a5-355d8859cf9c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/parseGeoJson.js" targetId="591b919f-d9a7-4b3e-8f9f-394b6a98b602" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/geo/prepareCustom.js" targetId="dd9dccc5-0a46-4bd6-aee0-bd6e6a1ad716" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/parallel/AxisModel.js" targetId="361f0d73-d160-456b-b3a0-1ed8978e3a6d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/parallel/Parallel.js" targetId="e8c1520f-6c86-42ed-88ba-39307beac16f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/parallel/ParallelAxis.js" targetId="9a5ea2e8-111d-4660-9a66-70f0204b2813" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/parallel/ParallelModel.js" targetId="3f4bbe61-e240-4ac0-a301-a85ae790e981" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/parallel/parallelCreator.js" targetId="1ed97b16-fd48-48fd-921b-902c0804694e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/parallel/parallelPreprocessor.js" targetId="986b7e31-00ed-4876-8758-f3e376894877" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/AngleAxis.js" targetId="ffbed982-e38f-440f-b98c-98f466451465" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/AxisModel.js" targetId="4ef9e5c7-30ad-4a3a-821d-85a9d2498f5a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/Polar.js" targetId="9d96a00f-21b1-405e-b51f-ac02bf59f4ef" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/PolarModel.js" targetId="2aa7ffc7-7657-4dbd-9a9c-9056415cfa34" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/RadiusAxis.js" targetId="cb6d7d1c-91a9-475f-b225-5105e7c9d011" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/polarCreator.js" targetId="3b5d1c75-c9d0-4538-aa44-8330bca1433f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/polar/prepareCustom.js" targetId="f377db80-1df9-467c-8dce-2e89f06336a3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/radar/IndicatorAxis.js" targetId="ea850fb2-fd59-4d12-b37c-a8a3558741ca" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/radar/Radar.js" targetId="eaf03890-786c-435a-a603-4961dfc502cc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/radar/RadarModel.js" targetId="0d386a09-28b0-43d8-aa7a-5fd73cf87154" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/single/AxisModel.js" targetId="75c7a2fb-348f-4b85-9c58-9f38e3be886e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/single/Single.js" targetId="c4cfa902-60c7-43aa-b510-dd8866fb20bc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/single/SingleAxis.js" targetId="04ff6d48-26cd-4977-ab79-93a8d5574b68" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/single/prepareCustom.js" targetId="4cf65b4c-00e2-4724-89f4-3043e775bab2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/coord/single/singleCreator.js" targetId="25343484-9e9c-4bf5-9bb2-da41ff4ad213" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/data/DataDiffer.js" targetId="fdbebfbd-9b27-4404-8268-6a69610695be" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/data/Graph.js" targetId="68d6735c-5865-4fc3-86ec-590a6205aeb4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/data/List.js" targetId="ad7e717a-f6d5-42be-83b9-6802823a315c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/data/Tree.js" targetId="a53c4c99-6309-4448-ba7d-90942a293488" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/data/helper/completeDimensions.js" targetId="39b052ef-257f-492d-a368-5f98aeff85a3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/data/helper/linkList.js" targetId="e4c60859-4601-4e2c-af67-88efc30fd91d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/echarts.js" targetId="37d6180b-7091-4572-aa75-20e1f2d9ae8b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/export.js" targetId="28daa4b3-5678-4073-99b5-a3d333301169" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/helper.js" targetId="c9a10988-5592-4add-ba62-25e7ee606632" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/lang.js" targetId="7e8415dd-5d2b-410a-a072-e29137d55916" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/langEN.js" targetId="21fbd86a-d06e-4af7-b671-d302b89a6938" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/langFI.js" targetId="77838822-dea4-43c3-a7aa-92fbaece9cb2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/layout/barGrid.js" targetId="534e098c-33ac-44ab-a72c-7c4b0b162884" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/layout/barPolar.js" targetId="d4045a9c-50b2-4be4-94bd-0acb2e3fd824" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/layout/points.js" targetId="b548232b-609f-4d29-9619-f31abe354426" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/loading/default.js" targetId="e52730fd-a28e-4a78-9cc0-67d6af2cdf1b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/Component.js" targetId="98a7b999-4e13-42d6-a9d0-6d7836892a9d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/Global.js" targetId="084444df-1487-44d0-a4d1-3c12a59431f5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/Model.js" targetId="f050c7b1-0939-4337-a92b-6237655874e6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/OptionManager.js" targetId="8f2ec8dd-96fc-46eb-b50c-a9106d3f7990" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/Series.js" targetId="50a41b33-1e52-4db3-a1e1-3de1e32417db" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/globalDefault.js" targetId="35fbfa83-c812-46fa-88a4-ade0fb016856" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/areaStyle.js" targetId="35b136d6-cb24-4730-b329-ab01031414d4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/boxLayout.js" targetId="b1622b54-d117-4d6a-bf7f-aa65bfdcbb57" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/colorPalette.js" targetId="2ea2e576-c047-4155-91f8-d93455684037" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/itemStyle.js" targetId="67256bbb-8438-4177-85d8-2610626f2cd9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/lineStyle.js" targetId="abe54f5a-d298-4467-b814-d89801c1eecf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/makeStyleMapper.js" targetId="599f46b2-3c75-4be8-bcb8-e5b44dac3771" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/model/mixin/textStyle.js" targetId="99103aac-d7e9-4aae-be2d-2c3b7e6b0c50" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/preprocessor/backwardCompat.js" targetId="f059cfd4-de71-42bf-a611-aaca98bf5798" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/preprocessor/helper/compatStyle.js" targetId="1747314b-c4c6-4354-b90a-e60f2113c00f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/processor/dataFilter.js" targetId="76ee77a2-e547-4761-bef3-94994f45dcdc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/processor/dataSample.js" targetId="d3f73449-ca90-4084-9c1a-7539bc5c3f02" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/scale/Interval.js" targetId="a6653939-cc10-4809-a1ee-08f11374efdd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/scale/Log.js" targetId="97c54ad3-b7ef-4dc9-9403-aa70e4035e66" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/scale/Ordinal.js" targetId="c4c64976-87d7-4e6e-ae2f-42e486eef4c4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/scale/Scale.js" targetId="098a8942-27be-4932-9b2a-bd183f8476d2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/scale/Time.js" targetId="32aa7e87-fb14-494a-a258-a063e4576092" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/scale/helper.js" targetId="5beda93c-f135-4c9f-851b-d93291cdf618" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/KDTree.js" targetId="a34ba1b8-b9d4-43a3-8087-a5c36e8c4bcc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/animation.js" targetId="4baba161-c10b-4d57-bf88-01dca2e69636" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/array/nest.js" targetId="5b326a8a-0c4a-43f7-afe6-9024c71ddc80" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/clazz.js" targetId="e6fc4989-a3ae-4a0f-97ea-574f06f0ccf9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/component.js" targetId="93e45d7e-68be-478b-b996-7466da13213d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/format.js" targetId="c9d26df7-7bb0-47c2-9dc5-1faf1c419c90" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/graphic.js" targetId="bd2b761a-dc74-493d-b8c0-e95b82d3e8aa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/layout.js" targetId="bd8ffe6b-409a-42da-a9a4-408c4fa25f5f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/model.js" targetId="ecc4713d-8fe9-4bee-b6bf-7e6cddd65f60" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/number.js" targetId="452ab92d-7e9c-4823-aa53-ff0521a9cb94" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/quickSelect.js" targetId="9b302f29-28db-4d12-b8c7-cf457b76d017" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/symbol.js" targetId="aa3eb0a7-76e0-4579-a1e6-5051af8a913e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/util/throttle.js" targetId="4a83c44f-8945-476b-b2df-ffa316c3f945" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/view/Chart.js" targetId="3b1a3282-fb95-46d2-9485-cf617f7cb80c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/view/Component.js" targetId="34467f80-e1e8-4935-a859-e783aab2b2c2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/visual/VisualMapping.js" targetId="c850d699-1407-48de-9e07-ed220ddcacc7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/visual/dataColor.js" targetId="90bb066a-f53d-4279-91ae-5d453c873194" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/visual/seriesColor.js" targetId="bae5d573-2614-4f52-9507-87923dae8f9d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/visual/symbol.js" targetId="d158baef-df52-4171-8a17-ddbceccdc273" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/visual/visualDefault.js" targetId="d80c0667-123f-4ae8-85ad-99863745efb7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="src/visual/visualSolution.js" targetId="1a1f8ca8-596c-44d0-8368-6f2c86aaff24" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/dark.js" targetId="2303a9e3-4848-4c79-ae86-f73e20aa453f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/infographic.js" targetId="b6939199-6184-4171-b11c-13a56f8f41b3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/macarons.js" targetId="af92c058-afdd-44f6-a3e8-c1bf05337ca3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/roma.js" targetId="cd8e614c-936d-460e-bd24-233d71529736" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/shine.js" targetId="14f4bda1-7b43-4961-a82e-24d7e2b26634" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/option/area.js" targetId="8d7d611e-3734-4ad0-8680-a3e9db14d91e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/option/bar.js" targetId="ea04fe75-b7e6-4a4b-8cd7-8b234e4ef57e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/option/graph.js" targetId="f3d53b71-40b2-41e2-b731-9e020b3bc5d2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/option/map.js" targetId="1a3e0b66-a916-4742-a188-4a48b90097e4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/option/pie.js" targetId="f6fc3886-abb2-4cdf-95e7-00fdda97aa3b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/option/scatter.js" targetId="d003a7a2-6a3b-4eae-9e18-16403aa3e8f5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/tool/thumb.js" targetId="932a2acc-0608-4aff-86ca-5ecc23795fe9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="ff6461ca-5425-4573-b509-16a26f521ce9" sourceType="CodeComponent" targetName="theme/vintage.js" targetId="554d3500-024f-4a04-b90d-020d9f20ae8c" targetType="SourceFile" />
+    </dependencies>
+</SystemLevel>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemLevel name="opensource-netdata" id="720e1f79-0445-4da2-ad57-0c82aaa3cefc" volume="86030.0">
+    <DeployableComponent name="profile/" id="f33cba73-9231-41fa-af50-45db131db89c" volume="76621.0">
+        <CodeComponent name="REMAINDER" id="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" volume="76621.0">
+            <SourceFile name="node.d/named.node.js" id="fd275a18-132c-4f75-a7bf-9d931ee9badb" volume="454.0" />
+            <SourceFile name="node.d/sma_webbox.node.js" id="bf11a9a5-2468-4ef4-852a-c18296c48670" volume="174.0" />
+            <SourceFile name="node.d/snmp.node.js" id="7d6ed56b-d3f4-4e4f-ae7e-56c46239db6b" volume="269.0" />
+            <SourceFile name="profile/benchmark-dictionary.c" id="0d148b21-18cc-486a-acf3-d8c9cc4b6a9e" volume="90.0" />
+            <SourceFile name="profile/benchmark-registry.c" id="3d3eceab-bca6-4c0b-a267-3874e4a3743c" volume="151.0" />
+            <SourceFile name="profile/statsd-stress.c" id="d0900038-076a-40af-ac0c-7e07e73716c8" volume="106.0" />
+            <SourceFile name="python.d/apache.chart.py" id="e86214eb-82d7-4894-b801-3728c1e653d9" volume="100.0" />
+            <SourceFile name="python.d/apache_cache.chart.py" id="da7d298e-af2c-4abc-8cee-5c868ea7950c" volume="48.0" />
+            <SourceFile name="python.d/bind_rndc.chart.py" id="99ca3c41-e25a-4190-ad82-65fc07a246fd" volume="175.0" />
+            <SourceFile name="python.d/cpufreq.chart.py" id="15e41f1f-dab5-4e39-b7d5-2e2401353a21" volume="86.0" />
+            <SourceFile name="python.d/cpuidle.chart.py" id="aee95d1e-764d-48d1-bfa0-1e402b6a8a42" volume="99.0" />
+            <SourceFile name="python.d/dns_query_time.chart.py" id="25acb5ba-078e-4aa2-85c9-74166cf7a12e" volume="107.0" />
+            <SourceFile name="python.d/dovecot.chart.py" id="339e8540-88ec-496e-b20f-657a717834fa" volume="112.0" />
+            <SourceFile name="python.d/elasticsearch.chart.py" id="c8d3d59e-5046-4280-989a-d83a92ac3c32" volume="400.0" />
+            <SourceFile name="python.d/example.chart.py" id="981f4bb8-bd44-4a00-8a50-588d0e5c6fe3" volume="24.0" />
+            <SourceFile name="python.d/exim.chart.py" id="318aec9d-edb4-43eb-aae2-f924247c5a96" volume="26.0" />
+            <SourceFile name="python.d/fail2ban.chart.py" id="233f6153-1043-4ca6-bf4a-624e2bb4c54e" volume="121.0" />
+            <SourceFile name="python.d/freeradius.chart.py" id="5db9a662-a206-4de2-81d0-370a4f7b4f4d" volume="88.0" />
+            <SourceFile name="python.d/go_expvar.chart.py" id="f962da24-4cab-409d-978e-772eb9d5bfa2" volume="164.0" />
+            <SourceFile name="python.d/haproxy.chart.py" id="c05b956f-3fe6-463d-8220-2b2f6803799b" volume="166.0" />
+            <SourceFile name="python.d/hddtemp.chart.py" id="ba988160-73d3-40f7-94b7-490a8bd9fcfd" volume="85.0" />
+            <SourceFile name="python.d/ipfs.chart.py" id="1d76bc25-ca8b-4df0-b2d7-1d10d9177169" volume="91.0" />
+            <SourceFile name="python.d/isc_dhcpd.chart.py" id="c7a9f530-41ff-4b0f-97a7-293be08b3a74" volume="118.0" />
+            <SourceFile name="python.d/mdstat.chart.py" id="a3a61af3-464f-4fb6-9e0f-f9b2b190fb31" volume="99.0" />
+            <SourceFile name="python.d/memcached.chart.py" id="b9fd0bca-a56e-41fb-bd43-6e2587f5ad93" volume="149.0" />
+            <SourceFile name="python.d/mongodb.chart.py" id="3fec4295-4adc-4047-ab5c-10a94b8c5574" volume="600.0" />
+            <SourceFile name="python.d/mysql.chart.py" id="2cbdf478-0abd-443e-99c5-a2e8e65d8a51" volume="413.0" />
+            <SourceFile name="python.d/nginx.chart.py" id="44bfddd2-4023-41fe-8e33-36eecb033d98" volume="52.0" />
+            <SourceFile name="python.d/nsd.chart.py" id="abb4d7fe-d947-4e7b-bee4-40e44e8b5d67" volume="80.0" />
+            <SourceFile name="python.d/ovpn_status_log.chart.py" id="7831d6bd-805b-44cc-9fae-340caad5139d" volume="83.0" />
+            <SourceFile name="python.d/phpfpm.chart.py" id="bf276dad-e73e-469a-9d84-f12eaa451d27" volume="115.0" />
+            <SourceFile name="python.d/postfix.chart.py" id="2633d669-c4ea-4924-bb15-6d72add46d1c" volume="36.0" />
+            <SourceFile name="python.d/postgres.chart.py" id="29133f24-cbde-43e8-b9aa-3ecb9588b0ca" volume="300.0" />
+            <SourceFile name="python.d/rabbitmq.chart.py" id="99c749ee-5325-4105-bccb-948989594b18" volume="158.0" />
+            <SourceFile name="python.d/redis.chart.py" id="3c5d2266-da49-4d77-a0a5-126b31bb32c4" volume="141.0" />
+            <SourceFile name="python.d/retroshare.chart.py" id="f89e5b8c-c1f0-47f1-8704-696c280d822d" volume="57.0" />
+            <SourceFile name="python.d/samba.chart.py" id="5f06e748-bddf-4bed-8092-cc26fc2702ff" volume="93.0" />
+            <SourceFile name="python.d/sensors.chart.py" id="ea148b19-a632-4206-b528-58fc3a5d2799" volume="139.0" />
+            <SourceFile name="python.d/smartd_log.chart.py" id="ef56776b-2716-4dcd-b36c-ec6332701326" volume="175.0" />
+            <SourceFile name="python.d/squid.chart.py" id="f292ee04-8a58-4b5a-b970-4f37a85d3c45" volume="93.0" />
+            <SourceFile name="python.d/tomcat.chart.py" id="57a7b14d-fce0-43f3-93fd-e4bc5e44fbce" volume="57.0" />
+            <SourceFile name="python.d/varnish.chart.py" id="1e87b444-a31a-44f3-adef-0d73fa7c49e9" volume="163.0" />
+            <SourceFile name="python.d/web_log.chart.py" id="1e2c6251-d23c-409c-9570-acd203bd475d" volume="654.0" />
+            <SourceFile name="src/adaptive_resortable_list.c" id="af0f84cc-2821-470e-928a-43aef3d83ab2" volume="138.0" />
+            <SourceFile name="src/adaptive_resortable_list.h" id="1ba57b03-36c5-458e-b61a-985ac00afd4c" volume="51.0" />
+            <SourceFile name="src/appconfig.c" id="7661d2f9-a110-46a1-aedb-24a261f0fc03" volume="414.0" />
+            <SourceFile name="src/appconfig.h" id="cb4ba7c5-bdf2-4dff-a125-f47cb43a8f87" volume="22.0" />
+            <SourceFile name="src/apps_plugin.c" id="320d2ce4-8e2e-4f68-aa92-c2560e2fc74c" volume="2209.0" />
+            <SourceFile name="src/avl.c" id="ffd82cb5-483c-4e60-a2a4-ac6fcfb3459b" volume="281.0" />
+            <SourceFile name="src/avl.h" id="35db4e10-7c06-4238-91df-bf3a49b5297a" volume="23.0" />
+            <SourceFile name="src/backends.c" id="6a38a77e-725e-4ab1-89b0-70b0ba1da876" volume="558.0" />
+            <SourceFile name="src/backends.h" id="647f5c4b-efdf-4db6-8605-73087656c7bc" volume="1.0" />
+            <SourceFile name="src/clocks.c" id="530fe1c1-b0ed-4267-b620-333c5405627e" volume="106.0" />
+            <SourceFile name="src/clocks.h" id="365406b3-5713-4cc5-a645-5e893ddef927" volume="27.0" />
+            <SourceFile name="src/common.c" id="4ad64fcb-24c5-4737-b515-ecba37b3d65f" volume="994.0" />
+            <SourceFile name="src/common.h" id="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" volume="46.0" />
+            <SourceFile name="src/daemon.c" id="1f3f23d7-6105-46e8-aa04-5f7a4a504f48" volume="274.0" />
+            <SourceFile name="src/daemon.h" id="491a8c79-3e61-49ab-a995-71d90f37487a" volume="8.0" />
+            <SourceFile name="src/dictionary.c" id="42bc1966-f0ca-431d-ad27-f3b9f886c75b" volume="196.0" />
+            <SourceFile name="src/dictionary.h" id="c6bbc2a2-c40f-4f2a-9d56-de4e3d9c5485" volume="24.0" />
+            <SourceFile name="src/eval.c" id="bec16a64-c6ea-4489-880a-a91f7804ff8f" volume="856.0" />
+            <SourceFile name="src/eval.h" id="9fabab66-9ea2-4b44-b313-e00ada2fef09" volume="23.0" />
+            <SourceFile name="src/freebsd_devstat.c" id="4994d7e0-52b0-4962-a397-998e5208a514" volume="518.0" />
+            <SourceFile name="src/freebsd_getifaddrs.c" id="6c6ee50b-5849-4acb-bb73-549d9216afc7" volume="376.0" />
+            <SourceFile name="src/freebsd_getmntinfo.c" id="5d238103-b825-4737-82b7-2fa242b3aafe" volume="210.0" />
+            <SourceFile name="src/freebsd_kstat_zfs.c" id="1b42dd3a-da6f-4b58-a437-3417b7672cb3" volume="146.0" />
+            <SourceFile name="src/freebsd_sysctl.c" id="8255eea9-f7a3-4bb0-b644-bb69f632ae4d" volume="2184.0" />
+            <SourceFile name="src/freeipmi_plugin.c" id="c96bdafb-c4cd-48b0-ae63-15798e3ec1dd" volume="1205.0" />
+            <SourceFile name="src/global_statistics.c" id="2d5c493e-e2b5-4234-9871-1a83c2582c97" volume="184.0" />
+            <SourceFile name="src/global_statistics.h" id="acba109d-d79b-4ce0-aaba-a015b5ec44d8" volume="22.0" />
+            <SourceFile name="src/health.c" id="c049376c-4fd7-49b5-b26a-9af62c8cdb7c" volume="525.0" />
+            <SourceFile name="src/health.h" id="67d6371e-e58a-4799-85c1-02f5273d55ac" volume="232.0" />
+            <SourceFile name="src/health_config.c" id="8a31915e-6b4a-4ef8-9943-7921612518be" volume="719.0" />
+            <SourceFile name="src/health_json.c" id="d6062089-f303-4813-b96e-df067b5e8231" volume="154.0" />
+            <SourceFile name="src/health_log.c" id="60bbfcdd-26d7-4f84-bfd2-7e39b0f49030" volume="348.0" />
+            <SourceFile name="src/inlined.h" id="7fa11153-d762-4a8c-8e6b-3bfafe01bfdc" volume="202.0" />
+            <SourceFile name="src/ipc.c" id="8fd223a9-714c-4efc-84b4-bf8dc3451af6" volume="167.0" />
+            <SourceFile name="src/ipc.h" id="ba99738a-2923-4bbe-9987-7ddf62fc7172" volume="1.0" />
+            <SourceFile name="src/locks.h" id="8895a4da-c975-42db-b044-dcd4b6705d64" volume="173.0" />
+            <SourceFile name="src/log.c" id="c71cf18d-4584-41c3-ab88-8221572a99a6" volume="278.0" />
+            <SourceFile name="src/log.h" id="cfbc4292-7541-4963-9ed3-f79fff63d25a" volume="21.0" />
+            <SourceFile name="src/macos_fw.c" id="6455cce3-05a9-4a98-9590-b389cd10d60e" volume="358.0" />
+            <SourceFile name="src/macos_mach_smi.c" id="8c9d49da-9162-4d12-aa49-2437af55460f" volume="135.0" />
+            <SourceFile name="src/macos_sysctl.c" id="3293f8bc-ad7d-4bcd-81a2-49099a23198a" volume="847.0" />
+            <SourceFile name="src/main.c" id="15ff7130-a6d0-469a-be45-05165ae75579" volume="657.0" />
+            <SourceFile name="src/main.h" id="e74d639c-03cc-4be3-8f29-2ec9e07ea4f7" volume="19.0" />
+            <SourceFile name="src/plugin_checks.c" id="28853847-7268-4344-ac19-b590aacf6ac8" volume="57.0" />
+            <SourceFile name="src/plugin_checks.h" id="a5c68f2b-ed63-4fa0-8b3d-3494e9f5e390" volume="1.0" />
+            <SourceFile name="src/plugin_freebsd.c" id="039194cc-fa48-4542-9b56-3db987dd3ebf" volume="104.0" />
+            <SourceFile name="src/plugin_freebsd.h" id="3358ff65-fe6e-490e-9241-6831d3bd0dfd" volume="90.0" />
+            <SourceFile name="src/plugin_idlejitter.c" id="1c8b5496-0266-48c7-9eb7-d07df5f4f385" volume="67.0" />
+            <SourceFile name="src/plugin_idlejitter.h" id="4b9e8ef4-1a21-4be1-b138-9f8076f28d6b" volume="1.0" />
+            <SourceFile name="src/plugin_macos.c" id="07068181-9753-4c5a-8777-de09bbeb1583" volume="46.0" />
+            <SourceFile name="src/plugin_macos.h" id="f108be6e-009d-4069-b230-b5438336d22e" volume="5.0" />
+            <SourceFile name="src/plugin_nfacct.c" id="71d48e03-3fcc-49bc-966d-cd85739bb2a6" volume="588.0" />
+            <SourceFile name="src/plugin_nfacct.h" id="15842903-da28-49ff-b064-57480eeaa9ed" volume="1.0" />
+            <SourceFile name="src/plugin_proc.c" id="af9bbf59-fd62-4943-b2eb-4d5db2afe712" volume="122.0" />
+            <SourceFile name="src/plugin_proc.h" id="a38635be-c8ca-4b6e-8931-6fb02506695c" volume="26.0" />
+            <SourceFile name="src/plugin_proc_diskspace.c" id="d1ba70da-0c3d-4bb8-8da3-954a1ba712d9" volume="296.0" />
+            <SourceFile name="src/plugin_proc_diskspace.h" id="06050dc4-cde9-4375-ad07-7f5b28aada88" volume="1.0" />
+            <SourceFile name="src/plugin_tc.c" id="0e9210f7-0d08-4f73-8ced-cfd8ef5a59a5" volume="728.0" />
+            <SourceFile name="src/plugin_tc.h" id="cc0eb474-6c58-4d20-bf45-3c09d67d65c2" volume="2.0" />
+            <SourceFile name="src/plugins_d.c" id="c7932b2d-7302-471c-a345-39125bb90cd3" volume="397.0" />
+            <SourceFile name="src/plugins_d.h" id="92bf69b0-a1ef-4749-805f-1c69ec9a9d76" volume="19.0" />
+            <SourceFile name="src/popen.c" id="a989c62d-3f51-4c80-b803-ab45ec93cd62" volume="106.0" />
+            <SourceFile name="src/popen.h" id="7003e200-d6d5-4cef-ae56-9f6976f58e0e" volume="2.0" />
+            <SourceFile name="src/proc_diskstats.c" id="de58c8a9-c079-4cf0-9226-1d0f62391989" volume="534.0" />
+            <SourceFile name="src/proc_interrupts.c" id="eca457dc-4492-4799-bea0-ac1f5da5e4e7" volume="158.0" />
+            <SourceFile name="src/proc_loadavg.c" id="fab539a9-8f01-41a0-921e-4f46f7d64204" volume="73.0" />
+            <SourceFile name="src/proc_meminfo.c" id="0365a174-ff73-416a-b403-d5f5a4f753fe" volume="189.0" />
+            <SourceFile name="src/proc_net_dev.c" id="7ac5ec1b-f728-44c9-bd1e-715fe60ae04f" volume="382.0" />
+            <SourceFile name="src/proc_net_ip_vs_stats.c" id="f41013ab-0e18-48d1-a357-8ff6b507cd5a" volume="65.0" />
+            <SourceFile name="src/proc_net_netstat.c" id="424bf4cb-6954-46d2-b385-5cd3fef90464" volume="371.0" />
+            <SourceFile name="src/proc_net_rpc_nfs.c" id="6b15ef33-10ea-4402-a40d-58b343e82623" volume="299.0" />
+            <SourceFile name="src/proc_net_rpc_nfsd.c" id="e3469ff2-5412-4156-9006-17e7b5608be7" volume="644.0" />
+            <SourceFile name="src/proc_net_snmp.c" id="12bab194-2b49-4e46-b0a8-3186bd5e338f" volume="600.0" />
+            <SourceFile name="src/proc_net_snmp6.c" id="33744373-8da9-401f-b4f6-27fc84509388" volume="767.0" />
+            <SourceFile name="src/proc_net_softnet_stat.c" id="78dd5e50-037d-4e85-ba1e-e05459d03aae" volume="93.0" />
+            <SourceFile name="src/proc_net_stat_conntrack.c" id="aa67fd3c-56e5-451c-a6b1-2b8eb2bdb594" volume="202.0" />
+            <SourceFile name="src/proc_net_stat_synproxy.c" id="b5f75f61-a994-43b7-bd57-91b63be2fa71" volume="98.0" />
+            <SourceFile name="src/proc_self_mountinfo.c" id="56b541ec-5af9-4e76-83a9-7bae427f5e78" volume="228.0" />
+            <SourceFile name="src/proc_self_mountinfo.h" id="da975db6-8253-4fcc-b183-d68be5327ae6" volume="27.0" />
+            <SourceFile name="src/proc_softirqs.c" id="da23ae51-0174-4624-bf54-0c33aa22bdfc" volume="147.0" />
+            <SourceFile name="src/proc_spl_kstat_zfs.c" id="0ba7355e-2f06-4d53-8504-527124f426ba" volume="133.0" />
+            <SourceFile name="src/proc_stat.c" id="83e1240a-8a04-4be8-81c9-558ea468d1f0" volume="173.0" />
+            <SourceFile name="src/proc_sys_kernel_random_entropy_avail.c" id="13268ce6-2f14-4b2a-b62e-f6fcb4e3eeca" volume="24.0" />
+            <SourceFile name="src/proc_uptime.c" id="dab47d84-b5bb-4d3a-9730-c77b3725a85a" volume="38.0" />
+            <SourceFile name="src/proc_vmstat.c" id="69270186-0988-486a-a46a-64b7b34be80c" volume="145.0" />
+            <SourceFile name="src/procfile.c" id="5f78f049-975f-4d4a-94e1-f83916cf48b0" volume="302.0" />
+            <SourceFile name="src/procfile.h" id="d6dc013d-50d5-4cfb-8f53-c395d121c78b" volume="42.0" />
+            <SourceFile name="src/registry.c" id="9dde97ec-e343-4cd6-8be4-c2abf34aee6b" volume="245.0" />
+            <SourceFile name="src/registry.h" id="df9f8011-20e3-4307-ab71-1f69ee970d48" volume="11.0" />
+            <SourceFile name="src/registry_db.c" id="6276ca0d-8ace-483a-a647-6777dc427c91" volume="247.0" />
+            <SourceFile name="src/registry_init.c" id="5cd148b5-121f-4a8c-bd96-ac16678c106f" volume="92.0" />
+            <SourceFile name="src/registry_internals.c" id="03ff8fc6-62fd-40cc-a84b-6e37e9dda343" volume="205.0" />
+            <SourceFile name="src/registry_internals.h" id="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" volume="45.0" />
+            <SourceFile name="src/registry_log.c" id="a033ed71-8406-4852-b7ec-a6365a4f54ad" volume="94.0" />
+            <SourceFile name="src/registry_machine.c" id="ad5cb0ec-bf01-41ce-92ce-4921c0241dce" volume="66.0" />
+            <SourceFile name="src/registry_machine.h" id="e453f878-752b-450a-9f1a-f5ba37ec4d00" volume="22.0" />
+            <SourceFile name="src/registry_person.c" id="2b693122-e60e-4b97-bcbf-5b0a54618602" volume="184.0" />
+            <SourceFile name="src/registry_person.h" id="1299fa11-9e2a-4be7-8844-394305297ccc" volume="30.0" />
+            <SourceFile name="src/registry_url.c" id="ed368600-e828-441b-a465-f76d47827970" volume="65.0" />
+            <SourceFile name="src/registry_url.h" id="2a29511e-23f3-4ce4-919a-4684fc564aa8" volume="14.0" />
+            <SourceFile name="src/rrd.c" id="3c890f39-77e5-4816-a581-6a43384782ab" volume="88.0" />
+            <SourceFile name="src/rrd.h" id="adaa8f36-9356-4280-82e5-b9b469bff15c" volume="280.0" />
+            <SourceFile name="src/rrd2json.c" id="911ea45a-9dda-4a90-9288-457802c3eaec" volume="1369.0" />
+            <SourceFile name="src/rrd2json.h" id="391e5e45-b3a2-494f-a18e-17171fb29703" volume="12.0" />
+            <SourceFile name="src/rrd2json_api_old.c" id="7b71038e-6d8e-42f1-adcd-24f1fb75f8cb" volume="318.0" />
+            <SourceFile name="src/rrd2json_api_old.h" id="559219d9-2387-4df5-92a1-41f6583746bb" volume="5.0" />
+            <SourceFile name="src/rrdcalc.c" id="c8a28496-fe7c-4686-a3ad-387ca6165b36" volume="320.0" />
+            <SourceFile name="src/rrdcalctemplate.c" id="4d9a019c-1cca-4d3d-912f-233d72e5d6c2" volume="45.0" />
+            <SourceFile name="src/rrddim.c" id="5cfb1d1e-e3a1-446d-8a08-32e418021b17" volume="255.0" />
+            <SourceFile name="src/rrddimvar.c" id="c96bfb93-60e3-4093-9c3f-fc0436d9b751" volume="119.0" />
+            <SourceFile name="src/rrdfamily.c" id="ea33e3c6-a17d-4b16-95ce-f9da90af88bd" volume="38.0" />
+            <SourceFile name="src/rrdhost.c" id="f84a30e0-d64e-459b-bc2e-8ecdb3c9f608" volume="404.0" />
+            <SourceFile name="src/rrdpush.c" id="12e255db-8515-4100-b2ea-addc4baa4d47" volume="581.0" />
+            <SourceFile name="src/rrdpush.h" id="f1fd6478-23fa-43ab-963f-984d0ed9c62f" volume="9.0" />
+            <SourceFile name="src/rrdset.c" id="c016801a-af67-432d-8216-068987ff6fa8" volume="881.0" />
+            <SourceFile name="src/rrdsetvar.c" id="1b7f3cf0-5aca-44ad-9309-f42a21f43d32" volume="70.0" />
+            <SourceFile name="src/rrdvar.c" id="908319cf-c00e-47f1-b71a-1ea331d959d0" volume="198.0" />
+            <SourceFile name="src/simple_pattern.c" id="cf93b603-7010-4195-b180-8165bf5e7b83" volume="140.0" />
+            <SourceFile name="src/simple_pattern.h" id="3dc344cd-7480-4176-9f5a-8fb76b0e1370" volume="10.0" />
+            <SourceFile name="src/socket.c" id="2642b6f8-ab3c-4b07-9ab2-8b325f288974" volume="825.0" />
+            <SourceFile name="src/socket.h" id="ac16ca8a-a234-4102-acf3-359a6517d4c4" volume="32.0" />
+            <SourceFile name="src/statistical.c" id="806d3824-3977-4c3c-ac68-26649a772a7c" volume="309.0" />
+            <SourceFile name="src/statistical.h" id="5b32e294-8dbd-47fe-8c67-e30e631f644c" volume="14.0" />
+            <SourceFile name="src/statsd.c" id="494fe535-18f7-4194-a55f-36f68e7bee46" volume="1534.0" />
+            <SourceFile name="src/statsd.h" id="8af44797-b273-4613-b145-e5063d3d3789" volume="1.0" />
+            <SourceFile name="src/storage_number.c" id="76e1ac5f-0703-4a79-b190-b67af9500af7" volume="91.0" />
+            <SourceFile name="src/storage_number.h" id="d1086590-7827-4b92-8b72-08dad3dca720" volume="6.0" />
+            <SourceFile name="src/sys_devices_system_edac_mc.c" id="0481031d-e94d-4099-8ac2-c84d5b8356f2" volume="139.0" />
+            <SourceFile name="src/sys_devices_system_node.c" id="67ab2fb1-8339-4297-a812-9ff4e03b94ce" volume="124.0" />
+            <SourceFile name="src/sys_fs_cgroup.c" id="98ae9575-5859-41ec-8665-9f6665c4cc82" volume="1929.0" />
+            <SourceFile name="src/sys_kernel_mm_ksm.c" id="6b8c8872-0f09-4a54-9700-07bb038628c4" volume="103.0" />
+            <SourceFile name="src/url.c" id="f99292c9-62f6-4013-924c-e4a742f169bc" volume="50.0" />
+            <SourceFile name="src/url.h" id="09179c17-861d-4e4d-b6bd-7b8c990fb1e2" volume="5.0" />
+            <SourceFile name="src/web_api_old.c" id="09fb1eee-1412-465b-b52b-8903cdae1175" volume="179.0" />
+            <SourceFile name="src/web_api_old.h" id="b49f19f7-b10b-4991-b404-a8b178175960" volume="6.0" />
+            <SourceFile name="src/web_api_v1.c" id="7ebc5b6e-307f-4c2f-9e47-a803f8a4e976" volume="734.0" />
+            <SourceFile name="src/web_api_v1.h" id="4a0d344c-e8de-4cbb-a80b-bf7a96ae4366" volume="15.0" />
+            <SourceFile name="src/web_buffer.c" id="7d6e3d34-8e14-4a05-8e67-158b6342c746" volume="259.0" />
+            <SourceFile name="src/web_buffer.h" id="a7891184-3320-4a6c-99d6-3360a764b60e" volume="26.0" />
+            <SourceFile name="src/web_buffer_svg.c" id="47408187-e79d-4747-a23c-87a6b9a2af4a" volume="656.0" />
+            <SourceFile name="src/web_buffer_svg.h" id="8a77cfae-89e3-4432-8ebf-e503975a7707" volume="2.0" />
+            <SourceFile name="src/web_client.c" id="03c66dbd-afd8-4d44-bc7c-d1f9a818ee2d" volume="1232.0" />
+            <SourceFile name="src/web_client.h" id="e385da4f-02f6-48d8-8911-7c1cac0aee38" volume="68.0" />
+            <SourceFile name="src/web_server.c" id="7036fe00-a01d-4349-aad6-fb625d44d9b6" volume="261.0" />
+            <SourceFile name="src/web_server.h" id="79b1d5c9-c479-4572-b0ef-371314213a6e" volume="11.0" />
+            <SourceFile name="src/zfs_common.c" id="c90abea8-9a5a-46b7-9bd8-f354e95097e8" volume="512.0" />
+            <SourceFile name="src/zfs_common.h" id="5f0c5477-3050-4b97-b0da-35a10df7a45c" volume="96.0" />
+            <SourceFile name="web/css/bootstrap-3.3.7.css" id="5c97d996-27a8-45b0-9e64-62e2f01d9536" volume="6743.0" />
+            <SourceFile name="web/css/bootstrap-slate-flat-3.3.7.css" id="29cf8e46-b664-468c-bc8c-d7219b7f4ec5" volume="7087.0" />
+            <SourceFile name="web/css/bootstrap-theme-3.3.7.min.css" id="819cd696-a259-4a0f-bc2f-a107d152ec6b" volume="1.0" />
+            <SourceFile name="web/css/bootstrap-toggle-2.2.2.min.css" id="780e9919-6afd-41bb-ae17-e6c628f34c1d" volume="21.0" />
+            <SourceFile name="web/css/c3-0.4.11.min.css" id="ac2e491f-84ab-4328-8537-f1f3825db133" volume="1.0" />
+            <SourceFile name="web/css/font-awesome.min.css" id="c0ea64df-a1df-478d-bd66-0b40eebdc2e6" volume="2.0" />
+            <SourceFile name="web/css/morris-0.5.1.css" id="868e3ebd-073a-4422-977d-8803732800f6" volume="2.0" />
+            <SourceFile name="web/dashboard.css" id="61657d4d-1a46-4998-abc6-8f0ed5f97f8f" volume="572.0" />
+            <SourceFile name="web/dashboard.html" id="08c02189-12d5-4e2b-8140-ea27a7596bdc" volume="615.0" />
+            <SourceFile name="web/dashboard.js" id="2e6a4be7-7108-4206-95db-405e9be67fcc" volume="5166.0" />
+            <SourceFile name="web/dashboard.slate.css" id="3c1448cb-32d8-4787-9dd4-726525a6c430" volume="586.0" />
+            <SourceFile name="web/dashboard_info.js" id="80709950-0722-4814-9f31-a2a7addc36ec" volume="1040.0" />
+            <SourceFile name="web/dashboard_info_custom_example.js" id="5787aacb-0aae-4581-8976-ba71391bc913" volume="6.0" />
+            <SourceFile name="web/demo.html" id="14d1c3fc-a939-4037-b024-18f5ae1ac89c" volume="47.0" />
+            <SourceFile name="web/demo2.html" id="fedcd30a-aea6-479a-aaaf-053ada642607" volume="134.0" />
+            <SourceFile name="web/demosites.html" id="5d008a34-aab3-44c1-a684-7aad41e9a254" volume="1108.0" />
+            <SourceFile name="web/demosites2.html" id="edd90918-0697-4b4a-a4d5-300f308dea6d" volume="1003.0" />
+            <SourceFile name="web/goto-host-from-alarm.html" id="d683aa9f-a846-437d-a906-955a3e327ef7" volume="174.0" />
+            <SourceFile name="web/index.html" id="cb21475f-3001-4c85-9dc2-01c4b9ae9e9b" volume="2895.0" />
+            <SourceFile name="web/infographic.html" id="a6d07e15-1cd3-4ec1-9d7b-a9566e24aaf8" volume="153.0" />
+            <SourceFile name="web/netdata-swagger.yaml" id="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" volume="447.0">
+                <EndPoint name="/api/v1/allmetrics" id="0dcdd265-70c7-422b-8f1c-38651f435a01" />
+                <EndPoint name="/api/v1/badge.svg" id="0cbaa566-6e94-43e7-b959-f742a84cd212" />
+                <EndPoint name="/api/v1/chart" id="0a5992e7-9d50-42e9-a3cb-31e698a736ac" />
+                <EndPoint name="/api/v1/charts" id="e6f7a6bf-9903-4794-898e-9c66d61af02a" />
+                <EndPoint name="/api/v1/data" id="cb6296b6-00cc-4c61-a8b9-af7de8ddbac0" />
+            </SourceFile>
+            <SourceFile name="web/old/datasource.html" id="666a6abb-9f2a-4b8f-8802-99929b53d918" volume="50.0" />
+            <SourceFile name="web/old/index.html" id="468e366c-8a6b-4228-ae5d-289a1cd9f536" volume="192.0" />
+            <SourceFile name="web/old/index.js" id="1f3fe64e-a468-4da3-86fd-91131a484cd5" volume="846.0" />
+            <SourceFile name="web/old/netdata.js" id="e240ba58-4f97-4d07-a841-3daac404ddc7" volume="361.0" />
+            <SourceFile name="web/old/theme.css" id="30b2c950-b8d0-4e9b-89b5-95557b9f9443" volume="74.0" />
+            <SourceFile name="web/registry.html" id="95c43ea3-293f-4919-b95c-fcac74f9ad59" volume="148.0" />
+            <SourceFile name="web/tv.html" id="1f462477-3beb-4aa2-9c89-ceb17f6e4b86" volume="230.0" />
+        </CodeComponent>
+    </DeployableComponent>
+    <CodeComponent name="python.d.python_modules" id="63f03997-e330-4463-b3dd-b74c56f20a90" volume="9409.0">
+        <CodeComponent name="python.d.python_modules.pyyaml2" id="1967552e-add1-41b2-b3e7-66dc3cf080bf" volume="4259.0">
+            <SourceFile name="python.d/python_modules/pyyaml2/__init__.py" id="ba46e74b-6403-476f-a7dc-fbb4be0de2f6" volume="173.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/composer.py" id="71cb8c1c-3ee3-469e-9a5b-598515528c62" volume="103.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/constructor.py" id="8906a8cc-0f54-4272-92bb-6b0dd721532d" volume="564.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/cyaml.py" id="7d474e5f-2b7c-4c97-9958-9d5c48341744" volume="68.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/dumper.py" id="aefa8bf7-dff7-4370-ba7f-66b1e1677aa7" volume="54.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/emitter.py" id="e294b7a5-75f2-49d2-bc1a-b6026ca99650" volume="956.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/error.py" id="5b48525d-e008-440d-9541-8d2f9597c85f" volume="66.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/events.py" id="5a2c4ee7-d342-4f50-b627-85e69ee6d9f3" volume="68.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/loader.py" id="cdd877c4-f852-49ad-949c-af4bd5efebed" volume="32.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/nodes.py" id="b33fa43e-6c0f-4248-be40-decd5505a2e5" volume="32.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/parser.py" id="0f3d3c3d-caeb-4dd7-a782-fac7c852d410" volume="412.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/reader.py" id="4ad3dc0f-63f9-46d6-8539-af581e6ffa23" volume="140.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/representer.py" id="9ef190b4-a30f-4501-94d4-e604bf927eca" volume="357.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/resolver.py" id="c4f420e2-eee7-4954-a6cf-adcb1a851082" volume="177.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/scanner.py" id="7ca7eb44-3254-44a2-b01f-1390205b919a" volume="881.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/serializer.py" id="12c30491-1089-4537-ae2b-341d6da4eab4" volume="96.0" />
+            <SourceFile name="python.d/python_modules/pyyaml2/tokens.py" id="17d17667-007d-4138-b68a-c5808760ef74" volume="80.0" />
+        </CodeComponent>
+        <CodeComponent name="python.d.python_modules.pyyaml3" id="3cbfba85-d09f-4631-9c1d-96bedda855df" volume="4179.0">
+            <SourceFile name="python.d/python_modules/pyyaml3/__init__.py" id="6a5550fa-8e4d-4c47-9648-9d3d3701319a" volume="170.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/composer.py" id="af60bb34-8704-471c-acf2-44d859435b13" volume="103.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/constructor.py" id="9df7a53b-c44a-41de-9fcb-44954c894f91" volume="574.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/cyaml.py" id="d649187a-35a7-4fe4-9da7-df98b31543aa" volume="68.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/dumper.py" id="86893c0b-eec2-461d-abb2-041f6e6512ce" volume="54.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/emitter.py" id="d9f0cc3f-2b34-420d-b5cd-eabf3ece2c86" volume="953.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/error.py" id="1cfe7ecb-1aa8-4413-90c2-f4741cfd18ec" volume="66.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/events.py" id="5a699f2c-953d-4305-841d-4e2dc53c4f3d" volume="68.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/loader.py" id="4437da5e-be7a-47ba-9051-3bbed66d4233" volume="32.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/nodes.py" id="7232d41f-e1e8-4782-a5da-0cb15e82ac1a" volume="32.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/parser.py" id="dfdbb0aa-8dd6-4d48-a149-7b0e07e298bb" volume="412.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/reader.py" id="f48db6a1-0856-4e66-a64e-41e70006bc39" volume="142.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/representer.py" id="a52c980a-d0bb-4989-8999-bfa7def172ee" volume="277.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/resolver.py" id="68a82a4f-b325-49b2-8ca5-c15c222fa277" volume="177.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/scanner.py" id="9259a4a9-b4e3-4bd6-bcb2-ede1e5b14381" volume="875.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/serializer.py" id="2af2910b-d1e0-4849-9824-f0519453b337" volume="96.0" />
+            <SourceFile name="python.d/python_modules/pyyaml3/tokens.py" id="35882fa3-5ede-469a-a2ed-6c835f828f47" volume="80.0" />
+        </CodeComponent>
+        <SourceFile name="python.d/python_modules/__init__.py" id="6fb00d46-bfe2-4b58-8246-c312eb4b707f" />
+        <SourceFile name="python.d/python_modules/base.py" id="75ef4113-ff09-4d20-95a9-3c0600e79cec" volume="749.0" />
+        <SourceFile name="python.d/python_modules/lm_sensors.py" id="8e383ccd-397b-4eb8-84c2-0cde5727ab14" volume="161.0" />
+        <SourceFile name="python.d/python_modules/msg.py" id="403c52fb-b0b4-408b-9d5c-b61664f2e5b1" volume="61.0" />
+    </CodeComponent>
+    <DataStore name="DB" id="f8ba8c4a-104c-435b-8622-1accab67a705">
+        <tables>
+            <entity name="pg_stat_database" />
+            <entity name="foo&lt;/strong&gt;" />
+            <entity name="the" />
+            <entity name="pg_stat_activity" />
+        </tables>
+        <DataStoreEntity name="foo&lt;/strong&gt;" id="a9f3ca82-72af-4ff2-92a0-b032002e1581" />
+        <DataStoreEntity name="pg_stat_activity" id="aecffbf1-7680-4bce-b280-7697cfffc61f" />
+        <DataStoreEntity name="pg_stat_database" id="bf29eb03-da33-4658-9df4-3ce0415a667f" />
+        <DataStoreEntity name="the" id="9f0d6b03-92de-4010-8736-1f639b747ee3" />
+    </DataStore>
+    <dependencies>
+        <dependency type="STORES" sourceName="DB" sourceId="f8ba8c4a-104c-435b-8622-1accab67a705" sourceType="DataStore" targetName="foo&lt;/strong&gt;" targetId="a9f3ca82-72af-4ff2-92a0-b032002e1581" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="f8ba8c4a-104c-435b-8622-1accab67a705" sourceType="DataStore" targetName="pg_stat_activity" targetId="aecffbf1-7680-4bce-b280-7697cfffc61f" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="f8ba8c4a-104c-435b-8622-1accab67a705" sourceType="DataStore" targetName="pg_stat_database" targetId="bf29eb03-da33-4658-9df4-3ce0415a667f" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="f8ba8c4a-104c-435b-8622-1accab67a705" sourceType="DataStore" targetName="the" targetId="9f0d6b03-92de-4010-8736-1f639b747ee3" targetType="DataStoreEntity" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="node.d/named.node.js" targetId="fd275a18-132c-4f75-a7bf-9d931ee9badb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="node.d/sma_webbox.node.js" targetId="bf11a9a5-2468-4ef4-852a-c18296c48670" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="node.d/snmp.node.js" targetId="7d6ed56b-d3f4-4e4f-ae7e-56c46239db6b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="profile/benchmark-dictionary.c" targetId="0d148b21-18cc-486a-acf3-d8c9cc4b6a9e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="profile/benchmark-registry.c" targetId="3d3eceab-bca6-4c0b-a267-3874e4a3743c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="profile/statsd-stress.c" targetId="d0900038-076a-40af-ac0c-7e07e73716c8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/apache.chart.py" targetId="e86214eb-82d7-4894-b801-3728c1e653d9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/apache_cache.chart.py" targetId="da7d298e-af2c-4abc-8cee-5c868ea7950c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/bind_rndc.chart.py" targetId="99ca3c41-e25a-4190-ad82-65fc07a246fd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/cpufreq.chart.py" targetId="15e41f1f-dab5-4e39-b7d5-2e2401353a21" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/cpuidle.chart.py" targetId="aee95d1e-764d-48d1-bfa0-1e402b6a8a42" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/dns_query_time.chart.py" targetId="25acb5ba-078e-4aa2-85c9-74166cf7a12e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/dovecot.chart.py" targetId="339e8540-88ec-496e-b20f-657a717834fa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/elasticsearch.chart.py" targetId="c8d3d59e-5046-4280-989a-d83a92ac3c32" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/example.chart.py" targetId="981f4bb8-bd44-4a00-8a50-588d0e5c6fe3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/exim.chart.py" targetId="318aec9d-edb4-43eb-aae2-f924247c5a96" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/fail2ban.chart.py" targetId="233f6153-1043-4ca6-bf4a-624e2bb4c54e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/freeradius.chart.py" targetId="5db9a662-a206-4de2-81d0-370a4f7b4f4d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/go_expvar.chart.py" targetId="f962da24-4cab-409d-978e-772eb9d5bfa2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/haproxy.chart.py" targetId="c05b956f-3fe6-463d-8220-2b2f6803799b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/hddtemp.chart.py" targetId="ba988160-73d3-40f7-94b7-490a8bd9fcfd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/ipfs.chart.py" targetId="1d76bc25-ca8b-4df0-b2d7-1d10d9177169" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/isc_dhcpd.chart.py" targetId="c7a9f530-41ff-4b0f-97a7-293be08b3a74" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/mdstat.chart.py" targetId="a3a61af3-464f-4fb6-9e0f-f9b2b190fb31" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/memcached.chart.py" targetId="b9fd0bca-a56e-41fb-bd43-6e2587f5ad93" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/mongodb.chart.py" targetId="3fec4295-4adc-4047-ab5c-10a94b8c5574" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/mysql.chart.py" targetId="2cbdf478-0abd-443e-99c5-a2e8e65d8a51" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/nginx.chart.py" targetId="44bfddd2-4023-41fe-8e33-36eecb033d98" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/nsd.chart.py" targetId="abb4d7fe-d947-4e7b-bee4-40e44e8b5d67" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/ovpn_status_log.chart.py" targetId="7831d6bd-805b-44cc-9fae-340caad5139d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/phpfpm.chart.py" targetId="bf276dad-e73e-469a-9d84-f12eaa451d27" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/postfix.chart.py" targetId="2633d669-c4ea-4924-bb15-6d72add46d1c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/postgres.chart.py" targetId="29133f24-cbde-43e8-b9aa-3ecb9588b0ca" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/rabbitmq.chart.py" targetId="99c749ee-5325-4105-bccb-948989594b18" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/redis.chart.py" targetId="3c5d2266-da49-4d77-a0a5-126b31bb32c4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/retroshare.chart.py" targetId="f89e5b8c-c1f0-47f1-8704-696c280d822d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/samba.chart.py" targetId="5f06e748-bddf-4bed-8092-cc26fc2702ff" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/sensors.chart.py" targetId="ea148b19-a632-4206-b528-58fc3a5d2799" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/smartd_log.chart.py" targetId="ef56776b-2716-4dcd-b36c-ec6332701326" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/squid.chart.py" targetId="f292ee04-8a58-4b5a-b970-4f37a85d3c45" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/tomcat.chart.py" targetId="57a7b14d-fce0-43f3-93fd-e4bc5e44fbce" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/varnish.chart.py" targetId="1e87b444-a31a-44f3-adef-0d73fa7c49e9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="python.d/web_log.chart.py" targetId="1e2c6251-d23c-409c-9570-acd203bd475d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/adaptive_resortable_list.c" targetId="af0f84cc-2821-470e-928a-43aef3d83ab2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/adaptive_resortable_list.h" targetId="1ba57b03-36c5-458e-b61a-985ac00afd4c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/appconfig.c" targetId="7661d2f9-a110-46a1-aedb-24a261f0fc03" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/appconfig.h" targetId="cb4ba7c5-bdf2-4dff-a125-f47cb43a8f87" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/apps_plugin.c" targetId="320d2ce4-8e2e-4f68-aa92-c2560e2fc74c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/avl.c" targetId="ffd82cb5-483c-4e60-a2a4-ac6fcfb3459b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/avl.h" targetId="35db4e10-7c06-4238-91df-bf3a49b5297a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/backends.c" targetId="6a38a77e-725e-4ab1-89b0-70b0ba1da876" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/backends.h" targetId="647f5c4b-efdf-4db6-8605-73087656c7bc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/clocks.c" targetId="530fe1c1-b0ed-4267-b620-333c5405627e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/clocks.h" targetId="365406b3-5713-4cc5-a645-5e893ddef927" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/common.c" targetId="4ad64fcb-24c5-4737-b515-ecba37b3d65f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/daemon.c" targetId="1f3f23d7-6105-46e8-aa04-5f7a4a504f48" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/daemon.h" targetId="491a8c79-3e61-49ab-a995-71d90f37487a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/dictionary.c" targetId="42bc1966-f0ca-431d-ad27-f3b9f886c75b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/dictionary.h" targetId="c6bbc2a2-c40f-4f2a-9d56-de4e3d9c5485" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/eval.c" targetId="bec16a64-c6ea-4489-880a-a91f7804ff8f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/eval.h" targetId="9fabab66-9ea2-4b44-b313-e00ada2fef09" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/freebsd_devstat.c" targetId="4994d7e0-52b0-4962-a397-998e5208a514" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/freebsd_getifaddrs.c" targetId="6c6ee50b-5849-4acb-bb73-549d9216afc7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/freebsd_getmntinfo.c" targetId="5d238103-b825-4737-82b7-2fa242b3aafe" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/freebsd_kstat_zfs.c" targetId="1b42dd3a-da6f-4b58-a437-3417b7672cb3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/freebsd_sysctl.c" targetId="8255eea9-f7a3-4bb0-b644-bb69f632ae4d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/freeipmi_plugin.c" targetId="c96bdafb-c4cd-48b0-ae63-15798e3ec1dd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/global_statistics.c" targetId="2d5c493e-e2b5-4234-9871-1a83c2582c97" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/global_statistics.h" targetId="acba109d-d79b-4ce0-aaba-a015b5ec44d8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/health.c" targetId="c049376c-4fd7-49b5-b26a-9af62c8cdb7c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/health.h" targetId="67d6371e-e58a-4799-85c1-02f5273d55ac" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/health_config.c" targetId="8a31915e-6b4a-4ef8-9943-7921612518be" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/health_json.c" targetId="d6062089-f303-4813-b96e-df067b5e8231" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/health_log.c" targetId="60bbfcdd-26d7-4f84-bfd2-7e39b0f49030" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/inlined.h" targetId="7fa11153-d762-4a8c-8e6b-3bfafe01bfdc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/ipc.c" targetId="8fd223a9-714c-4efc-84b4-bf8dc3451af6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/ipc.h" targetId="ba99738a-2923-4bbe-9987-7ddf62fc7172" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/locks.h" targetId="8895a4da-c975-42db-b044-dcd4b6705d64" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/log.c" targetId="c71cf18d-4584-41c3-ab88-8221572a99a6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/log.h" targetId="cfbc4292-7541-4963-9ed3-f79fff63d25a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/macos_fw.c" targetId="6455cce3-05a9-4a98-9590-b389cd10d60e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/macos_mach_smi.c" targetId="8c9d49da-9162-4d12-aa49-2437af55460f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/macos_sysctl.c" targetId="3293f8bc-ad7d-4bcd-81a2-49099a23198a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/main.c" targetId="15ff7130-a6d0-469a-be45-05165ae75579" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/main.h" targetId="e74d639c-03cc-4be3-8f29-2ec9e07ea4f7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_checks.c" targetId="28853847-7268-4344-ac19-b590aacf6ac8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_checks.h" targetId="a5c68f2b-ed63-4fa0-8b3d-3494e9f5e390" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_freebsd.c" targetId="039194cc-fa48-4542-9b56-3db987dd3ebf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_freebsd.h" targetId="3358ff65-fe6e-490e-9241-6831d3bd0dfd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_idlejitter.c" targetId="1c8b5496-0266-48c7-9eb7-d07df5f4f385" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_idlejitter.h" targetId="4b9e8ef4-1a21-4be1-b138-9f8076f28d6b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_macos.c" targetId="07068181-9753-4c5a-8777-de09bbeb1583" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_macos.h" targetId="f108be6e-009d-4069-b230-b5438336d22e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_nfacct.c" targetId="71d48e03-3fcc-49bc-966d-cd85739bb2a6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_nfacct.h" targetId="15842903-da28-49ff-b064-57480eeaa9ed" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_proc.c" targetId="af9bbf59-fd62-4943-b2eb-4d5db2afe712" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_proc.h" targetId="a38635be-c8ca-4b6e-8931-6fb02506695c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_proc_diskspace.c" targetId="d1ba70da-0c3d-4bb8-8da3-954a1ba712d9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_proc_diskspace.h" targetId="06050dc4-cde9-4375-ad07-7f5b28aada88" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_tc.c" targetId="0e9210f7-0d08-4f73-8ced-cfd8ef5a59a5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugin_tc.h" targetId="cc0eb474-6c58-4d20-bf45-3c09d67d65c2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugins_d.c" targetId="c7932b2d-7302-471c-a345-39125bb90cd3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/plugins_d.h" targetId="92bf69b0-a1ef-4749-805f-1c69ec9a9d76" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/popen.c" targetId="a989c62d-3f51-4c80-b803-ab45ec93cd62" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/popen.h" targetId="7003e200-d6d5-4cef-ae56-9f6976f58e0e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_diskstats.c" targetId="de58c8a9-c079-4cf0-9226-1d0f62391989" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_interrupts.c" targetId="eca457dc-4492-4799-bea0-ac1f5da5e4e7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_loadavg.c" targetId="fab539a9-8f01-41a0-921e-4f46f7d64204" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_meminfo.c" targetId="0365a174-ff73-416a-b403-d5f5a4f753fe" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_dev.c" targetId="7ac5ec1b-f728-44c9-bd1e-715fe60ae04f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_ip_vs_stats.c" targetId="f41013ab-0e18-48d1-a357-8ff6b507cd5a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_netstat.c" targetId="424bf4cb-6954-46d2-b385-5cd3fef90464" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_rpc_nfs.c" targetId="6b15ef33-10ea-4402-a40d-58b343e82623" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_rpc_nfsd.c" targetId="e3469ff2-5412-4156-9006-17e7b5608be7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_snmp.c" targetId="12bab194-2b49-4e46-b0a8-3186bd5e338f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_snmp6.c" targetId="33744373-8da9-401f-b4f6-27fc84509388" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_softnet_stat.c" targetId="78dd5e50-037d-4e85-ba1e-e05459d03aae" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_stat_conntrack.c" targetId="aa67fd3c-56e5-451c-a6b1-2b8eb2bdb594" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_net_stat_synproxy.c" targetId="b5f75f61-a994-43b7-bd57-91b63be2fa71" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_self_mountinfo.c" targetId="56b541ec-5af9-4e76-83a9-7bae427f5e78" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_self_mountinfo.h" targetId="da975db6-8253-4fcc-b183-d68be5327ae6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_softirqs.c" targetId="da23ae51-0174-4624-bf54-0c33aa22bdfc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_spl_kstat_zfs.c" targetId="0ba7355e-2f06-4d53-8504-527124f426ba" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_stat.c" targetId="83e1240a-8a04-4be8-81c9-558ea468d1f0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_sys_kernel_random_entropy_avail.c" targetId="13268ce6-2f14-4b2a-b62e-f6fcb4e3eeca" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_uptime.c" targetId="dab47d84-b5bb-4d3a-9730-c77b3725a85a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/proc_vmstat.c" targetId="69270186-0988-486a-a46a-64b7b34be80c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/procfile.c" targetId="5f78f049-975f-4d4a-94e1-f83916cf48b0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/procfile.h" targetId="d6dc013d-50d5-4cfb-8f53-c395d121c78b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry.c" targetId="9dde97ec-e343-4cd6-8be4-c2abf34aee6b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry.h" targetId="df9f8011-20e3-4307-ab71-1f69ee970d48" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_db.c" targetId="6276ca0d-8ace-483a-a647-6777dc427c91" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_init.c" targetId="5cd148b5-121f-4a8c-bd96-ac16678c106f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_internals.c" targetId="03ff8fc6-62fd-40cc-a84b-6e37e9dda343" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_log.c" targetId="a033ed71-8406-4852-b7ec-a6365a4f54ad" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_machine.c" targetId="ad5cb0ec-bf01-41ce-92ce-4921c0241dce" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_machine.h" targetId="e453f878-752b-450a-9f1a-f5ba37ec4d00" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_person.c" targetId="2b693122-e60e-4b97-bcbf-5b0a54618602" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_person.h" targetId="1299fa11-9e2a-4be7-8844-394305297ccc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_url.c" targetId="ed368600-e828-441b-a465-f76d47827970" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/registry_url.h" targetId="2a29511e-23f3-4ce4-919a-4684fc564aa8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrd.c" targetId="3c890f39-77e5-4816-a581-6a43384782ab" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrd.h" targetId="adaa8f36-9356-4280-82e5-b9b469bff15c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrd2json.c" targetId="911ea45a-9dda-4a90-9288-457802c3eaec" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrd2json.h" targetId="391e5e45-b3a2-494f-a18e-17171fb29703" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrd2json_api_old.c" targetId="7b71038e-6d8e-42f1-adcd-24f1fb75f8cb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrd2json_api_old.h" targetId="559219d9-2387-4df5-92a1-41f6583746bb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdcalc.c" targetId="c8a28496-fe7c-4686-a3ad-387ca6165b36" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdcalctemplate.c" targetId="4d9a019c-1cca-4d3d-912f-233d72e5d6c2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrddim.c" targetId="5cfb1d1e-e3a1-446d-8a08-32e418021b17" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrddimvar.c" targetId="c96bfb93-60e3-4093-9c3f-fc0436d9b751" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdfamily.c" targetId="ea33e3c6-a17d-4b16-95ce-f9da90af88bd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdhost.c" targetId="f84a30e0-d64e-459b-bc2e-8ecdb3c9f608" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdpush.c" targetId="12e255db-8515-4100-b2ea-addc4baa4d47" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdpush.h" targetId="f1fd6478-23fa-43ab-963f-984d0ed9c62f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdset.c" targetId="c016801a-af67-432d-8216-068987ff6fa8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdsetvar.c" targetId="1b7f3cf0-5aca-44ad-9309-f42a21f43d32" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/rrdvar.c" targetId="908319cf-c00e-47f1-b71a-1ea331d959d0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/simple_pattern.c" targetId="cf93b603-7010-4195-b180-8165bf5e7b83" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/simple_pattern.h" targetId="3dc344cd-7480-4176-9f5a-8fb76b0e1370" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/socket.c" targetId="2642b6f8-ab3c-4b07-9ab2-8b325f288974" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/socket.h" targetId="ac16ca8a-a234-4102-acf3-359a6517d4c4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/statistical.c" targetId="806d3824-3977-4c3c-ac68-26649a772a7c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/statistical.h" targetId="5b32e294-8dbd-47fe-8c67-e30e631f644c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/statsd.c" targetId="494fe535-18f7-4194-a55f-36f68e7bee46" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/statsd.h" targetId="8af44797-b273-4613-b145-e5063d3d3789" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/storage_number.c" targetId="76e1ac5f-0703-4a79-b190-b67af9500af7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/storage_number.h" targetId="d1086590-7827-4b92-8b72-08dad3dca720" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/sys_devices_system_edac_mc.c" targetId="0481031d-e94d-4099-8ac2-c84d5b8356f2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/sys_devices_system_node.c" targetId="67ab2fb1-8339-4297-a812-9ff4e03b94ce" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/sys_fs_cgroup.c" targetId="98ae9575-5859-41ec-8665-9f6665c4cc82" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/sys_kernel_mm_ksm.c" targetId="6b8c8872-0f09-4a54-9700-07bb038628c4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/url.c" targetId="f99292c9-62f6-4013-924c-e4a742f169bc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/url.h" targetId="09179c17-861d-4e4d-b6bd-7b8c990fb1e2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_api_old.c" targetId="09fb1eee-1412-465b-b52b-8903cdae1175" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_api_old.h" targetId="b49f19f7-b10b-4991-b404-a8b178175960" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_api_v1.c" targetId="7ebc5b6e-307f-4c2f-9e47-a803f8a4e976" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_api_v1.h" targetId="4a0d344c-e8de-4cbb-a80b-bf7a96ae4366" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_buffer.c" targetId="7d6e3d34-8e14-4a05-8e67-158b6342c746" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_buffer.h" targetId="a7891184-3320-4a6c-99d6-3360a764b60e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_buffer_svg.c" targetId="47408187-e79d-4747-a23c-87a6b9a2af4a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_buffer_svg.h" targetId="8a77cfae-89e3-4432-8ebf-e503975a7707" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_client.c" targetId="03c66dbd-afd8-4d44-bc7c-d1f9a818ee2d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_client.h" targetId="e385da4f-02f6-48d8-8911-7c1cac0aee38" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_server.c" targetId="7036fe00-a01d-4349-aad6-fb625d44d9b6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/web_server.h" targetId="79b1d5c9-c479-4572-b0ef-371314213a6e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/zfs_common.c" targetId="c90abea8-9a5a-46b7-9bd8-f354e95097e8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="src/zfs_common.h" targetId="5f0c5477-3050-4b97-b0da-35a10df7a45c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/bootstrap-3.3.7.css" targetId="5c97d996-27a8-45b0-9e64-62e2f01d9536" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/bootstrap-slate-flat-3.3.7.css" targetId="29cf8e46-b664-468c-bc8c-d7219b7f4ec5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/bootstrap-theme-3.3.7.min.css" targetId="819cd696-a259-4a0f-bc2f-a107d152ec6b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/bootstrap-toggle-2.2.2.min.css" targetId="780e9919-6afd-41bb-ae17-e6c628f34c1d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/c3-0.4.11.min.css" targetId="ac2e491f-84ab-4328-8537-f1f3825db133" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/font-awesome.min.css" targetId="c0ea64df-a1df-478d-bd66-0b40eebdc2e6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/css/morris-0.5.1.css" targetId="868e3ebd-073a-4422-977d-8803732800f6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/dashboard.css" targetId="61657d4d-1a46-4998-abc6-8f0ed5f97f8f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/dashboard.html" targetId="08c02189-12d5-4e2b-8140-ea27a7596bdc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/dashboard.js" targetId="2e6a4be7-7108-4206-95db-405e9be67fcc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/dashboard.slate.css" targetId="3c1448cb-32d8-4787-9dd4-726525a6c430" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/dashboard_info.js" targetId="80709950-0722-4814-9f31-a2a7addc36ec" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/dashboard_info_custom_example.js" targetId="5787aacb-0aae-4581-8976-ba71391bc913" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/demo.html" targetId="14d1c3fc-a939-4037-b024-18f5ae1ac89c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/demo2.html" targetId="fedcd30a-aea6-479a-aaaf-053ada642607" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/demosites.html" targetId="5d008a34-aab3-44c1-a684-7aad41e9a254" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/demosites2.html" targetId="edd90918-0697-4b4a-a4d5-300f308dea6d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/goto-host-from-alarm.html" targetId="d683aa9f-a846-437d-a906-955a3e327ef7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/index.html" targetId="cb21475f-3001-4c85-9dc2-01c4b9ae9e9b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/infographic.html" targetId="a6d07e15-1cd3-4ec1-9d7b-a9566e24aaf8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/netdata-swagger.yaml" targetId="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/old/datasource.html" targetId="666a6abb-9f2a-4b8f-8802-99929b53d918" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/old/index.html" targetId="468e366c-8a6b-4228-ae5d-289a1cd9f536" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/old/index.js" targetId="1f3fe64e-a468-4da3-86fd-91131a484cd5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/old/netdata.js" targetId="e240ba58-4f97-4d07-a841-3daac404ddc7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/old/theme.css" targetId="30b2c950-b8d0-4e9b-89b5-95557b9f9443" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/registry.html" targetId="95c43ea3-293f-4919-b95c-fcac74f9ad59" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" sourceType="CodeComponent" targetName="web/tv.html" targetId="1f462477-3beb-4aa2-9c89-ceb17f6e4b86" targetType="SourceFile" />
+        <dependency type="DEPLOYS" sourceName="profile/" sourceId="f33cba73-9231-41fa-af50-45db131db89c" sourceType="DeployableComponent" targetName="REMAINDER" targetId="d2b1c563-6f3c-4b1a-bc7e-ff21d75a3413" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="profile/benchmark-dictionary.c" sourceId="0d148b21-18cc-486a-acf3-d8c9cc4b6a9e" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="profile/benchmark-registry.c" sourceId="3d3eceab-bca6-4c0b-a267-3874e4a3743c" sourceType="SourceFile" targetName="src/registry.c" targetId="9dde97ec-e343-4cd6-8be4-c2abf34aee6b" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="profile/statsd-stress.c" sourceId="d0900038-076a-40af-ac0c-7e07e73716c8" sourceType="SourceFile" targetName="src/socket.h" targetId="ac16ca8a-a234-4102-acf3-359a6517d4c4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/__init__.py" targetId="ba46e74b-6403-476f-a7dc-fbb4be0de2f6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/__init__.py" targetId="ba46e74b-6403-476f-a7dc-fbb4be0de2f6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/composer.py" targetId="71cb8c1c-3ee3-469e-9a5b-598515528c62" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/constructor.py" targetId="8906a8cc-0f54-4272-92bb-6b0dd721532d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/cyaml.py" targetId="7d474e5f-2b7c-4c97-9958-9d5c48341744" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/dumper.py" targetId="aefa8bf7-dff7-4370-ba7f-66b1e1677aa7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/emitter.py" targetId="e294b7a5-75f2-49d2-bc1a-b6026ca99650" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/error.py" targetId="5b48525d-e008-440d-9541-8d2f9597c85f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/events.py" targetId="5a2c4ee7-d342-4f50-b627-85e69ee6d9f3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/loader.py" targetId="cdd877c4-f852-49ad-949c-af4bd5efebed" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/nodes.py" targetId="b33fa43e-6c0f-4248-be40-decd5505a2e5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/parser.py" targetId="0f3d3c3d-caeb-4dd7-a782-fac7c852d410" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/reader.py" targetId="4ad3dc0f-63f9-46d6-8539-af581e6ffa23" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/representer.py" targetId="9ef190b4-a30f-4501-94d4-e604bf927eca" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/resolver.py" targetId="c4f420e2-eee7-4954-a6cf-adcb1a851082" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/scanner.py" targetId="7ca7eb44-3254-44a2-b01f-1390205b919a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/serializer.py" targetId="12c30491-1089-4537-ae2b-341d6da4eab4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml2" sourceId="1967552e-add1-41b2-b3e7-66dc3cf080bf" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml2/tokens.py" targetId="17d17667-007d-4138-b68a-c5808760ef74" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/__init__.py" targetId="6a5550fa-8e4d-4c47-9648-9d3d3701319a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/__init__.py" targetId="6a5550fa-8e4d-4c47-9648-9d3d3701319a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/composer.py" targetId="af60bb34-8704-471c-acf2-44d859435b13" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/constructor.py" targetId="9df7a53b-c44a-41de-9fcb-44954c894f91" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/cyaml.py" targetId="d649187a-35a7-4fe4-9da7-df98b31543aa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/dumper.py" targetId="86893c0b-eec2-461d-abb2-041f6e6512ce" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/emitter.py" targetId="d9f0cc3f-2b34-420d-b5cd-eabf3ece2c86" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/error.py" targetId="1cfe7ecb-1aa8-4413-90c2-f4741cfd18ec" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/events.py" targetId="5a699f2c-953d-4305-841d-4e2dc53c4f3d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/loader.py" targetId="4437da5e-be7a-47ba-9051-3bbed66d4233" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/nodes.py" targetId="7232d41f-e1e8-4782-a5da-0cb15e82ac1a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/parser.py" targetId="dfdbb0aa-8dd6-4d48-a149-7b0e07e298bb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/reader.py" targetId="f48db6a1-0856-4e66-a64e-41e70006bc39" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/representer.py" targetId="a52c980a-d0bb-4989-8999-bfa7def172ee" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/resolver.py" targetId="68a82a4f-b325-49b2-8ca5-c15c222fa277" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/scanner.py" targetId="9259a4a9-b4e3-4bd6-bcb2-ede1e5b14381" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/serializer.py" targetId="2af2910b-d1e0-4849-9824-f0519453b337" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules.pyyaml3" sourceId="3cbfba85-d09f-4631-9c1d-96bedda855df" sourceType="CodeComponent" targetName="python.d/python_modules/pyyaml3/tokens.py" targetId="35882fa3-5ede-469a-a2ed-6c835f828f47" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d.python_modules.pyyaml2" targetId="1967552e-add1-41b2-b3e7-66dc3cf080bf" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d.python_modules.pyyaml3" targetId="3cbfba85-d09f-4631-9c1d-96bedda855df" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d/python_modules/__init__.py" targetId="6fb00d46-bfe2-4b58-8246-c312eb4b707f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d/python_modules/__init__.py" targetId="6fb00d46-bfe2-4b58-8246-c312eb4b707f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d/python_modules/base.py" targetId="75ef4113-ff09-4d20-95a9-3c0600e79cec" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d/python_modules/lm_sensors.py" targetId="8e383ccd-397b-4eb8-84c2-0cde5727ab14" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="python.d.python_modules" sourceId="63f03997-e330-4463-b3dd-b74c56f20a90" sourceType="CodeComponent" targetName="python.d/python_modules/msg.py" targetId="403c52fb-b0b4-408b-9d5c-b61664f2e5b1" targetType="SourceFile" />
+        <dependency type="DATA_STORE_READ" sourceName="python.d/postgres.chart.py" sourceId="29133f24-cbde-43e8-b9aa-3ecb9588b0ca" sourceType="SourceFile" targetName="pg_stat_activity" targetId="aecffbf1-7680-4bce-b280-7697cfffc61f" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="python.d/postgres.chart.py" sourceId="29133f24-cbde-43e8-b9aa-3ecb9588b0ca" sourceType="SourceFile" targetName="pg_stat_database" targetId="bf29eb03-da33-4658-9df4-3ce0415a667f" targetType="DataStoreEntity" />
+        <dependency type="CODE_CALL" sourceName="src/adaptive_resortable_list.c" sourceId="af0f84cc-2821-470e-928a-43aef3d83ab2" sourceType="SourceFile" targetName="src/adaptive_resortable_list.h" targetId="1ba57b03-36c5-458e-b61a-985ac00afd4c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/adaptive_resortable_list.h" sourceId="1ba57b03-36c5-458e-b61a-985ac00afd4c" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/appconfig.c" sourceId="7661d2f9-a110-46a1-aedb-24a261f0fc03" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/apps_plugin.c" sourceId="320d2ce4-8e2e-4f68-aa92-c2560e2fc74c" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/avl.c" sourceId="ffd82cb5-483c-4e60-a2a4-ac6fcfb3459b" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/backends.c" sourceId="6a38a77e-725e-4ab1-89b0-70b0ba1da876" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/clocks.c" sourceId="530fe1c1-b0ed-4267-b620-333c5405627e" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.c" sourceId="4ad64fcb-24c5-4737-b515-ecba37b3d65f" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/adaptive_resortable_list.h" targetId="1ba57b03-36c5-458e-b61a-985ac00afd4c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/appconfig.h" targetId="cb4ba7c5-bdf2-4dff-a125-f47cb43a8f87" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/avl.h" targetId="35db4e10-7c06-4238-91df-bf3a49b5297a" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/backends.h" targetId="647f5c4b-efdf-4db6-8605-73087656c7bc" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/clocks.h" targetId="365406b3-5713-4cc5-a645-5e893ddef927" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/daemon.h" targetId="491a8c79-3e61-49ab-a995-71d90f37487a" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/dictionary.h" targetId="c6bbc2a2-c40f-4f2a-9d56-de4e3d9c5485" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/eval.h" targetId="9fabab66-9ea2-4b44-b313-e00ada2fef09" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/global_statistics.h" targetId="acba109d-d79b-4ce0-aaba-a015b5ec44d8" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/health.h" targetId="67d6371e-e58a-4799-85c1-02f5273d55ac" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/inlined.h" targetId="7fa11153-d762-4a8c-8e6b-3bfafe01bfdc" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/ipc.h" targetId="ba99738a-2923-4bbe-9987-7ddf62fc7172" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/locks.h" targetId="8895a4da-c975-42db-b044-dcd4b6705d64" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/log.h" targetId="cfbc4292-7541-4963-9ed3-f79fff63d25a" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/main.h" targetId="e74d639c-03cc-4be3-8f29-2ec9e07ea4f7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_checks.h" targetId="a5c68f2b-ed63-4fa0-8b3d-3494e9f5e390" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_freebsd.h" targetId="3358ff65-fe6e-490e-9241-6831d3bd0dfd" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_idlejitter.h" targetId="4b9e8ef4-1a21-4be1-b138-9f8076f28d6b" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_macos.h" targetId="f108be6e-009d-4069-b230-b5438336d22e" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_nfacct.h" targetId="15842903-da28-49ff-b064-57480eeaa9ed" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_proc.h" targetId="a38635be-c8ca-4b6e-8931-6fb02506695c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_proc_diskspace.h" targetId="06050dc4-cde9-4375-ad07-7f5b28aada88" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugin_tc.h" targetId="cc0eb474-6c58-4d20-bf45-3c09d67d65c2" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/plugins_d.h" targetId="92bf69b0-a1ef-4749-805f-1c69ec9a9d76" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/popen.h" targetId="7003e200-d6d5-4cef-ae56-9f6976f58e0e" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/proc_self_mountinfo.h" targetId="da975db6-8253-4fcc-b183-d68be5327ae6" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/procfile.h" targetId="d6dc013d-50d5-4cfb-8f53-c395d121c78b" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/registry.h" targetId="df9f8011-20e3-4307-ab71-1f69ee970d48" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/rrd.h" targetId="adaa8f36-9356-4280-82e5-b9b469bff15c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/rrd2json.h" targetId="391e5e45-b3a2-494f-a18e-17171fb29703" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/rrd2json_api_old.h" targetId="559219d9-2387-4df5-92a1-41f6583746bb" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/rrdpush.h" targetId="f1fd6478-23fa-43ab-963f-984d0ed9c62f" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/simple_pattern.h" targetId="3dc344cd-7480-4176-9f5a-8fb76b0e1370" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/socket.h" targetId="ac16ca8a-a234-4102-acf3-359a6517d4c4" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/socket.h" targetId="ac16ca8a-a234-4102-acf3-359a6517d4c4" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/statistical.h" targetId="5b32e294-8dbd-47fe-8c67-e30e631f644c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/statsd.h" targetId="8af44797-b273-4613-b145-e5063d3d3789" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/storage_number.h" targetId="d1086590-7827-4b92-8b72-08dad3dca720" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/url.h" targetId="09179c17-861d-4e4d-b6bd-7b8c990fb1e2" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/web_api_old.h" targetId="b49f19f7-b10b-4991-b404-a8b178175960" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/web_api_v1.h" targetId="4a0d344c-e8de-4cbb-a80b-bf7a96ae4366" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/web_buffer.h" targetId="a7891184-3320-4a6c-99d6-3360a764b60e" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/web_buffer_svg.h" targetId="8a77cfae-89e3-4432-8ebf-e503975a7707" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/web_client.h" targetId="e385da4f-02f6-48d8-8911-7c1cac0aee38" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/common.h" sourceId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" sourceType="SourceFile" targetName="src/web_server.h" targetId="79b1d5c9-c479-4572-b0ef-371314213a6e" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/daemon.c" sourceId="1f3f23d7-6105-46e8-aa04-5f7a4a504f48" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/dictionary.c" sourceId="42bc1966-f0ca-431d-ad27-f3b9f886c75b" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/eval.c" sourceId="bec16a64-c6ea-4489-880a-a91f7804ff8f" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freebsd_devstat.c" sourceId="4994d7e0-52b0-4962-a397-998e5208a514" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freebsd_getifaddrs.c" sourceId="6c6ee50b-5849-4acb-bb73-549d9216afc7" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freebsd_getmntinfo.c" sourceId="5d238103-b825-4737-82b7-2fa242b3aafe" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freebsd_kstat_zfs.c" sourceId="1b42dd3a-da6f-4b58-a437-3417b7672cb3" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freebsd_kstat_zfs.c" sourceId="1b42dd3a-da6f-4b58-a437-3417b7672cb3" sourceType="SourceFile" targetName="src/zfs_common.h" targetId="5f0c5477-3050-4b97-b0da-35a10df7a45c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freebsd_sysctl.c" sourceId="8255eea9-f7a3-4bb0-b644-bb69f632ae4d" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/freeipmi_plugin.c" sourceId="c96bdafb-c4cd-48b0-ae63-15798e3ec1dd" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/global_statistics.c" sourceId="2d5c493e-e2b5-4234-9871-1a83c2582c97" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/health.c" sourceId="c049376c-4fd7-49b5-b26a-9af62c8cdb7c" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/health.h" sourceId="67d6371e-e58a-4799-85c1-02f5273d55ac" sourceType="SourceFile" targetName="src/rrd.h" targetId="adaa8f36-9356-4280-82e5-b9b469bff15c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/health_config.c" sourceId="8a31915e-6b4a-4ef8-9943-7921612518be" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/health_json.c" sourceId="d6062089-f303-4813-b96e-df067b5e8231" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/health_log.c" sourceId="60bbfcdd-26d7-4f84-bfd2-7e39b0f49030" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/inlined.h" sourceId="7fa11153-d762-4a8c-8e6b-3bfafe01bfdc" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/ipc.c" sourceId="8fd223a9-714c-4efc-84b4-bf8dc3451af6" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/log.c" sourceId="c71cf18d-4584-41c3-ab88-8221572a99a6" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/macos_fw.c" sourceId="6455cce3-05a9-4a98-9590-b389cd10d60e" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/macos_mach_smi.c" sourceId="8c9d49da-9162-4d12-aa49-2437af55460f" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/macos_sysctl.c" sourceId="3293f8bc-ad7d-4bcd-81a2-49099a23198a" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/main.c" sourceId="15ff7130-a6d0-469a-be45-05165ae75579" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_checks.c" sourceId="28853847-7268-4344-ac19-b590aacf6ac8" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_freebsd.c" sourceId="039194cc-fa48-4542-9b56-3db987dd3ebf" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_idlejitter.c" sourceId="1c8b5496-0266-48c7-9eb7-d07df5f4f385" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_macos.c" sourceId="07068181-9753-4c5a-8777-de09bbeb1583" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_nfacct.c" sourceId="71d48e03-3fcc-49bc-966d-cd85739bb2a6" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_proc.c" sourceId="af9bbf59-fd62-4943-b2eb-4d5db2afe712" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_proc_diskspace.c" sourceId="d1ba70da-0c3d-4bb8-8da3-954a1ba712d9" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugin_tc.c" sourceId="0e9210f7-0d08-4f73-8ced-cfd8ef5a59a5" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/plugins_d.c" sourceId="c7932b2d-7302-471c-a345-39125bb90cd3" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/popen.c" sourceId="a989c62d-3f51-4c80-b803-ab45ec93cd62" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_diskstats.c" sourceId="de58c8a9-c079-4cf0-9226-1d0f62391989" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_interrupts.c" sourceId="eca457dc-4492-4799-bea0-ac1f5da5e4e7" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_loadavg.c" sourceId="fab539a9-8f01-41a0-921e-4f46f7d64204" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_meminfo.c" sourceId="0365a174-ff73-416a-b403-d5f5a4f753fe" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_dev.c" sourceId="7ac5ec1b-f728-44c9-bd1e-715fe60ae04f" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_ip_vs_stats.c" sourceId="f41013ab-0e18-48d1-a357-8ff6b507cd5a" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_netstat.c" sourceId="424bf4cb-6954-46d2-b385-5cd3fef90464" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_rpc_nfs.c" sourceId="6b15ef33-10ea-4402-a40d-58b343e82623" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_rpc_nfsd.c" sourceId="e3469ff2-5412-4156-9006-17e7b5608be7" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_snmp.c" sourceId="12bab194-2b49-4e46-b0a8-3186bd5e338f" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_snmp6.c" sourceId="33744373-8da9-401f-b4f6-27fc84509388" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_softnet_stat.c" sourceId="78dd5e50-037d-4e85-ba1e-e05459d03aae" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_stat_conntrack.c" sourceId="aa67fd3c-56e5-451c-a6b1-2b8eb2bdb594" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_net_stat_synproxy.c" sourceId="b5f75f61-a994-43b7-bd57-91b63be2fa71" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_self_mountinfo.c" sourceId="56b541ec-5af9-4e76-83a9-7bae427f5e78" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_softirqs.c" sourceId="da23ae51-0174-4624-bf54-0c33aa22bdfc" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_spl_kstat_zfs.c" sourceId="0ba7355e-2f06-4d53-8504-527124f426ba" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_spl_kstat_zfs.c" sourceId="0ba7355e-2f06-4d53-8504-527124f426ba" sourceType="SourceFile" targetName="src/zfs_common.h" targetId="5f0c5477-3050-4b97-b0da-35a10df7a45c" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_stat.c" sourceId="83e1240a-8a04-4be8-81c9-558ea468d1f0" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_sys_kernel_random_entropy_avail.c" sourceId="13268ce6-2f14-4b2a-b62e-f6fcb4e3eeca" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_uptime.c" sourceId="dab47d84-b5bb-4d3a-9730-c77b3725a85a" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/proc_vmstat.c" sourceId="69270186-0988-486a-a46a-64b7b34be80c" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/procfile.c" sourceId="5f78f049-975f-4d4a-94e1-f83916cf48b0" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/procfile.c" sourceId="5f78f049-975f-4d4a-94e1-f83916cf48b0" sourceType="SourceFile" targetName="src/procfile.h" targetId="d6dc013d-50d5-4cfb-8f53-c395d121c78b" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry.c" sourceId="9dde97ec-e343-4cd6-8be4-c2abf34aee6b" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry.c" sourceId="9dde97ec-e343-4cd6-8be4-c2abf34aee6b" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_db.c" sourceId="6276ca0d-8ace-483a-a647-6777dc427c91" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_init.c" sourceId="5cd148b5-121f-4a8c-bd96-ac16678c106f" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_internals.c" sourceId="03ff8fc6-62fd-40cc-a84b-6e37e9dda343" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_internals.h" sourceId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_internals.h" sourceId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" sourceType="SourceFile" targetName="src/registry.h" targetId="df9f8011-20e3-4307-ab71-1f69ee970d48" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_internals.h" sourceId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" sourceType="SourceFile" targetName="src/registry_machine.h" targetId="e453f878-752b-450a-9f1a-f5ba37ec4d00" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_internals.h" sourceId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" sourceType="SourceFile" targetName="src/registry_person.h" targetId="1299fa11-9e2a-4be7-8844-394305297ccc" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_internals.h" sourceId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" sourceType="SourceFile" targetName="src/registry_url.h" targetId="2a29511e-23f3-4ce4-919a-4684fc564aa8" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_log.c" sourceId="a033ed71-8406-4852-b7ec-a6365a4f54ad" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_machine.c" sourceId="ad5cb0ec-bf01-41ce-92ce-4921c0241dce" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_machine.h" sourceId="e453f878-752b-450a-9f1a-f5ba37ec4d00" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_person.c" sourceId="2b693122-e60e-4b97-bcbf-5b0a54618602" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_person.h" sourceId="1299fa11-9e2a-4be7-8844-394305297ccc" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_url.c" sourceId="ed368600-e828-441b-a465-f76d47827970" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/registry_url.h" sourceId="2a29511e-23f3-4ce4-919a-4684fc564aa8" sourceType="SourceFile" targetName="src/registry_internals.h" targetId="70ea9be1-a6c9-491e-a887-0bfa1ae7bd99" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrd.c" sourceId="3c890f39-77e5-4816-a581-6a43384782ab" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrd2json.c" sourceId="911ea45a-9dda-4a90-9288-457802c3eaec" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrd2json_api_old.c" sourceId="7b71038e-6d8e-42f1-adcd-24f1fb75f8cb" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdcalc.c" sourceId="c8a28496-fe7c-4686-a3ad-387ca6165b36" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdcalctemplate.c" sourceId="4d9a019c-1cca-4d3d-912f-233d72e5d6c2" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrddim.c" sourceId="5cfb1d1e-e3a1-446d-8a08-32e418021b17" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrddimvar.c" sourceId="c96bfb93-60e3-4093-9c3f-fc0436d9b751" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdfamily.c" sourceId="ea33e3c6-a17d-4b16-95ce-f9da90af88bd" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdhost.c" sourceId="f84a30e0-d64e-459b-bc2e-8ecdb3c9f608" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdpush.c" sourceId="12e255db-8515-4100-b2ea-addc4baa4d47" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdset.c" sourceId="c016801a-af67-432d-8216-068987ff6fa8" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdsetvar.c" sourceId="1b7f3cf0-5aca-44ad-9309-f42a21f43d32" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/rrdvar.c" sourceId="908319cf-c00e-47f1-b71a-1ea331d959d0" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/simple_pattern.c" sourceId="cf93b603-7010-4195-b180-8165bf5e7b83" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/socket.c" sourceId="2642b6f8-ab3c-4b07-9ab2-8b325f288974" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/statistical.c" sourceId="806d3824-3977-4c3c-ac68-26649a772a7c" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/statsd.c" sourceId="494fe535-18f7-4194-a55f-36f68e7bee46" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/storage_number.c" sourceId="76e1ac5f-0703-4a79-b190-b67af9500af7" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/sys_devices_system_edac_mc.c" sourceId="0481031d-e94d-4099-8ac2-c84d5b8356f2" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/sys_devices_system_node.c" sourceId="67ab2fb1-8339-4297-a812-9ff4e03b94ce" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/sys_fs_cgroup.c" sourceId="98ae9575-5859-41ec-8665-9f6665c4cc82" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/sys_kernel_mm_ksm.c" sourceId="6b8c8872-0f09-4a54-9700-07bb038628c4" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/url.c" sourceId="f99292c9-62f6-4013-924c-e4a742f169bc" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_api_old.c" sourceId="09fb1eee-1412-465b-b52b-8903cdae1175" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_api_old.h" sourceId="b49f19f7-b10b-4991-b404-a8b178175960" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_api_v1.c" sourceId="7ebc5b6e-307f-4c2f-9e47-a803f8a4e976" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_buffer.c" sourceId="7d6e3d34-8e14-4a05-8e67-158b6342c746" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_buffer_svg.c" sourceId="47408187-e79d-4747-a23c-87a6b9a2af4a" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_client.c" sourceId="03c66dbd-afd8-4d44-bc7c-d1f9a818ee2d" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/web_server.c" sourceId="7036fe00-a01d-4349-aad6-fb625d44d9b6" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/zfs_common.c" sourceId="c90abea8-9a5a-46b7-9bd8-f354e95097e8" sourceType="SourceFile" targetName="src/common.h" targetId="3d9bda17-18b5-4d3f-bb70-7201a978f0b7" targetType="SourceFile" />
+        <dependency type="CODE_CALL" sourceName="src/zfs_common.c" sourceId="c90abea8-9a5a-46b7-9bd8-f354e95097e8" sourceType="SourceFile" targetName="src/zfs_common.h" targetId="5f0c5477-3050-4b97-b0da-35a10df7a45c" targetType="SourceFile" />
+        <dependency type="INTERFACE_CALL" sourceName="web/dashboard.js" sourceId="2e6a4be7-7108-4206-95db-405e9be67fcc" sourceType="SourceFile" targetName="/api/v1/charts" targetId="e6f7a6bf-9903-4794-898e-9c66d61af02a" targetType="EndPoint" />
+        <dependency type="INTERFACE_CALL" sourceName="web/dashboard.js" sourceId="2e6a4be7-7108-4206-95db-405e9be67fcc" sourceType="SourceFile" targetName="/api/v1/charts" targetId="e6f7a6bf-9903-4794-898e-9c66d61af02a" targetType="EndPoint" />
+        <dependency type="INTERFACE_CALL" sourceName="web/dashboard.js" sourceId="2e6a4be7-7108-4206-95db-405e9be67fcc" sourceType="SourceFile" targetName="/api/v1/charts" targetId="e6f7a6bf-9903-4794-898e-9c66d61af02a" targetType="EndPoint" />
+        <dependency type="DATA_STORE_READ" sourceName="web/dashboard.js" sourceId="2e6a4be7-7108-4206-95db-405e9be67fcc" sourceType="SourceFile" targetName="the" targetId="9f0d6b03-92de-4010-8736-1f639b747ee3" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="web/dashboard.js" sourceId="2e6a4be7-7108-4206-95db-405e9be67fcc" sourceType="SourceFile" targetName="the" targetId="9f0d6b03-92de-4010-8736-1f639b747ee3" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="web/dashboard_info.js" sourceId="80709950-0722-4814-9f31-a2a7addc36ec" sourceType="SourceFile" targetName="foo&lt;/strong&gt;" targetId="a9f3ca82-72af-4ff2-92a0-b032002e1581" targetType="DataStoreEntity" />
+        <dependency type="PROVIDES" sourceName="web/netdata-swagger.yaml" sourceId="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" sourceType="SourceFile" targetName="/api/v1/allmetrics" targetId="0dcdd265-70c7-422b-8f1c-38651f435a01" targetType="EndPoint" />
+        <dependency type="PROVIDES" sourceName="web/netdata-swagger.yaml" sourceId="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" sourceType="SourceFile" targetName="/api/v1/badge.svg" targetId="0cbaa566-6e94-43e7-b959-f742a84cd212" targetType="EndPoint" />
+        <dependency type="PROVIDES" sourceName="web/netdata-swagger.yaml" sourceId="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" sourceType="SourceFile" targetName="/api/v1/chart" targetId="0a5992e7-9d50-42e9-a3cb-31e698a736ac" targetType="EndPoint" />
+        <dependency type="PROVIDES" sourceName="web/netdata-swagger.yaml" sourceId="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" sourceType="SourceFile" targetName="/api/v1/charts" targetId="e6f7a6bf-9903-4794-898e-9c66d61af02a" targetType="EndPoint" />
+        <dependency type="PROVIDES" sourceName="web/netdata-swagger.yaml" sourceId="f8ac5d4b-f519-4f9b-9dbb-4f5229d51f15" sourceType="SourceFile" targetName="/api/v1/data" targetId="cb6296b6-00cc-4c61-a8b9-af7de8ddbac0" targetType="EndPoint" />
+    </dependencies>
+</SystemLevel>

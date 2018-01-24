@@ -1,0 +1,163 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-hystrix-core" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="hystrix-core
+
+code breakdown: 40.0"
+"com.netflix.hystrix.metric@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.netflix.hystrix.metric
+
+code breakdown: 833.0" ]
+"com.netflix.hystrix.util@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="com.netflix.hystrix.util
+
+code breakdown: 1244.0" ]
+"com.netflix.hystrix@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="19" margin="0.304" label="com.netflix.hystrix
+
+code breakdown: 5078.0" ]
+"com.netflix.hystrix.metric.sample@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.metric.sample
+
+code breakdown: 189.0" ]
+"com.netflix.hystrix.config@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.netflix.hystrix.config
+
+code breakdown: 536.0" ]
+"com.netflix.hystrix.strategy.eventnotifier@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.strategy.eventnotifier
+
+code breakdown: 22.0" ]
+"com.netflix.hystrix.strategy@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.strategy
+
+code breakdown: 262.0" ]
+"com.netflix.hystrix.strategy.concurrency@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.netflix.hystrix.strategy.concurrency
+
+code breakdown: 548.0" ]
+"com.netflix.hystrix.strategy.properties.archaius@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.strategy.properties.archaius
+
+code breakdown: 68.0" ]
+"com.netflix.hystrix.collapser@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.netflix.hystrix.collapser
+
+code breakdown: 513.0" ]
+"com.netflix.hystrix.exception@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.exception
+
+code breakdown: 57.0" ]
+"com.netflix.hystrix.strategy.metrics@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.strategy.metrics
+
+code breakdown: 172.0" ]
+"com.netflix.hystrix.metric.consumer@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="com.netflix.hystrix.metric.consumer
+
+code breakdown: 1074.0" ]
+"com.netflix.hystrix.strategy.properties@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.netflix.hystrix.strategy.properties
+
+code breakdown: 765.0" ]
+"com.netflix.hystrix.strategy.executionhook@hystrix-core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.strategy.executionhook
+
+code breakdown: 116.0" ]
+}
+subgraph "cluster-hystrix-serialization" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="hystrix-serialization
+
+code breakdown: 17.0"
+"com.netflix.hystrix.serial@hystrix-serialization" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.netflix.hystrix.serial
+
+code breakdown: 638.0" ]
+}
+subgraph "cluster-hystrix-dashboard" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="hystrix-dashboard
+
+code breakdown: 1303.0"
+"com.netflix.hystrix.dashboard.stream@hystrix-dashboard" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.netflix.hystrix.dashboard.stream
+
+code breakdown: 255.0" ]
+}
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="REMAINDER
+
+code breakdown: 34.0" ]
+subgraph "cluster-hystrix-junit" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="hystrix-junit
+
+code breakdown: 4.0"
+"com.hystrix.junit@hystrix-junit" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.hystrix.junit
+
+code breakdown: 26.0" ]
+}
+"com.netflix.hystrix.metric@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  28" ]
+"com.netflix.hystrix.metric@hystrix-core" -> "com.netflix.hystrix.strategy.concurrency@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.util@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix.util@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.util@hystrix-core" -> "com.netflix.hystrix.strategy.properties@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.metric@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.util@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.strategy.eventnotifier@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.strategy.concurrency@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.collapser@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.exception@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.strategy.metrics@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.metric.consumer@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.strategy.properties@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"com.netflix.hystrix@hystrix-core" -> "com.netflix.hystrix.strategy.executionhook@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix.metric.sample@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.netflix.hystrix.config@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  21" ]
+"com.netflix.hystrix.strategy.eventnotifier@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix.strategy.eventnotifier@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.strategy@hystrix-core" -> "com.netflix.hystrix.strategy.eventnotifier@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.netflix.hystrix.strategy@hystrix-core" -> "com.netflix.hystrix.strategy.concurrency@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.netflix.hystrix.strategy@hystrix-core" -> "com.netflix.hystrix.strategy.metrics@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix.strategy@hystrix-core" -> "com.netflix.hystrix.strategy.properties@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.netflix.hystrix.strategy@hystrix-core" -> "com.netflix.hystrix.strategy.executionhook@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.netflix.hystrix.strategy.concurrency@hystrix-core" -> "com.netflix.hystrix.util@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.strategy.concurrency@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.netflix.hystrix.strategy.concurrency@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.netflix.hystrix.strategy.concurrency@hystrix-core" -> "com.netflix.hystrix.strategy.properties@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.strategy.properties.archaius@hystrix-core" -> "com.netflix.hystrix.strategy.properties@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.netflix.hystrix.collapser@hystrix-core" -> "com.netflix.hystrix.util@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.netflix.hystrix.collapser@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.netflix.hystrix.collapser@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.collapser@hystrix-core" -> "com.netflix.hystrix.strategy.concurrency@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.netflix.hystrix.collapser@hystrix-core" -> "com.netflix.hystrix.strategy.properties@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.exception@hystrix-core" -> "com.netflix.hystrix.util@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.exception@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.netflix.hystrix.strategy.metrics@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  42" ]
+"com.netflix.hystrix.strategy.metrics@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.netflix.hystrix.metric.consumer@hystrix-core" -> "com.netflix.hystrix.metric@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  35" ]
+"com.netflix.hystrix.metric.consumer@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  43" ]
+"com.netflix.hystrix.strategy.properties@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"com.netflix.hystrix.strategy.properties@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix.strategy.executionhook@hystrix-core" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.netflix.hystrix.strategy.executionhook@hystrix-core" -> "com.netflix.hystrix.strategy@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.strategy.executionhook@hystrix-core" -> "com.netflix.hystrix.exception@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.netflix.hystrix.serial@hystrix-serialization" -> "com.netflix.hystrix.metric@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.netflix.hystrix.serial@hystrix-serialization" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.netflix.hystrix.serial@hystrix-serialization" -> "com.netflix.hystrix.metric.sample@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.netflix.hystrix.serial@hystrix-serialization" -> "com.netflix.hystrix.config@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.netflix.hystrix.serial@hystrix-serialization" -> "com.netflix.hystrix.metric.consumer@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.hystrix.junit@hystrix-junit" -> "com.netflix.hystrix@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.hystrix.junit@hystrix-junit" -> "com.netflix.hystrix.strategy.concurrency@hystrix-core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

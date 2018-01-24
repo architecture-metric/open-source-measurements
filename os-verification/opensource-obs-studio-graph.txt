@@ -1,0 +1,4 @@
+opensource-obs-studio::SystemLevel (1043 files, 190349 LOC)
+    deps/w32-pthreads/::DeployableComponent (216 files, 14626 LOC)
+        deps/w32-pthreads/::CodeComponent (216 files, 14626 LOC)
+    REMAINDER::CodeComponent (827 files, 175723 LOC)

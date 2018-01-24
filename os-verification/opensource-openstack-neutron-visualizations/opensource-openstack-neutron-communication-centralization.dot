@@ -1,0 +1,186 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-neutron" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="executable"
+"neutron.agent@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="27" margin="0.432" label="neutron.agent
+
+communication centralization: 14.4%" ]
+"neutron.scheduler@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="neutron.scheduler
+
+communication centralization: 10.3%" ]
+"neutron.cmd@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="neutron.cmd
+
+communication centralization: 3.6%" ]
+"neutron.objects@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="neutron.objects
+
+communication centralization: 2.9%" ]
+"neutron.common@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="neutron.common
+
+communication centralization: 66.9%" ]
+"neutron.quota@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="neutron.quota
+
+communication centralization: 0.0%" ]
+"neutron.plugins@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="24" margin="0.384" label="neutron.plugins
+
+communication centralization: 11.6%" ]
+"neutron.privileged@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="neutron.privileged
+
+communication centralization: 47.4%" ]
+"neutron.hacking@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="neutron.hacking" ]
+"neutron.conf@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="neutron.conf
+
+communication centralization: 69.3%" ]
+"rally-jobs.plugins@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="rally-jobs.plugins" ]
+"neutron.db@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="neutron.db
+
+communication centralization: 34.9%" ]
+"neutron.extensions@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="neutron.extensions
+
+communication centralization: 23.0%" ]
+"neutron.api@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="neutron.api
+
+communication centralization: 11.9%" ]
+"neutron.core_extensions@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="neutron.core_extensions
+
+communication centralization: 22.1%" ]
+"neutron.ipam@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="neutron.ipam
+
+communication centralization: 38.5%" ]
+"neutron.callbacks@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="neutron.callbacks" ]
+"neutron.notifiers@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="neutron.notifiers" ]
+"neutron.pecan_wsgi@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="neutron.pecan_wsgi
+
+communication centralization: 21.7%" ]
+"neutron.services@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="neutron.services
+
+communication centralization: 11.3%" ]
+"neutron.server@neutron" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="neutron.server
+
+communication centralization: 59.0%" ]
+}
+"2f8dc49a-746e-4a2e-87fb-9d869f9acdf5@NOT_DEPLOYED" [ shape="box" penwidth="0" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" image="icon-datastore.png" width="1.000" height="1.000" fixedsize="true" label="" ]
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="REMAINDER
+
+communication centralization: 75.5%" ]
+"neutron.agent@neutron" -> "neutron.cmd@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.agent@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  39" ]
+"neutron.agent@neutron" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.agent@neutron" -> "neutron.privileged@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.agent@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"neutron.agent@neutron" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"neutron.agent@neutron" -> "neutron.ipam@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"neutron.agent@neutron" -> "neutron.callbacks@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.agent@neutron" -> "neutron.notifiers@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.agent@neutron" -> "2f8dc49a-746e-4a2e-87fb-9d869f9acdf5@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"neutron.agent@neutron" -> "2f8dc49a-746e-4a2e-87fb-9d869f9acdf5@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"neutron.scheduler@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.scheduler@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.scheduler@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.scheduler@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.scheduler@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.cmd@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"neutron.cmd@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"neutron.cmd@neutron" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.cmd@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.cmd@neutron" -> "neutron.services@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.objects@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.objects@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"neutron.objects@neutron" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.objects@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  46" ]
+"neutron.objects@neutron" -> "neutron.extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.objects@neutron" -> "neutron.ipam@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.objects@neutron" -> "neutron.services@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.common@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.common@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.quota@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.quota@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.quota@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.plugins@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  26" ]
+"neutron.plugins@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"neutron.plugins@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"neutron.plugins@neutron" -> "neutron.quota@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.plugins@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"neutron.plugins@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  21" ]
+"neutron.plugins@neutron" -> "neutron.extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.plugins@neutron" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  14" ]
+"neutron.plugins@neutron" -> "neutron.core_extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.plugins@neutron" -> "neutron.services@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"neutron.privileged@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.conf@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.conf@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.db@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.db@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  33" ]
+"neutron.db@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"neutron.db@neutron" -> "neutron.quota@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.db@neutron" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.db@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"neutron.db@neutron" -> "neutron.extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"neutron.db@neutron" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.db@neutron" -> "neutron.ipam@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.db@neutron" -> "neutron.callbacks@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.db@neutron" -> "neutron.notifiers@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.db@neutron" -> "neutron.services@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.db@neutron" -> "2f8dc49a-746e-4a2e-87fb-9d869f9acdf5@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"neutron.db@neutron" -> "2f8dc49a-746e-4a2e-87fb-9d869f9acdf5@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"neutron.extensions@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.extensions@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.extensions@neutron" -> "neutron.quota@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.extensions@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.extensions@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"neutron.extensions@neutron" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  41" ]
+"neutron.api@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.api@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"neutron.api@neutron" -> "neutron.quota@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"neutron.api@neutron" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.api@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.api@neutron" -> "neutron.extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.api@neutron" -> "neutron.callbacks@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.api@neutron" -> "neutron.pecan_wsgi@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.api@neutron" -> "neutron.services@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.core_extensions@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.core_extensions@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.core_extensions@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.ipam@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.ipam@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"neutron.ipam@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.pecan_wsgi@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"neutron.pecan_wsgi@neutron" -> "neutron.quota@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"neutron.pecan_wsgi@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"neutron.pecan_wsgi@neutron" -> "neutron.extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.pecan_wsgi@neutron" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"neutron.services@neutron" -> "neutron.agent@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"neutron.services@neutron" -> "neutron.objects@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"neutron.services@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"neutron.services@neutron" -> "neutron.quota@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.services@neutron" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"neutron.services@neutron" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"neutron.services@neutron" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  26" ]
+"neutron.services@neutron" -> "neutron.extensions@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"neutron.services@neutron" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  22" ]
+"neutron.services@neutron" -> "neutron.notifiers@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"neutron.server@neutron" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "neutron.common@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"REMAINDER@NOT_DEPLOYED" -> "neutron.plugins@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "neutron.conf@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "neutron.db@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "neutron.api@neutron" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#8212;</FONT></TD><TD ALIGN="left">Provides</TD></TR>
+<TR><TD><FONT COLOR="#820445">&rarr;</FONT></TD><TD ALIGN="left">Interface call</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&rarr;</FONT></TD><TD ALIGN="left">Data store read</TD></TR>
+<TR><TD><FONT COLOR="#A4A38F">&rarr;</FONT></TD><TD ALIGN="left">Data store write</TD></TR>
+</TABLE>
+>  ]
+}

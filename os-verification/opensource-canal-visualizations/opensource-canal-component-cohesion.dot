@@ -1,0 +1,459 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-com.alibaba.otter:canal.common" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.common
+
+component cohesion: 1.0%"
+"com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.common.zookeeper.running" ]
+"com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.common" ]
+"com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.common.utils" ]
+"com.google.common.collect@com.alibaba.otter:canal.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.google.common.collect" ]
+"com.alibaba.otter.canal.common.alarm@com.alibaba.otter:canal.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.common.alarm" ]
+"com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.common.zookeeper" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.parse.dbsync" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.parse.dbsync
+
+component cohesion: 1.0%"
+"com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="com.taobao.tddl.dbsync.binlog.event" ]
+"com.taobao.tddl.dbsync.binlog.event.mariadb@com.alibaba.otter:canal.parse.dbsync" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.taobao.tddl.dbsync.binlog.event.mariadb" ]
+"com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="com.taobao.tddl.dbsync.binlog" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.deployer" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.deployer
+
+component cohesion: 0.2%"
+"com.alibaba.otter.canal.deployer.monitor@com.alibaba.otter:canal.deployer" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.deployer.monitor" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.deployer" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.parse" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.parse
+
+component cohesion: 0.4%"
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.inbound.mysql.dbsync" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.inbound" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.local@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.inbound.mysql.local" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.inbound.mysql.tsdb" ]
+"com.alibaba.otter.canal.parse.inbound.group@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.inbound.group" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="com.alibaba.otter.canal.parse.inbound.mysql" ]
+"com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.ha" ]
+"com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.ddl@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.inbound.mysql.ddl" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb.dao@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.inbound.mysql.tsdb.dao" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.index" ]
+"com.alibaba.otter.canal.parse.support@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.support" ]
+"com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.exception" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.rds@com.alibaba.otter:canal.parse" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.inbound.mysql.rds" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.protocol" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.protocol
+
+component cohesion: 0.1%"
+"com.alibaba.otter.canal.protocol.exception@com.alibaba.otter:canal.protocol" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.protocol.exception" ]
+"com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="29" margin="0.464" label="com.alibaba.otter.canal.protocol" ]
+"com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.protocol.position" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.instance" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.instance
+
+component cohesion: 0.2%"
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="canal.instance.spring
+
+component cohesion: 0.0%" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="canal.instance.manager
+
+component cohesion: 0.2%" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="canal.instance.core
+
+component cohesion: 0.0%" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.sink" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.sink
+
+component cohesion: 0.3%"
+"com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.sink" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.sink.entry" ]
+"com.alibaba.otter.canal.sink.exception@com.alibaba.otter:canal.sink" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.sink.exception" ]
+"com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.sink.entry.group" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.store" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.store
+
+component cohesion: 0.3%"
+"com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.store.model" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.store" ]
+"com.alibaba.otter.canal.store.helper@com.alibaba.otter:canal.store" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.store.helper" ]
+"com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.store.memory" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.parse.driver" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.parse.driver
+
+component cohesion: 0.9%"
+"com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.driver.mysql.packets" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets.client@com.alibaba.otter:canal.parse.driver" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.driver.mysql.packets.client" ]
+"com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.driver.mysql" ]
+"com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.driver.mysql.utils" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.parse.driver.mysql.packets.server" ]
+"com.alibaba.otter.canal.parse.driver.mysql.socket@com.alibaba.otter:canal.parse.driver" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.parse.driver.mysql.socket" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.meta" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.meta
+
+component cohesion: 0.1%"
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.meta" ]
+"com.alibaba.otter.canal.meta.exception@com.alibaba.otter:canal.meta" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.meta.exception" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.filter" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.filter
+
+component cohesion: 0.6%"
+"com.alibaba.otter.canal.filter.exception@com.alibaba.otter:canal.filter" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.filter.exception" ]
+"com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.filter.aviater" ]
+"com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.filter" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.client" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.client
+
+component cohesion: 0.3%"
+"com.alibaba.otter.canal.client@com.alibaba.otter:canal.client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.client" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.otter.canal.client.impl" ]
+"com.alibaba.otter.canal.client.impl.running@com.alibaba.otter:canal.client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.client.impl.running" ]
+}
+subgraph "cluster-com.alibaba.otter:canal.server" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="canal.server
+
+component cohesion: 0.3%"
+"com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.server.netty" ]
+"com.alibaba.otter.canal.server@com.alibaba.otter:canal.server" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.server" ]
+"com.alibaba.otter.canal.server.exception@com.alibaba.otter:canal.server" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.server.exception" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.server.embedded" ]
+"com.alibaba.otter.canal.server.netty.handler@com.alibaba.otter:canal.server" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.otter.canal.server.netty.handler" ]
+}
+"com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.common.alarm@com.alibaba.otter:canal.common" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" -> "com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  56" ]
+"com.taobao.tddl.dbsync.binlog.event.mariadb@com.alibaba.otter:canal.parse.dbsync" -> "com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.taobao.tddl.dbsync.binlog.event.mariadb@com.alibaba.otter:canal.parse.dbsync" -> "com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" -> "com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  33" ]
+"com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" -> "com.taobao.tddl.dbsync.binlog.event.mariadb@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.deployer.monitor@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.otter.canal.deployer.monitor@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.deployer.monitor@com.alibaba.otter:canal.deployer" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.deployer.monitor@com.alibaba.otter:canal.deployer" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.server.exception@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.deployer@com.alibaba.otter:canal.deployer" -> "com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.taobao.tddl.dbsync.binlog.event.mariadb@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.ddl@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.socket@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common.alarm@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.support@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.sink.exception@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.local@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.ddl@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.tsdb.dao@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.group@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.group@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.taobao.tddl.dbsync.binlog.event@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.taobao.tddl.dbsync.binlog@com.alibaba.otter:canal.parse.dbsync" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.dbsync@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.local@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql.tsdb@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.support@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.client@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.support@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.ddl@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.ddl@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.tsdb.dao@com.alibaba.otter:canal.parse" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.store.helper@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.meta.exception@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.rds@com.alibaba.otter:canal.parse" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.rds@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.rds@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.rds@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.parse.exception@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.inbound.mysql.rds@com.alibaba.otter:canal.parse" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common.alarm@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.spring@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common.alarm@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.inbound.group@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.support@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter:canal.instance.manager@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.common.alarm@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.inbound@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.inbound.group@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.inbound.mysql@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.ha@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.parse.index@com.alibaba.otter:canal.parse" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" -> "com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.sink.exception@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.sink.exception@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.exception@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.sink@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.sink.entry@com.alibaba.otter:canal.sink" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.sink.entry.group@com.alibaba.otter:canal.sink" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store.helper@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store.helper@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.store.helper@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.store.memory@com.alibaba.otter:canal.store" -> "com.alibaba.otter.canal.store.helper@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets.client@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets.client@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.client@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.otter.canal.parse.driver.mysql@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.socket@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets.client@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.socket@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.packets@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.otter.canal.parse.driver.mysql.packets.server@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.parse.driver.mysql.utils@com.alibaba.otter:canal.parse.driver" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.otter.canal.parse.driver.mysql.socket@com.alibaba.otter:canal.parse.driver" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba.otter.canal.meta@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.meta.exception@com.alibaba.otter:canal.meta" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.otter.canal.meta.exception@com.alibaba.otter:canal.meta" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.filter.exception@com.alibaba.otter:canal.filter" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" -> "com.alibaba.otter.canal.filter.exception@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.filter.aviater@com.alibaba.otter:canal.filter" -> "com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.filter@com.alibaba.otter:canal.filter" -> "com.alibaba.otter.canal.filter.exception@com.alibaba.otter:canal.filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.client@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.client@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.protocol.exception@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.client@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.client@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.protocol.exception@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.client@com.alibaba.otter:canal.client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.otter.canal.client.impl@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.client.impl.running@com.alibaba.otter:canal.client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.client.impl.running@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.client.impl.running@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common.utils@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.client.impl.running@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.common.zookeeper@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.client.impl.running@com.alibaba.otter:canal.client" -> "com.alibaba.otter.canal.protocol.exception@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server.netty.handler@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.server@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.server@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server.exception@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.server.exception@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.common@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.google.common.collect@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.protocol.position@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter:canal.instance.core@com.alibaba.otter:canal.instance" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.store.model@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.store@com.alibaba.otter:canal.store" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server.exception@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.otter.canal.server.netty.handler@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.common.zookeeper.running@com.alibaba.otter:canal.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.otter.canal.server.netty.handler@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.protocol@com.alibaba.otter:canal.protocol" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"com.alibaba.otter.canal.server.netty.handler@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server.netty@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.otter.canal.server.netty.handler@com.alibaba.otter:canal.server" -> "com.alibaba.otter.canal.server.embedded@com.alibaba.otter:canal.server" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

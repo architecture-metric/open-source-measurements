@@ -1,0 +1,130 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-glance.api" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="glance.api
+
+code breakdown: 1493.0"
+"glance.api.middleware@glance.api" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="glance.api.middleware
+
+code breakdown: 468.0" ]
+"glance.api.v1@glance.api" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="glance.api.v1
+
+code breakdown: 1369.0" ]
+"glance.api.v2@glance.api" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="21" margin="0.336" label="glance.api.v2
+
+code breakdown: 4485.0" ]
+}
+subgraph "cluster-glance.common" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="glance.common
+
+code breakdown: 2860.0"
+"glance.common.scripts@glance.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="glance.common.scripts
+
+code breakdown: 99.0" ]
+"glance.common.location_strategy@glance.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="glance.common.location_strategy
+
+code breakdown: 169.0" ]
+}
+subgraph "cluster-glance.db" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="glance.db
+
+code breakdown: 837.0"
+"glance.db.registry@glance.db" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="glance.db.registry
+
+code breakdown: 330.0" ]
+"glance.db.simple@glance.db" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="glance.db.simple
+
+code breakdown: 1518.0" ]
+"glance.db.sqlalchemy@glance.db" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="24" margin="0.384" label="glance.db.sqlalchemy
+
+code breakdown: 1884.0" ]
+}
+subgraph "cluster-glance.image_cache" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="glance.image_cache
+
+code breakdown: 326.0"
+"glance.image_cache.drivers@glance.image_cache" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="glance.image_cache.drivers
+
+code breakdown: 629.0" ]
+}
+"glance.cmd@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="glance.cmd
+
+code breakdown: 1684.0" ]
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="20" margin="0.32" label="REMAINDER
+
+code breakdown: 4382.0" ]
+"glance.domain@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="glance.domain
+
+code breakdown: 951.0" ]
+"glance.hacking@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="glance.hacking
+
+code breakdown: 99.0" ]
+subgraph "cluster-glance.async" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="glance.async
+
+code breakdown: 195.0"
+"glance.async.flows@glance.async" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="glance.async.flows
+
+code breakdown: 668.0" ]
+}
+subgraph "cluster-glance.registry" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="glance.registry
+
+code breakdown: 30.0"
+"glance.registry.client@glance.registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="glance.registry.client
+
+code breakdown: 107.0" ]
+"glance.registry.api@glance.registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="glance.registry.api
+
+code breakdown: 19.0" ]
+}
+"glance.api.middleware@glance.api" -> "glance.api.v1@glance.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"glance.common.scripts@glance.common" -> "glance.api.v2@glance.api" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"glance.db.registry@glance.db" -> "glance.registry.client@glance.registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"glance.cmd@NOT_DEPLOYED" -> "glance.db.sqlalchemy@glance.db" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "glance.common.location_strategy@glance.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "glance.domain@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"REMAINDER@NOT_DEPLOYED" -> "glance.registry.client@glance.registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"glance.async.flows@glance.async" -> "glance.common.scripts@glance.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"glance.registry.client@glance.registry" -> "glance.registry.api@glance.registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

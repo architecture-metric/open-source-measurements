@@ -1,0 +1,2 @@
+opensource-echarts::SystemLevel (462 files, 57431 LOC)
+    REMAINDER::CodeComponent (462 files, 57431 LOC)

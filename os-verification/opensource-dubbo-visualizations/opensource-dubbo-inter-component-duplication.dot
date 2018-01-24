@@ -1,0 +1,184 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="dubbo-common
+
+inter component duplication: 4.7%" ]
+"com.alibaba:dubbo-filter" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-filter
+
+inter component duplication: 25.5%" ]
+"com.alibaba:hessian-lite" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="23" margin="0.368" label="hessian-lite
+
+inter component duplication: 13.3%" ]
+"com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="dubbo-cluster
+
+inter component duplication: 7.8%" ]
+"com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="29" margin="0.464" label="dubbo-admin
+
+inter component duplication: 7.8%" ]
+"com.alibaba:dubbo-simple" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="dubbo-simple
+
+inter component duplication: 25.8%" ]
+"com.alibaba:dubbo-registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="dubbo-registry
+
+inter component duplication: 9.8%" ]
+"com.alibaba:dubbo-monitor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-monitor
+
+inter component duplication: 33.2%" ]
+"com.alibaba:dubbo-container" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="dubbo-container
+
+inter component duplication: 24.5%" ]
+"com.alibaba:dubbo-test" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-test
+
+inter component duplication: 27.1%" ]
+"com.alibaba:dubbo-demo" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-demo
+
+inter component duplication: 100.0%" ]
+"com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="21" margin="0.336" label="dubbo-remoting
+
+inter component duplication: 7.5%" ]
+"com.alibaba:dubbo-config" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="dubbo-config
+
+inter component duplication: 12.3%" ]
+"com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="20" margin="0.32" label="dubbo-rpc
+
+inter component duplication: 8.0%" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:hessian-lite" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  28" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  95" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  111" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  113" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  37" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  82" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  21" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  21" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  14" ]
+"com.alibaba:dubbo-container" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  38" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  304" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  76" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  28" ]
+"com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  294" ]
+"com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  134" ]
+"com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-filter" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:hessian-lite" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-cluster" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-admin" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  270" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-simple" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  116" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  126" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  91" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-common" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:hessian-lite" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-cluster" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  132" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-admin" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-simple" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  122" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  83" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  132" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-cluster" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-admin" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-simple" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  6" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:hessian-lite" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-admin" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  151" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-simple" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  122" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  83" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  132" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-simple" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  216" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  116" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  163" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  114" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  238" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  102" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-registry" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  114" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  346" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  89" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  115" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-monitor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  132" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  91" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  157" ]
+"com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  155" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-container" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  83" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  130" ]
+"com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  139" ]
+"com.alibaba:dubbo-container" -> "com.alibaba:dubbo-test" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  119" ]
+"com.alibaba:dubbo-container" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-container" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  116" ]
+"com.alibaba:dubbo-container" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-container" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  129" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-demo" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  83" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-test" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  113" ]
+"com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-remoting" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  96" ]
+"com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  107" ]
+"com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  123" ]
+"com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-config" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  83" ]
+"com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  173" ]
+"com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  145" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

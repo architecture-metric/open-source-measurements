@@ -1,0 +1,964 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-com.alibaba:dubbo-common" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-common
+
+code breakdown: 70.0"
+"com.alibaba.dubbo.common.threadpool.support.cached@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.threadpool.support.cached
+
+code breakdown: 25.0" ]
+"com.alibaba.dubbo.common.serialize.support.nativejava@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.serialize.support.nativejava
+
+code breakdown: 157.0" ]
+"com.alibaba.dubbo.common.compiler@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.compiler
+
+code breakdown: 7.0" ]
+"com.alibaba.dubbo.common.beanutil@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.common.beanutil
+
+code breakdown: 559.0" ]
+"com.alibaba.dubbo.common.extension.support@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.extension.support
+
+code breakdown: 59.0" ]
+"com.alibaba.dubbo.common.status.support@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.status.support
+
+code breakdown: 73.0" ]
+"com.alibaba.dubbo.common.serialize.support.java@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.serialize.support.java
+
+code breakdown: 216.0" ]
+"com.alibaba.dubbo.common.threadpool.support.limited@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.threadpool.support.limited
+
+code breakdown: 24.0" ]
+"com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.common.io
+
+code breakdown: 1006.0" ]
+"com.alibaba.dubbo.common.extension.factory@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.extension.factory
+
+code breakdown: 43.0" ]
+"com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="com.alibaba.dubbo.common.utils
+
+code breakdown: 3681.0" ]
+"com.alibaba.dubbo.common.compiler.support@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.common.compiler.support
+
+code breakdown: 737.0" ]
+"com.alibaba.dubbo.common.logger.jdk@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.logger.jdk
+
+code breakdown: 157.0" ]
+"com.alibaba.dubbo.common.logger.jcl@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.logger.jcl
+
+code breakdown: 99.0" ]
+"com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="com.alibaba.dubbo.common.json
+
+code breakdown: 2374.0" ]
+"com.alibaba.dubbo.common.store.support@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.store.support
+
+code breakdown: 35.0" ]
+"com.alibaba.dubbo.common.threadpool.support.fixed@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.threadpool.support.fixed
+
+code breakdown: 23.0" ]
+"com.alibaba.dubbo.common.logger.slf4j@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.logger.slf4j
+
+code breakdown: 97.0" ]
+"com.alibaba.dubbo.common.logger.log4j@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.logger.log4j
+
+code breakdown: 152.0" ]
+"com.alibaba.dubbo.common.serialize.support.hessian@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.serialize.support.hessian
+
+code breakdown: 162.0" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.logger
+
+code breakdown: 129.0" ]
+"com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="com.alibaba.dubbo.common
+
+code breakdown: 1714.0" ]
+"com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.common.extension
+
+code breakdown: 794.0" ]
+"com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.threadpool
+
+code breakdown: 12.0" ]
+"com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.threadpool.support
+
+code breakdown: 27.0" ]
+"com.alibaba.dubbo.common.logger.support@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.logger.support
+
+code breakdown: 145.0" ]
+"com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.serialize
+
+code breakdown: 58.0" ]
+"com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.common.bytecode
+
+code breakdown: 988.0" ]
+"com.alibaba.dubbo.common.serialize.support.json@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.serialize.support.json
+
+code breakdown: 382.0" ]
+"com.alibaba.dubbo.common.store@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.store
+
+code breakdown: 11.0" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="com.alibaba.dubbo.common.serialize.support.dubbo
+
+code breakdown: 2369.0" ]
+"com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.common.status
+
+code breakdown: 38.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-filter" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-filter
+
+code breakdown: 35.0"
+"com.alibaba:dubbo-filter-cache@com.alibaba:dubbo-filter" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-filter-cache
+
+code breakdown: 43.0" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-filter-validation
+
+code breakdown: 43.0" ]
+}
+subgraph "cluster-com.alibaba:hessian-lite" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="hessian-lite
+
+code breakdown: 15.0"
+"com.alibaba.com.caucho.hessian.util@com.alibaba:hessian-lite" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.com.caucho.hessian.util
+
+code breakdown: 258.0" ]
+"com.alibaba.com.caucho.hessian@com.alibaba:hessian-lite" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.com.caucho.hessian
+
+code breakdown: 18.0" ]
+"com.alibaba.com.caucho.hessian.io@com.alibaba:hessian-lite" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="23" margin="0.368" label="com.alibaba.com.caucho.hessian.io
+
+code breakdown: 10306.0" ]
+"com.alibaba.com.caucho.hessian.security@com.alibaba:hessian-lite" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.com.caucho.hessian.security
+
+code breakdown: 476.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-cluster" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-cluster
+
+code breakdown: 44.0"
+"com.alibaba.dubbo.rpc.cluster.configurator.override@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.configurator.override
+
+code breakdown: 20.0" ]
+"com.alibaba.dubbo.rpc.cluster.router@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.router
+
+code breakdown: 66.0" ]
+"com.alibaba.dubbo.rpc.cluster.router.script@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.router.script
+
+code breakdown: 100.0" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.rpc.cluster.support
+
+code breakdown: 883.0" ]
+"com.alibaba.dubbo.rpc.cluster.loadbalance@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.loadbalance
+
+code breakdown: 305.0" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.directory
+
+code breakdown: 140.0" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.absent@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.configurator.absent
+
+code breakdown: 20.0" ]
+"com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster
+
+code breakdown: 87.0" ]
+"com.alibaba.dubbo.rpc.cluster.router.condition@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.router.condition
+
+code breakdown: 194.0" ]
+"com.alibaba.dubbo.rpc.cluster.router.file@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.router.file
+
+code breakdown: 36.0" ]
+"com.alibaba.dubbo.rpc.cluster.merger@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.merger
+
+code breakdown: 267.0" ]
+"com.alibaba.dubbo.rpc.cluster.configurator@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.configurator
+
+code breakdown: 65.0" ]
+"com.alibaba.dubbo.rpc.cluster.support.wrapper@com.alibaba:dubbo-cluster" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.rpc.cluster.support.wrapper
+
+code breakdown: 121.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-admin" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-admin
+
+code breakdown: 4131.0"
+"com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.util
+
+code breakdown: 216.0" ]
+"com.alibaba.dubbo.governance@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance
+
+code breakdown: 17.0" ]
+"com.alibaba.dubbo.governance.web.home.module.control@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.home.module.control
+
+code breakdown: 35.0" ]
+"com.alibaba.dubbo.governance.biz.common.i18n.impl@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.biz.common.i18n.impl
+
+code breakdown: 26.0" ]
+"com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.service
+
+code breakdown: 118.0" ]
+"com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="com.alibaba.dubbo.registry.common.domain
+
+code breakdown: 1782.0" ]
+"com.alibaba.dubbo.registry.common.registry@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.registry.common.registry
+
+code breakdown: 93.0" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.governance.web.common.interceptor
+
+code breakdown: 455.0" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="com.alibaba.dubbo.governance.web.governance.module.screen
+
+code breakdown: 2347.0" ]
+"com.alibaba.dubbo.registry.common@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.registry.common
+
+code breakdown: 87.0" ]
+"com.alibaba.dubbo.governance.web.common.utils@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.common.utils
+
+code breakdown: 27.0" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.sysinfo.module.screen
+
+code breakdown: 403.0" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.governance.web.common.pulltool
+
+code breakdown: 473.0" ]
+"com.alibaba.dubbo.governance.web.common.auth@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.common.auth
+
+code breakdown: 15.0" ]
+"com.alibaba.dubbo.governance.web.personal.module.screen@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.personal.module.screen
+
+code breakdown: 52.0" ]
+"com.alibaba.dubbo.registry.common.status@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.registry.common.status
+
+code breakdown: 105.0" ]
+"com.alibaba.dubbo.governance.web.common.i18n@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.common.i18n
+
+code breakdown: 14.0" ]
+"com.alibaba.dubbo.governance.sync.util@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.sync.util
+
+code breakdown: 244.0" ]
+"com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.common.module.screen
+
+code breakdown: 216.0" ]
+"com.alibaba.dubbo.governance.web.sysmanage.module.screen@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.sysmanage.module.screen
+
+code breakdown: 84.0" ]
+"com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="com.alibaba.dubbo.registry.common.util
+
+code breakdown: 1325.0" ]
+"com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.sync
+
+code breakdown: 98.0" ]
+"com.alibaba.dubbo.governance.web.common.resolver@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.web.common.resolver
+
+code breakdown: 325.0" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.governance.service.impl
+
+code breakdown: 982.0" ]
+"com.alibaba.dubbo.governance.biz.common.i18n@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.biz.common.i18n
+
+code breakdown: 5.0" ]
+"com.alibaba.dubbo.governance.status@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="com.alibaba.dubbo.governance.status
+
+code breakdown: 105.0" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.governance.web.home.module.screen
+
+code breakdown: 563.0" ]
+"com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="com.alibaba.dubbo.registry.common.route
+
+code breakdown: 1067.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-simple" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-simple
+
+code breakdown: 35.0"
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="dubbo-monitor-simple
+
+code breakdown: 167.0" ]
+"com.alibaba:dubbo-registry-simple@com.alibaba:dubbo-simple" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-registry-simple
+
+code breakdown: 66.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-registry" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-registry
+
+code breakdown: 38.0"
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="dubbo-registry-api
+
+code breakdown: 49.0" ]
+"com.alibaba:dubbo-registry-redis@com.alibaba:dubbo-registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-registry-redis
+
+code breakdown: 43.0" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-registry-zookeeper
+
+code breakdown: 43.0" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-registry-default
+
+code breakdown: 62.0" ]
+"com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-registry-multicast
+
+code breakdown: 38.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-monitor" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-monitor
+
+code breakdown: 35.0"
+"com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-monitor-api
+
+code breakdown: 38.0" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-monitor-default
+
+code breakdown: 50.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-container" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-container
+
+code breakdown: 38.0"
+"com.alibaba:dubbo-container-logback@com.alibaba:dubbo-container" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-container-logback
+
+code breakdown: 43.0" ]
+"com.alibaba:dubbo-container-spring@com.alibaba:dubbo-container" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-container-spring
+
+code breakdown: 42.0" ]
+"com.alibaba:dubbo-container-jetty@com.alibaba:dubbo-container" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-container-jetty
+
+code breakdown: 38.0" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-container-api
+
+code breakdown: 58.0" ]
+"com.alibaba:dubbo-container-log4j@com.alibaba:dubbo-container" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-container-log4j
+
+code breakdown: 38.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-test" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-test
+
+code breakdown: 37.0"
+"com.alibaba:dubbo-test-benchmark@com.alibaba:dubbo-test" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-test-benchmark
+
+code breakdown: 97.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-demo" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-demo
+
+code breakdown: 36.0"
+"com.alibaba:dubbo-demo-api@com.alibaba:dubbo-demo" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-demo-api
+
+code breakdown: 31.0" ]
+"com.alibaba:dubbo-demo-provider@com.alibaba:dubbo-demo" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-demo-provider
+
+code breakdown: 167.0" ]
+"com.alibaba:dubbo-demo-consumer@com.alibaba:dubbo-demo" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-demo-consumer
+
+code breakdown: 164.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-remoting" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-remoting
+
+code breakdown: 39.0"
+"com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-remoting-netty
+
+code breakdown: 42.0" ]
+"com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-remoting-http
+
+code breakdown: 42.0" ]
+"com.alibaba:dubbo-remoting-zookeeper@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-remoting-zookeeper
+
+code breakdown: 50.0" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="dubbo-remoting-api
+
+code breakdown: 38.0" ]
+"com.alibaba:dubbo-remoting-mina@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-remoting-mina
+
+code breakdown: 46.0" ]
+"com.alibaba:dubbo-remoting-p2p@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-remoting-p2p
+
+code breakdown: 38.0" ]
+"com.alibaba:dubbo-remoting-grizzly@com.alibaba:dubbo-remoting" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-remoting-grizzly
+
+code breakdown: 42.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-config" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-config
+
+code breakdown: 35.0"
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="dubbo-config-spring
+
+code breakdown: 119.0" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="15" margin="0.24" label="dubbo-config-api
+
+code breakdown: 109.0" ]
+}
+subgraph "cluster-com.alibaba:dubbo-rpc" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="dubbo-rpc
+
+code breakdown: 43.0"
+"com.alibaba:dubbo-rpc-redis@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-redis
+
+code breakdown: 43.0" ]
+"com.alibaba:dubbo-rpc-http@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-http
+
+code breakdown: 51.0" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="dubbo-rpc-api
+
+code breakdown: 38.0" ]
+"com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-injvm
+
+code breakdown: 38.0" ]
+"com.alibaba:dubbo-rpc-rmi@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-rmi
+
+code breakdown: 42.0" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="dubbo-rpc-default
+
+code breakdown: 71.0" ]
+"com.alibaba:dubbo-rpc-webservice@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-webservice
+
+code breakdown: 55.0" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="dubbo-rpc-thrift
+
+code breakdown: 73.0" ]
+"com.alibaba:dubbo-rpc-memcached@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-memcached
+
+code breakdown: 42.0" ]
+"com.alibaba:dubbo-rpc-hessian@com.alibaba:dubbo-rpc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="dubbo-rpc-hessian
+
+code breakdown: 53.0" ]
+}
+"com.alibaba.dubbo.common.threadpool.support.cached@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.cached@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.threadpool.support.cached@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.cached@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.nativejava@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.nativejava@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.nativejava@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.dubbo.common.compiler@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.beanutil@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.beanutil@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.extension.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.common.status.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.status.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.common.serialize.support.java@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize.support.nativejava@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.java@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.java@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.java@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.common.threadpool.support.limited@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.limited@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.threadpool.support.limited@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.limited@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.extension.factory@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.compiler.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.compiler@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.compiler.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.common.compiler.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.logger.jdk@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common.logger.jcl@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.common.store.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.store@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.fixed@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.fixed@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.threadpool.support.fixed@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.threadpool.support.fixed@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger.slf4j@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common.logger.log4j@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common.logger.log4j@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.hessian@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.hessian@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.dubbo.common.serialize.support.hessian@com.alibaba:dubbo-common" -> "com.alibaba.com.caucho.hessian.io@com.alibaba:hessian-lite" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger.jdk@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger.jcl@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger.slf4j@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger.log4j@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.dubbo.common@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.logger.support@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.common.serialize.support.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.common.serialize.support.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.json@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.dubbo.common.store@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize.support.java@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.common.serialize.support.dubbo@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-filter-cache@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-filter-cache@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba:dubbo-filter-cache@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-filter-cache@com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.com.caucho.hessian.io@com.alibaba:hessian-lite" -> "com.alibaba.com.caucho.hessian.util@com.alibaba:hessian-lite" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.com.caucho.hessian.security@com.alibaba:hessian-lite" -> "com.alibaba.com.caucho.hessian.io@com.alibaba:hessian-lite" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.override@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.override@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.override@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.configurator@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.router@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.router@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.router@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.script@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.router.script@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.script@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.script@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  35" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.merger@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  62" ]
+"com.alibaba.dubbo.rpc.cluster.loadbalance@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.loadbalance@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.dubbo.rpc.cluster.loadbalance@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.loadbalance@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.router@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.absent@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.absent@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.configurator.absent@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.configurator@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.loadbalance@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba.dubbo.rpc.cluster.router.condition@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.condition@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.router.condition@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.condition@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.condition@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.router.file@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.router.file@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.router.file@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster.router.script@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.router.file@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.merger@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.merger@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.merger@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"com.alibaba.dubbo.rpc.cluster.configurator@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.configurator@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.support.wrapper@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.rpc.cluster.support.wrapper@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.support.wrapper@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.rpc.cluster.support.wrapper@com.alibaba:dubbo-cluster" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.rpc.cluster.support.wrapper@com.alibaba:dubbo-cluster" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.home.module.control@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.home.module.control@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.home.module.control@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.home.module.control@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.biz.common.i18n.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.i18n@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.biz.common.i18n.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.biz.common.i18n@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.registry@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.registry@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.registry@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.i18n@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.interceptor@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  29" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.dubbo.governance.web.governance.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba.dubbo.registry.common@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.web.common.utils@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.utils@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.sysinfo.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.biz.common.i18n@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.web.common.auth@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.personal.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.personal.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.personal.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.registry.common.status@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.registry.common.status@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.governance.sync.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.sync.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.sync.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.biz.common.i18n@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.sysmanage.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.sysmanage.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.sysmanage.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.module.screen@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.sync.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.sync@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.service.impl@com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.status@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.status@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.util@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.service@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.governance.web.common.pulltool@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.governance.web.home.module.screen@com.alibaba:dubbo-admin" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba.dubbo.registry.common.route@com.alibaba:dubbo-admin" -> "com.alibaba.dubbo.registry.common.domain@com.alibaba:dubbo-admin" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-container-spring@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-monitor-simple@com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  24" ]
+"com.alibaba:dubbo-registry-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-registry-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-simple@com.alibaba:dubbo-simple" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-simple@com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-registry-simple@com.alibaba:dubbo-simple" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"com.alibaba:dubbo-registry-redis@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-redis@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-redis@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-registry-redis@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-registry-redis@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-remoting-zookeeper@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-registry-zookeeper@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" -> "com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-container-logback@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-logback@com.alibaba:dubbo-container" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-spring@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-container-spring@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-spring@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-container-spring@com.alibaba:dubbo-container" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-jetty@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-jetty@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-jetty@com.alibaba:dubbo-container" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.status.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-container-log4j@com.alibaba:dubbo-container" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-container-log4j@com.alibaba:dubbo-container" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-test-benchmark@com.alibaba:dubbo-test" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-test-benchmark@com.alibaba:dubbo-test" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-test-benchmark@com.alibaba:dubbo-test" -> "com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-demo-provider@com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-demo-api@com.alibaba:dubbo-demo" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-demo-provider@com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-demo-consumer@com.alibaba:dubbo-demo" -> "com.alibaba:dubbo-demo-api@com.alibaba:dubbo-demo" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-remoting-zookeeper@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-zookeeper@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-remoting-zookeeper@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.status.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  38" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  64" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.threadpool.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.store@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-mina@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-remoting-mina@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-remoting-mina@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"com.alibaba:dubbo-remoting-mina@com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"com.alibaba:dubbo-remoting-p2p@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-remoting-p2p@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-remoting-p2p@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"com.alibaba:dubbo-remoting-p2p@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-remoting-p2p@com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  53" ]
+"com.alibaba:dubbo-remoting-grizzly@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-remoting-grizzly@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-remoting-grizzly@com.alibaba:dubbo-remoting" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba:dubbo-remoting-grizzly@com.alibaba:dubbo-remoting" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  43" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-rmi@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.compiler.support@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.threadpool@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-filter-cache@com.alibaba:dubbo-filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-filter-validation@com.alibaba:dubbo-filter" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.rpc.cluster.support@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.rpc.cluster.directory@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba.dubbo.rpc.cluster@com.alibaba:dubbo-cluster" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-registry-api@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-registry-default@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-monitor-api@com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-monitor-default@com.alibaba:dubbo-monitor" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-rmi@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-config-api@com.alibaba:dubbo-config" -> "com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-redis@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-redis@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-redis@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-rpc-redis@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba:dubbo-rpc-http@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-http@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-rpc-http@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.beanutil@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  31" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  28" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  61" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  26" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-injvm@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.alibaba:dubbo-rpc-rmi@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-rmi@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.json@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  16" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  26" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.serialize@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.bytecode@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.store@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.status@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-container-api@com.alibaba:dubbo-container" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  93" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-mina@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  69" ]
+"com.alibaba:dubbo-rpc-webservice@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-webservice@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"com.alibaba:dubbo-rpc-webservice@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.io@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.utils@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.logger@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common.extension@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-registry-multicast@com.alibaba:dubbo-registry" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-netty@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-api@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-config-spring@com.alibaba:dubbo-config" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"com.alibaba:dubbo-rpc-thrift@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-default@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-memcached@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-memcached@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"com.alibaba:dubbo-rpc-hessian@com.alibaba:dubbo-rpc" -> "com.alibaba.dubbo.common@com.alibaba:dubbo-common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.alibaba:dubbo-rpc-hessian@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-remoting-http@com.alibaba:dubbo-remoting" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"com.alibaba:dubbo-rpc-hessian@com.alibaba:dubbo-rpc" -> "com.alibaba:dubbo-rpc-api@com.alibaba:dubbo-rpc" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

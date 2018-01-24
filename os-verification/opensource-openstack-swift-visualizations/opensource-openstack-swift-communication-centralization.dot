@@ -1,0 +1,56 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="REMAINDER" ]
+"75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ shape="box" penwidth="0" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" image="icon-datastore.png" width="1.000" height="1.000" fixedsize="true" label="" ]
+subgraph "cluster-swift" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="executable"
+"swift.cli@swift" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="swift.cli
+
+communication centralization: 4.3%" ]
+"swift.obj@swift" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="swift.obj
+
+communication centralization: 84.5%" ]
+"swift.container@swift" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="swift.container
+
+communication centralization: 7.3%" ]
+"swift.proxy@swift" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="swift.proxy
+
+communication centralization: 35.4%" ]
+"swift.account@swift" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="swift.account
+
+communication centralization: 18.5%" ]
+"swift.common@swift" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="swift.common
+
+communication centralization: 84.5%" ]
+}
+"swift.cli@swift" -> "swift.common@swift" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"swift.obj@swift" -> "swift.common@swift" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"swift.container@swift" -> "75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"swift.container@swift" -> "75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"swift.container@swift" -> "swift.common@swift" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"swift.proxy@swift" -> "swift.common@swift" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"swift.account@swift" -> "75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"swift.account@swift" -> "75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"swift.account@swift" -> "swift.common@swift" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"swift.common@swift" -> "75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"swift.common@swift" -> "75087541-f592-41af-868d-d4e7ca301177@NOT_DEPLOYED" [ penwidth="2" color="#D2D1C7" fontcolor="#D2D1C7" fontname="Helvetica Neue" fontsize="12" label="" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#8212;</FONT></TD><TD ALIGN="left">Provides</TD></TR>
+<TR><TD><FONT COLOR="#820445">&rarr;</FONT></TD><TD ALIGN="left">Interface call</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&rarr;</FONT></TD><TD ALIGN="left">Data store read</TD></TR>
+<TR><TD><FONT COLOR="#A4A38F">&rarr;</FONT></TD><TD ALIGN="left">Data store write</TD></TR>
+</TABLE>
+>  ]
+}

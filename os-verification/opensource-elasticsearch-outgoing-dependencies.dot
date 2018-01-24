@@ -1,0 +1,157 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-plugins" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"plugins@plugins" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="plugins
+
+outgoing dependencies: 578.0" ]
+}
+"4fca0fe6-64a4-45a4-ba1b-edbac917a4f3@NOT_DEPLOYED" [ shape="box" penwidth="0" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" image="icon-datastore.png" width="1.000" height="1.000" fixedsize="true" label="" ]
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="REMAINDER
+
+outgoing dependencies: 0.0" ]
+subgraph "cluster-core" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"core@core" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="core
+
+outgoing dependencies: 3.0" ]
+}
+subgraph "cluster-benchmarks" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"benchmarks@benchmarks" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="benchmarks
+
+outgoing dependencies: 27.0" ]
+}
+subgraph "cluster-:rootProject" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"buildSrc@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="buildSrc
+
+outgoing dependencies: 0.0" ]
+"sniffer@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="sniffer
+
+outgoing dependencies: 0.0" ]
+"rest@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="rest
+
+outgoing dependencies: 0.0" ]
+"plugins@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="plugins
+
+outgoing dependencies: 578.0" ]
+"modules@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="modules
+
+outgoing dependencies: 1253.0" ]
+"core@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="core
+
+outgoing dependencies: 3.0" ]
+"benchmarks@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="benchmarks
+
+outgoing dependencies: 27.0" ]
+"distribution@:rootProject" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="distribution
+
+outgoing dependencies: 0.0" ]
+}
+subgraph "cluster-sniffer" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"sniffer@sniffer" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="sniffer
+
+outgoing dependencies: 0.0" ]
+}
+subgraph "cluster-rest" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"rest@rest" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="rest
+
+outgoing dependencies: 0.0" ]
+}
+subgraph "cluster-modules" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"modules@modules" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="modules
+
+outgoing dependencies: 1253.0" ]
+}
+subgraph "cluster-buildSrc" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"buildSrc@buildSrc" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="buildSrc
+
+outgoing dependencies: 0.0" ]
+}
+subgraph "cluster-distribution" {
+style="filled"
+color="#D2D1C7"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#323232"
+label="web app"
+"distribution@distribution" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="distribution
+
+outgoing dependencies: 0.0" ]
+}
+"plugins@plugins" -> "core@core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  578" ]
+"plugins@plugins" -> "core@:rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  578" ]
+"core@core" -> "4fca0fe6-64a4-45a4-ba1b-edbac917a4f3@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"benchmarks@benchmarks" -> "core@core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"benchmarks@benchmarks" -> "core@:rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"plugins@:rootProject" -> "core@core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  578" ]
+"plugins@:rootProject" -> "core@:rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  578" ]
+"modules@:rootProject" -> "4fca0fe6-64a4-45a4-ba1b-edbac917a4f3@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"modules@:rootProject" -> "core@core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1252" ]
+"modules@:rootProject" -> "core@:rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1252" ]
+"core@:rootProject" -> "4fca0fe6-64a4-45a4-ba1b-edbac917a4f3@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"benchmarks@:rootProject" -> "core@core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"benchmarks@:rootProject" -> "core@:rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"modules@modules" -> "4fca0fe6-64a4-45a4-ba1b-edbac917a4f3@NOT_DEPLOYED" [ penwidth="2" color="#A4A38F" fontcolor="#A4A38F" fontname="Helvetica Neue" fontsize="12" label="" ]
+"modules@modules" -> "core@core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1252" ]
+"modules@modules" -> "core@:rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1252" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#8212;</FONT></TD><TD ALIGN="left">Provides</TD></TR>
+<TR><TD><FONT COLOR="#820445">&rarr;</FONT></TD><TD ALIGN="left">Interface call</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&rarr;</FONT></TD><TD ALIGN="left">Data store read</TD></TR>
+<TR><TD><FONT COLOR="#A4A38F">&rarr;</FONT></TD><TD ALIGN="left">Data store write</TD></TR>
+</TABLE>
+>  ]
+}

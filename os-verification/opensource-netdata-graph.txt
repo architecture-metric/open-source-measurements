@@ -1,0 +1,6 @@
+opensource-netdata::SystemLevel (256 files, 86030 LOC)
+    profile/::DeployableComponent (218 files, 76621 LOC)
+        REMAINDER::CodeComponent (218 files, 76621 LOC)
+    python.d.python_modules::CodeComponent (38 files, 9409 LOC)
+        python.d.python_modules.pyyaml2::CodeComponent (17 files, 4259 LOC)
+        python.d.python_modules.pyyaml3::CodeComponent (17 files, 4179 LOC)

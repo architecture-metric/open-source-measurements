@@ -1,0 +1,292 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-keystone.resource" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.resource
+
+code breakdown: 1229.0"
+"keystone.resource.backends@keystone.resource" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.resource.backends
+
+code breakdown: 369.0" ]
+"keystone.resource.config_backends@keystone.resource" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.resource.config_backends
+
+code breakdown: 169.0" ]
+}
+subgraph "cluster-keystone.common" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.common
+
+code breakdown: 2305.0"
+"keystone.common.sql@keystone.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="keystone.common.sql
+
+code breakdown: 476.0" ]
+"keystone.common.policies@keystone.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="15" margin="0.24" label="keystone.common.policies
+
+code breakdown: 1734.0" ]
+"keystone.common.validation@keystone.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.common.validation
+
+code breakdown: 113.0" ]
+"keystone.common.cache@keystone.common" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.common.cache
+
+code breakdown: 179.0" ]
+}
+subgraph "cluster-keystone.federation" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.federation
+
+code breakdown: 1561.0"
+"keystone.federation.backends@keystone.federation" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.federation.backends
+
+code breakdown: 397.0" ]
+}
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="26" margin="0.41600000000000004" label="REMAINDER
+
+code breakdown: 5514.0" ]
+"keystone.middleware@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.middleware
+
+code breakdown: 238.0" ]
+"keystone.server@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.server
+
+code breakdown: 143.0" ]
+"keystone.models@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.models
+
+code breakdown: 388.0" ]
+"keystone.v2_crud@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.v2_crud
+
+code breakdown: 34.0" ]
+"keystone.conf@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="keystone.conf
+
+code breakdown: 1974.0" ]
+"keystone.version@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.version
+
+code breakdown: 300.0" ]
+subgraph "cluster-keystone.revoke" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.revoke
+
+code breakdown: 158.0"
+"keystone.revoke.backends@keystone.revoke" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.revoke.backends
+
+code breakdown: 132.0" ]
+}
+subgraph "cluster-keystone.auth" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.auth
+
+code breakdown: 702.0"
+"keystone.auth.plugins@keystone.auth" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="keystone.auth.plugins
+
+code breakdown: 677.0" ]
+}
+subgraph "cluster-keystone.catalog" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.catalog
+
+code breakdown: 818.0"
+"keystone.catalog.backends@keystone.catalog" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="keystone.catalog.backends
+
+code breakdown: 830.0" ]
+}
+subgraph "cluster-keystone.assignment" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.assignment
+
+code breakdown: 1564.0"
+"keystone.assignment.role_backends@keystone.assignment" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.assignment.role_backends
+
+code breakdown: 202.0" ]
+"keystone.assignment.backends@keystone.assignment" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.assignment.backends
+
+code breakdown: 402.0" ]
+}
+subgraph "cluster-keystone.policy" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.policy
+
+code breakdown: 121.0"
+"keystone.policy.backends@keystone.policy" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.policy.backends
+
+code breakdown: 100.0" ]
+}
+subgraph "cluster-keystone.token" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.token
+
+code breakdown: 559.0"
+"keystone.token.persistence@keystone.token" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.token.persistence
+
+code breakdown: 136.0" ]
+"keystone.token.providers@keystone.token" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="keystone.token.providers
+
+code breakdown: 524.0" ]
+}
+subgraph "cluster-keystone.identity" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.identity
+
+code breakdown: 1139.0"
+"keystone.identity.backends@keystone.identity" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="keystone.identity.backends
+
+code breakdown: 856.0" ]
+"keystone.identity.mapping_backends@keystone.identity" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.identity.mapping_backends
+
+code breakdown: 107.0" ]
+"keystone.identity.id_generators@keystone.identity" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.identity.id_generators
+
+code breakdown: 9.0" ]
+"keystone.identity.shadow_backends@keystone.identity" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.identity.shadow_backends
+
+code breakdown: 153.0" ]
+}
+subgraph "cluster-keystone.trust" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.trust
+
+code breakdown: 405.0"
+"keystone.trust.backends@keystone.trust" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.trust.backends
+
+code breakdown: 174.0" ]
+}
+subgraph "cluster-keystone.oauth1" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.oauth1
+
+code breakdown: 682.0"
+"keystone.oauth1.backends@keystone.oauth1" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.oauth1.backends
+
+code breakdown: 270.0" ]
+}
+subgraph "cluster-keystone.cmd" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.cmd
+
+code breakdown: 922.0"
+"keystone.cmd.doctor@keystone.cmd" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="keystone.cmd.doctor
+
+code breakdown: 279.0" ]
+}
+subgraph "cluster-keystone.endpoint_policy" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.endpoint_policy
+
+code breakdown: 357.0"
+"keystone.endpoint_policy.backends@keystone.endpoint_policy" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.endpoint_policy.backends
+
+code breakdown: 153.0" ]
+}
+subgraph "cluster-keystone.credential" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="keystone.credential
+
+code breakdown: 245.0"
+"keystone.credential.providers@keystone.credential" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.credential.providers
+
+code breakdown: 14.0" ]
+"keystone.credential.backends@keystone.credential" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="keystone.credential.backends
+
+code breakdown: 123.0" ]
+}
+"keystone.resource.backends@keystone.resource" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.common.sql@keystone.common" -> "keystone.resource.backends@keystone.resource" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.common.sql@keystone.common" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"keystone.common.sql@keystone.common" -> "keystone.assignment.backends@keystone.assignment" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"keystone.common.sql@keystone.common" -> "keystone.identity.mapping_backends@keystone.identity" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.common.sql@keystone.common" -> "keystone.credential.providers@keystone.credential" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.common.cache@keystone.common" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"REMAINDER@NOT_DEPLOYED" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"keystone.middleware@NOT_DEPLOYED" -> "keystone.models@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.middleware@NOT_DEPLOYED" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.middleware@NOT_DEPLOYED" -> "keystone.token.providers@keystone.token" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.server@NOT_DEPLOYED" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"keystone.server@NOT_DEPLOYED" -> "keystone.version@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.version@NOT_DEPLOYED" -> "keystone.v2_crud@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.version@NOT_DEPLOYED" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.revoke.backends@keystone.revoke" -> "keystone.models@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.revoke.backends@keystone.revoke" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.auth.plugins@keystone.auth" -> "keystone.models@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"keystone.auth.plugins@keystone.auth" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"keystone.catalog.backends@keystone.catalog" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"keystone.assignment.role_backends@keystone.assignment" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.assignment.backends@keystone.assignment" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.policy.backends@keystone.policy" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.token.persistence@keystone.token" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"keystone.token.persistence@keystone.token" -> "keystone.token.providers@keystone.token" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.token.providers@keystone.token" -> "keystone.models@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.token.providers@keystone.token" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"keystone.identity.backends@keystone.identity" -> "keystone.common.validation@keystone.common" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.identity.backends@keystone.identity" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"keystone.identity.shadow_backends@keystone.identity" -> "keystone.identity.backends@keystone.identity" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.cmd.doctor@keystone.cmd" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"keystone.cmd.doctor@keystone.cmd" -> "keystone.credential.providers@keystone.credential" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"keystone.credential.providers@keystone.credential" -> "keystone.conf@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

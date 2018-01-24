@@ -1,0 +1,580 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"org.thoughtcrime.securesms.events@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.events
+
+code breakdown: 127.0" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.components.webrtc
+
+code breakdown: 620.0" ]
+"org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.color
+
+code breakdown: 160.0" ]
+"org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.components.emoji
+
+code breakdown: 894.0" ]
+"org.thoughtcrime.securesms.giph.model@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.giph.model
+
+code breakdown: 64.0" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.scribbles.widget
+
+code breakdown: 1107.0" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.components.reminder
+
+code breakdown: 396.0" ]
+"org.thoughtcrime.securesms.util.dualsim@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.util.dualsim
+
+code breakdown: 77.0" ]
+"org.thoughtcrime.securesms.gcm@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.gcm
+
+code breakdown: 39.0" ]
+"org.thoughtcrime.securesms.components.recyclerview@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.components.recyclerview
+
+code breakdown: 18.0" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="org.thoughtcrime.securesms.mms
+
+code breakdown: 2819.0" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.scribbles
+
+code breakdown: 627.0" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.providers
+
+code breakdown: 468.0" ]
+"org.thoughtcrime.securesms.webrtc.locks@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.webrtc.locks
+
+code breakdown: 295.0" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.database.model
+
+code breakdown: 682.0" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="org.thoughtcrime.securesms
+
+code breakdown: 13929.0" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.dependencies
+
+code breakdown: 159.0" ]
+"org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.push
+
+code breakdown: 245.0" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.notifications
+
+code breakdown: 1377.0" ]
+"org.thoughtcrime.securesms.util.task@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.util.task
+
+code breakdown: 112.0" ]
+"org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.attachments
+
+code breakdown: 588.0" ]
+"org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.crypto.storage
+
+code breakdown: 628.0" ]
+"org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.recipients
+
+code breakdown: 674.0" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.profiles
+
+code breakdown: 369.0" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="21" margin="0.336" label="org.thoughtcrime.securesms.database
+
+code breakdown: 7508.0" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.giph.ui
+
+code breakdown: 610.0" ]
+"org.thoughtcrime.securesms.jobs.persistence@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.jobs.persistence
+
+code breakdown: 44.0" ]
+"org.thoughtcrime.securesms.util.deque@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.util.deque
+
+code breakdown: 727.0" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.database.loaders
+
+code breakdown: 446.0" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="org.thoughtcrime.securesms.jobs
+
+code breakdown: 4421.0" ]
+"org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.contacts.avatars
+
+code breakdown: 283.0" ]
+"org.thoughtcrime.securesms.giph.util@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.giph.util
+
+code breakdown: 99.0" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.groups
+
+code breakdown: 351.0" ]
+"org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.database.documents
+
+code breakdown: 153.0" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.contacts
+
+code breakdown: 1618.0" ]
+"org.thoughtcrime.securesms.scribbles.widget.entity@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.scribbles.widget.entity
+
+code breakdown: 301.0" ]
+"org.thoughtcrime.securesms.webrtc.audio@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.webrtc.audio
+
+code breakdown: 429.0" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.audio
+
+code breakdown: 547.0" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="13" margin="0.20800000000000002" label="org.thoughtcrime.securesms.webrtc
+
+code breakdown: 2261.0" ]
+"org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.preferences.widgets
+
+code breakdown: 1127.0" ]
+"org.thoughtcrime.securesms.components.subsampling@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.components.subsampling
+
+code breakdown: 108.0" ]
+"org.thoughtcrime.securesms.util.spans@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.util.spans
+
+code breakdown: 18.0" ]
+"org.thoughtcrime.securesms.components.emoji.parsing@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.components.emoji.parsing
+
+code breakdown: 282.0" ]
+"org.thoughtcrime.securesms.video.exo@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.video.exo
+
+code breakdown: 126.0" ]
+"org.thoughtcrime.securesms.jobs.requirements@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.jobs.requirements
+
+code breakdown: 140.0" ]
+"org.thoughtcrime.securesms.components.multiwaveview@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.components.multiwaveview
+
+code breakdown: 1131.0" ]
+"org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.crypto
+
+code breakdown: 1510.0" ]
+"org.thoughtcrime.securesms.qr@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.qr
+
+code breakdown: 130.0" ]
+"org.thoughtcrime.securesms.components.camera@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="org.thoughtcrime.securesms.components.camera
+
+code breakdown: 1121.0" ]
+"org.thoughtcrime.securesms.database.identity@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.database.identity
+
+code breakdown: 86.0" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="14" margin="0.224" label="org.thoughtcrime.securesms.service
+
+code breakdown: 2808.0" ]
+"org.thoughtcrime.securesms.transport@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.transport
+
+code breakdown: 30.0" ]
+"org.thoughtcrime.securesms.glide@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.glide
+
+code breakdown: 109.0" ]
+"org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.util.concurrent
+
+code breakdown: 107.0" ]
+"org.thoughtcrime.securesms.scribbles.multitouch@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.scribbles.multitouch
+
+code breakdown: 466.0" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="org.thoughtcrime.securesms.util
+
+code breakdown: 5185.0" ]
+"org.thoughtcrime.securesms.giph.net@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.giph.net
+
+code breakdown: 145.0" ]
+"org.thoughtcrime.securesms.util.views@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.util.views
+
+code breakdown: 20.0" ]
+"org.thoughtcrime.securesms.components.identity@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.components.identity
+
+code breakdown: 185.0" ]
+"org.thoughtcrime.securesms.components.location@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.components.location
+
+code breakdown: 138.0" ]
+"REMAINDER@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="REMAINDER
+
+code breakdown: 685.0" ]
+"org.thoughtcrime.securesms.scribbles.viewmodel@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.scribbles.viewmodel
+
+code breakdown: 177.0" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.preferences
+
+code breakdown: 962.0" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="org.thoughtcrime.securesms.video
+
+code breakdown: 211.0" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="org.thoughtcrime.securesms.sms
+
+code breakdown: 806.0" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="org.thoughtcrime.securesms.components
+
+code breakdown: 4042.0" ]
+"org.thoughtcrime.securesms.events@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.events@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.multiwaveview@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.color@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.emoji.parsing@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles.widget.entity@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles.multitouch@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.gcm@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.gcm@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.gcm@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.dualsim@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.transport@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.glide@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  32" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.views@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.location@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.mms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles.widget@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles.widget.entity@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles.viewmodel@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.providers@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.events@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.webrtc@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.reminder@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.dualsim@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.recyclerview@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  24" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.task@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  40" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  103" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs.persistence@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.groups@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.audio@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs.requirements@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  71" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.qr@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.camera@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.identity@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  170" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.views@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.identity@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.location@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.video@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  40" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.push@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.push@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.push@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  37" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.video@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.giph.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.giph.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.giph.net@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.giph.ui@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs.persistence@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.jobs.persistence@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  14" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.events@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  32" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  18" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  14" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  90" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.groups@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs.requirements@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  54" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.transport@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  47" ]
+"org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.groups@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  10" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.scribbles.widget.entity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.scribbles.widget.entity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.scribbles.viewmodel@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.webrtc.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.webrtc.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.audio@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.profiles@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components.subsampling@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.subsampling@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.subsampling@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.emoji.parsing@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.emoji.parsing@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.video.exo@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.video.exo@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.video.exo@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.video.exo@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.jobs.requirements@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.jobs.requirements@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.jobs.requirements@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.multiwaveview@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.thoughtcrime.securesms.qr@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.camera@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.qr@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.camera@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components.camera@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.components.camera@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.database.identity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.database.identity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.events@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.gcm@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.webrtc.locks@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  25" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.dependencies@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.webrtc.audio@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.webrtc@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  26" ]
+"org.thoughtcrime.securesms.service@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.glide@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.giph.net@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.providers@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  19" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.task@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto.storage@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.deque@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.documents@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.views@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.util@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.sms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.giph.net@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.giph.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.giph.net@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.giph.net@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components.identity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components.identity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"org.thoughtcrime.securesms.components.identity@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.location@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components.location@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components.location@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  22" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.notifications@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.task@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.preferences.widgets@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  13" ]
+"org.thoughtcrime.securesms.preferences@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.attachments@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.video.exo@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.video@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.model@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.push@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.jobs@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  5" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.service@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.sms@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.events@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.color@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.emoji@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.mms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  12" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  36" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.recipients@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  9" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.database.loaders@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts.avatars@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.contacts@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.audio@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.components.subsampling@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.spans@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.crypto@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  4" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util.concurrent@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.thoughtcrime.securesms.components@NOT_DEPLOYED" -> "org.thoughtcrime.securesms.util@NOT_DEPLOYED" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  31" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

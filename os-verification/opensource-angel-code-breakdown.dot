@@ -1,0 +1,56 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+subgraph "cluster-com.tencent.angel:spark-on-angel" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="spark-on-angel
+
+code breakdown: 199.0"
+"com.tencent.angel:spark-on-angel-mllib@com.tencent.angel:spark-on-angel" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="spark-on-angel-mllib
+
+code breakdown: 64.0" ]
+}
+subgraph "cluster-com.tencent.angel:angel-ps" {
+style="filled"
+color="#2A568F"
+fontname="Helvetica Neue"
+fontsize="16"
+fontcolor="#FFFFFF"
+label="angel-ps
+
+code breakdown: 339.0"
+"com.tencent.angel:angel-ps-tools@com.tencent.angel:angel-ps" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="angel-ps-tools
+
+code breakdown: 38.0" ]
+"com.tencent.angel:angel-ps-mllib@com.tencent.angel:angel-ps" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="12" margin="0.192" label="angel-ps-mllib
+
+code breakdown: 55.0" ]
+"com.tencent.angel:angel-ps-core@com.tencent.angel:angel-ps" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="26" margin="0.41600000000000004" label="angel-ps-core
+
+code breakdown: 471.0" ]
+"com.tencent.angel:angel-ps-psf@com.tencent.angel:angel-ps" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="angel-ps-psf
+
+code breakdown: 46.0" ]
+}
+"com.tencent.angel:spark-on-angel-mllib@com.tencent.angel:spark-on-angel" -> "com.tencent.angel:angel-ps-mllib@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1" ]
+"com.tencent.angel:spark-on-angel-mllib@com.tencent.angel:spark-on-angel" -> "com.tencent.angel:angel-ps-psf@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  8" ]
+"com.tencent.angel:angel-ps-tools@com.tencent.angel:angel-ps" -> "com.tencent.angel:angel-ps-core@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  15" ]
+"com.tencent.angel:angel-ps-mllib@com.tencent.angel:angel-ps" -> "com.tencent.angel:angel-ps-tools@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  6" ]
+"com.tencent.angel:angel-ps-mllib@com.tencent.angel:angel-ps" -> "com.tencent.angel:angel-ps-core@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  95" ]
+"com.tencent.angel:angel-ps-mllib@com.tencent.angel:angel-ps" -> "com.tencent.angel:angel-ps-psf@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  2" ]
+"com.tencent.angel:angel-ps-core@com.tencent.angel:angel-ps" -> "com.tencent.angel:angel-ps-mllib@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  7" ]
+"com.tencent.angel:angel-ps-psf@com.tencent.angel:angel-ps" -> "com.tencent.angel:angel-ps-core@com.tencent.angel:angel-ps" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  181" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

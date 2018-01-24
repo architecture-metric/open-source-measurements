@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SystemLevel name="opensource-openstack-swift" id="06ea4f3f-8905-4acb-b0fb-3b5e0575522c" volume="33725.0">
+    <DeployableComponent name="swift" id="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" volume="32511.0">
+        <CodeComponent name="swift.account" id="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" volume="1143.0">
+            <SourceFile name="swift/account/__init__.py" id="d4f186dd-46f5-49a7-a7a4-8a17dbab176d" />
+            <SourceFile name="swift/account/auditor.py" id="6991724e-1182-427f-ab22-e0eccf76abfb" volume="124.0" />
+            <SourceFile name="swift/account/backend.py" id="7e3f7e23-a3c4-4139-9930-2f5de8779740" volume="308.0" />
+            <SourceFile name="swift/account/reaper.py" id="40806933-e06e-445f-823c-a4acf7403bb9" volume="368.0" />
+            <SourceFile name="swift/account/replicator.py" id="10b8f818-bf87-46d4-8fbc-be7620c75eba" volume="8.0" />
+            <SourceFile name="swift/account/server.py" id="337e5d71-eb87-4d43-9582-ff51b274899a" volume="247.0" />
+            <SourceFile name="swift/account/utils.py" id="02ece2d3-5de7-4070-ab75-c2e8441d8931" volume="88.0" />
+        </CodeComponent>
+        <CodeComponent name="swift.cli" id="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" volume="2490.0">
+            <SourceFile name="swift/cli/__init__.py" id="c062409b-37d2-41f7-81a5-6a5355d70038" />
+            <SourceFile name="swift/cli/form_signature.py" id="86462e38-a1f4-41a8-bb6e-2fd7bbe11267" volume="106.0" />
+            <SourceFile name="swift/cli/info.py" id="59ad361f-6e51-4cf7-a0d5-bffbfa86911c" volume="417.0" />
+            <SourceFile name="swift/cli/recon.py" id="c397332b-c9cb-43be-b813-62be0f0ec198" volume="878.0" />
+            <SourceFile name="swift/cli/ring_builder_analyzer.py" id="68c75cc9-3cbb-4dd3-b2fb-23df07441950" volume="252.0" />
+            <SourceFile name="swift/cli/ringbuilder.py" id="7cd6690f-b95c-4b44-845f-6d99f67b0628" volume="837.0" />
+        </CodeComponent>
+        <CodeComponent name="swift.common" id="d68760be-0563-451d-a59a-ff9f25ab2b56" volume="17639.0">
+            <CodeComponent name="swift.common.middleware" id="86d725c9-3016-478e-871a-25fc2e6821d8" volume="7712.0">
+                <CodeComponent name="swift.common.middleware.crypto" id="bea1eee7-3002-4f5c-954b-0edd98f24d26" volume="768.0">
+                    <SourceFile name="swift/common/middleware/crypto/__init__.py" id="e4f2d982-195e-4efb-8419-94fe50eed59b" volume="14.0" />
+                    <SourceFile name="swift/common/middleware/crypto/crypto_utils.py" id="50f0a2e0-3a84-49af-a786-d85dfd5cdffd" volume="163.0" />
+                    <SourceFile name="swift/common/middleware/crypto/decrypter.py" id="80e98e8e-cf95-451d-a78d-419fd7535eb3" volume="273.0" />
+                    <SourceFile name="swift/common/middleware/crypto/encrypter.py" id="15523f6d-0f64-4074-97fb-2f700313095c" volume="225.0" />
+                    <SourceFile name="swift/common/middleware/crypto/keymaster.py" id="e73e9b9a-ef2b-40f4-8294-2359018bd70e" volume="93.0" />
+                </CodeComponent>
+                <CodeComponent name="swift.common.middleware.x_profile" id="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" volume="617.0">
+                    <SourceFile name="swift/common/middleware/x_profile/__init__.py" id="54fccba2-5aa8-4b01-9e51-2031bb4a1e47" />
+                    <SourceFile name="swift/common/middleware/x_profile/exceptions.py" id="1ee6d961-f4ee-44e1-9cd5-68a6613adbec" volume="17.0" />
+                    <SourceFile name="swift/common/middleware/x_profile/html_viewer.py" id="fb5f1cf3-92c7-4527-9936-9f6a08e818c5" volume="375.0" />
+                    <SourceFile name="swift/common/middleware/x_profile/profile_model.py" id="382a391e-6299-47f6-b356-9e3d2994632c" volume="225.0" />
+                </CodeComponent>
+                <SourceFile name="swift/common/middleware/__init__.py" id="8b4389ed-7397-4580-98e9-cb2080aae7ab" />
+                <SourceFile name="swift/common/middleware/account_quotas.py" id="bce6d966-799c-4509-8b6b-d76d5406f67a" volume="99.0" />
+                <SourceFile name="swift/common/middleware/acl.py" id="c2a2bdfe-7908-407d-b539-3980b52972f0" volume="156.0" />
+                <SourceFile name="swift/common/middleware/bulk.py" id="9d35f094-9dfd-4a64-8428-855d90b1871f" volume="513.0" />
+                <SourceFile name="swift/common/middleware/catch_errors.py" id="b4621fb6-e51e-4b0b-b57e-bc0d49d0e28a" volume="52.0" />
+                <SourceFile name="swift/common/middleware/cname_lookup.py" id="59298cf8-fa39-47f2-ab46-effa45f2e63f" volume="128.0" />
+                <SourceFile name="swift/common/middleware/container_quotas.py" id="36512e99-dd67-47db-8b39-93dcfdeb0d33" volume="89.0" />
+                <SourceFile name="swift/common/middleware/container_sync.py" id="9a575e5e-f0a8-42f6-8b57-a16b8a693be6" volume="117.0" />
+                <SourceFile name="swift/common/middleware/copy.py" id="80da6c30-ee77-46b9-9c36-34c7b5457863" volume="373.0" />
+                <SourceFile name="swift/common/middleware/crossdomain.py" id="876d52bc-c928-49ab-9689-7b54ac954045" volume="53.0" />
+                <SourceFile name="swift/common/middleware/dlo.py" id="1d9087e4-2a99-4a3c-8d61-6e5995f5807a" volume="326.0" />
+                <SourceFile name="swift/common/middleware/domain_remap.py" id="6a116d43-c628-49b2-a25f-cbe160a5b826" volume="106.0" />
+                <SourceFile name="swift/common/middleware/formpost.py" id="ef1d649b-6166-4cf3-8e4e-28b51040ee4d" volume="269.0" />
+                <SourceFile name="swift/common/middleware/gatekeeper.py" id="c6a5071d-9d39-4f90-a9d5-9f554fa137d4" volume="68.0" />
+                <SourceFile name="swift/common/middleware/healthcheck.py" id="68f96049-58f0-4c1f-81af-c88de589114f" volume="34.0" />
+                <SourceFile name="swift/common/middleware/keystoneauth.py" id="0916146b-db42-4017-ab05-b9d89b606258" volume="398.0" />
+                <SourceFile name="swift/common/middleware/list_endpoints.py" id="eb97e276-19d0-4029-8eb1-7b7f4c078c84" volume="89.0" />
+                <SourceFile name="swift/common/middleware/memcache.py" id="69f69d48-02b2-48b7-8c6a-75ae6753279c" volume="83.0" />
+                <SourceFile name="swift/common/middleware/name_check.py" id="8849a9dd-f590-48ca-99be-53b800a06642" volume="63.0" />
+                <SourceFile name="swift/common/middleware/proxy_logging.py" id="79a28044-2098-4b57-a2d0-c0b5ec985414" volume="261.0" />
+                <SourceFile name="swift/common/middleware/ratelimit.py" id="2790cfe3-9512-44f7-abed-525465590293" volume="230.0" />
+                <SourceFile name="swift/common/middleware/recon.py" id="5d3eac74-fc1d-4450-9ee5-faac4f023094" volume="334.0" />
+                <SourceFile name="swift/common/middleware/slo.py" id="bea1f7fe-813e-430c-93c4-e7da8a9048df" volume="698.0" />
+                <SourceFile name="swift/common/middleware/staticweb.py" id="5f9da728-140a-44d3-99cf-69580861be5b" volume="361.0" />
+                <SourceFile name="swift/common/middleware/tempauth.py" id="67a43f51-5b65-446f-9ece-363872137196" volume="504.0" />
+                <SourceFile name="swift/common/middleware/tempurl.py" id="760d657c-ebad-4b33-bfcc-691a1e354fe8" volume="392.0" />
+                <SourceFile name="swift/common/middleware/versioned_writes.py" id="55e8d9e4-445a-418b-bd3e-81a7e635aa6f" volume="337.0" />
+                <SourceFile name="swift/common/middleware/xprofile.py" id="9f56652b-ddac-4047-b60b-358aa4dc681b" volume="194.0" />
+            </CodeComponent>
+            <CodeComponent name="swift.common.ring" id="8c230692-79c2-46a3-a34f-65df9caa3654" volume="1723.0">
+                <SourceFile name="swift/common/ring/__init__.py" id="1a83630a-d7cd-4459-87ae-b1817258c1fc" volume="7.0" />
+                <SourceFile name="swift/common/ring/builder.py" id="73fbe579-f32d-40fc-b0f0-66f1728958cf" volume="995.0" />
+                <SourceFile name="swift/common/ring/ring.py" id="3a972964-ac8a-48e5-8fd9-5ebe41dd623a" volume="279.0" />
+                <SourceFile name="swift/common/ring/utils.py" id="63939e34-db2f-46c2-8b48-402d70070739" volume="442.0" />
+            </CodeComponent>
+            <SourceFile name="swift/common/__init__.py" id="8e396409-ee0d-49da-907f-36436cd4cfb8" volume="1.0" />
+            <SourceFile name="swift/common/base_storage_server.py" id="e7b1574a-378c-4a9a-ae65-86e10e5254c2" volume="49.0" />
+            <SourceFile name="swift/common/bufferedhttp.py" id="79f5fc59-b2a0-437a-8880-1548334f2383" volume="154.0" />
+            <SourceFile name="swift/common/constraints.py" id="510c55ff-8e53-48ac-98f0-f5cd47869f91" volume="242.0" />
+            <SourceFile name="swift/common/container_sync_realms.py" id="f4b315d8-b898-45e7-b604-557caf3253e8" volume="125.0" />
+            <SourceFile name="swift/common/daemon.py" id="4762c7fa-9e34-406f-8a0c-db9b0bae3230" volume="63.0" />
+            <SourceFile name="swift/common/db.py" id="85ace217-5bf2-4f51-bf33-30f552b175dd" volume="564.0" />
+            <SourceFile name="swift/common/db_replicator.py" id="70466633-d217-466c-aa34-ad9c4d4fc901" volume="602.0" />
+            <SourceFile name="swift/common/direct_client.py" id="58d88674-769c-4c04-90be-4eba7f986c8e" volume="308.0" />
+            <SourceFile name="swift/common/exceptions.py" id="485abc50-8f98-4503-9013-057ea09fadeb" volume="155.0" />
+            <SourceFile name="swift/common/header_key_dict.py" id="23a654da-a477-468a-8adb-f1c7796135dd" volume="38.0" />
+            <SourceFile name="swift/common/http.py" id="d64974d3-a859-40e4-9614-378f8f601f83" volume="83.0" />
+            <SourceFile name="swift/common/internal_client.py" id="3ed2aa04-d4e6-4256-9ed0-8bfd0acf4d1e" volume="404.0" />
+            <SourceFile name="swift/common/manager.py" id="28b2a04b-f7a0-4f0e-88ea-41c624ac20fc" volume="495.0" />
+            <SourceFile name="swift/common/memcached.py" id="bb25632a-8c67-455b-87a6-3479cb60319f" volume="304.0" />
+            <SourceFile name="swift/common/request_helpers.py" id="1846176c-7664-4483-8b23-fbbe82cbacef" volume="314.0" />
+            <SourceFile name="swift/common/splice.py" id="1150e6a5-64cf-42ee-87f2-eef701ade368" volume="118.0" />
+            <SourceFile name="swift/common/storage_policy.py" id="a9355f6e-29a7-41f9-b487-f4e272800880" volume="476.0" />
+            <SourceFile name="swift/common/swob.py" id="95b5acf6-2d00-4a84-bc09-0b242ac6867c" volume="909.0" />
+            <SourceFile name="swift/common/utils.py" id="24fb575c-b1aa-461d-a702-434cc751b597" volume="2177.0" />
+            <SourceFile name="swift/common/wsgi.py" id="45942b5c-ec16-48b8-92ca-18eb05c25431" volume="623.0" />
+        </CodeComponent>
+        <CodeComponent name="swift.container" id="b96f65de-b29b-45b1-9609-535a4cad3867" volume="2578.0">
+            <SourceFile name="swift/container/__init__.py" id="b02e9f3a-e611-4819-bc06-1f26dce3bef7" />
+            <SourceFile name="swift/container/auditor.py" id="eecaf4d2-f05a-4afd-b34a-44d0d31c202c" volume="98.0" />
+            <SourceFile name="swift/container/backend.py" id="e8864355-dcb1-4c93-94b3-84e5dfe0a490" volume="545.0" />
+            <SourceFile name="swift/container/reconciler.py" id="2f5087ed-1a83-4556-bdd1-5bea94cb2bf9" volume="492.0" />
+            <SourceFile name="swift/container/replicator.py" id="0ced4421-bf66-4407-916b-ec9a3f32b31a" volume="207.0" />
+            <SourceFile name="swift/container/server.py" id="f535b6f9-8463-4886-a73e-910c00541afe" volume="498.0" />
+            <SourceFile name="swift/container/sync.py" id="9aa080c0-d9fe-47b7-9c40-5ab8bc64e281" volume="396.0" />
+            <SourceFile name="swift/container/sync_store.py" id="6f9a2aaa-b8fc-4844-8418-499a08f4b28e" volume="91.0" />
+            <SourceFile name="swift/container/updater.py" id="a2e16d61-b6a5-4655-a57d-c9458062d1e4" volume="251.0" />
+        </CodeComponent>
+        <CodeComponent name="swift.obj" id="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" volume="5323.0">
+            <SourceFile name="swift/obj/__init__.py" id="1d0169eb-1b3f-4e6f-ab95-93d6243dd004" />
+            <SourceFile name="swift/obj/auditor.py" id="a99cd160-7af4-4a42-b84f-2b975e348479" volume="310.0" />
+            <SourceFile name="swift/obj/diskfile.py" id="89b14fd0-1ed4-418d-b67a-830a52a758ed" volume="1548.0" />
+            <SourceFile name="swift/obj/expirer.py" id="de83b8f4-3ac0-4364-9da7-fac9ac2a721b" volume="209.0" />
+            <SourceFile name="swift/obj/mem_diskfile.py" id="0c8f603d-7cb4-4d5f-90d5-7ba2640b1712" volume="258.0" />
+            <SourceFile name="swift/obj/mem_server.py" id="5474800c-82aa-49dd-b826-93230aa2690b" volume="22.0" />
+            <SourceFile name="swift/obj/reconstructor.py" id="1da3df7a-bd82-4721-9ed3-965aa8f07567" volume="659.0" />
+            <SourceFile name="swift/obj/replicator.py" id="cdf07a64-f5c9-4493-a97a-9ac5785099b1" volume="661.0" />
+            <SourceFile name="swift/obj/server.py" id="cff154cd-3e6f-49e4-b44f-1ed2b1535d01" volume="830.0" />
+            <SourceFile name="swift/obj/ssync_receiver.py" id="47134d84-5ce1-4b59-808f-9c7c75265586" volume="306.0" />
+            <SourceFile name="swift/obj/ssync_sender.py" id="2459d8b7-d349-4645-82bf-84cfb5cce27d" volume="290.0" />
+            <SourceFile name="swift/obj/updater.py" id="34adffd7-85c6-4d9e-933e-e3ffc7ccdd9f" volume="230.0" />
+        </CodeComponent>
+        <CodeComponent name="swift.proxy" id="00aa76d7-3d8f-45ec-bde1-137d6b8300da" volume="3338.0">
+            <CodeComponent name="swift.proxy.controllers" id="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" volume="2935.0">
+                <SourceFile name="swift/proxy/controllers/__init__.py" id="088d2c6d-806e-4b1b-a334-3796e2a99daa" volume="13.0" />
+                <SourceFile name="swift/proxy/controllers/account.py" id="be211bb7-5d0f-4ce4-a483-cb3bb69b11a3" volume="126.0" />
+                <SourceFile name="swift/proxy/controllers/base.py" id="d793f365-8507-4619-87a2-3ea1fe962492" volume="1097.0" />
+                <SourceFile name="swift/proxy/controllers/container.py" id="6e50c2b1-f5a1-4948-91ee-ac3f54970d8b" volume="208.0" />
+                <SourceFile name="swift/proxy/controllers/info.py" id="c044926a-ce0b-42ab-a002-469c22088539" volume="72.0" />
+                <SourceFile name="swift/proxy/controllers/obj.py" id="2cf3cdca-3e48-4876-b7e8-fb674196be37" volume="1419.0" />
+            </CodeComponent>
+            <SourceFile name="swift/proxy/__init__.py" id="32e95c5d-89c2-40f2-ae3e-a26a45305ac3" />
+            <SourceFile name="swift/proxy/server.py" id="ca07f27b-eba9-4608-951e-73042078ec8d" volume="403.0" />
+        </CodeComponent>
+    </DeployableComponent>
+    <CodeComponent name="REMAINDER" id="0fd3dee1-a5eb-4547-b979-15f52111120a" volume="1214.0">
+        <SourceFile name="api-ref/source/conf.py" id="3bfffd5e-12d8-4e3f-8540-ecc0678c52a5" volume="35.0" />
+        <SourceFile name="api-ref/source/parameters.yaml" id="760aa4ca-2bbd-4f54-9ca3-cafadda30fb3" volume="925.0" />
+        <SourceFile name="bandit.yaml" id="000574fa-76ac-4195-9a34-1701d63337c0" volume="77.0" />
+        <SourceFile name="install-guide/source/conf.py" id="7eadd358-d643-46e2-a208-5ef315da5ce9" volume="45.0" />
+        <SourceFile name="setup.cfg" id="cf13a6f5-d8e4-4a75-abbe-1004cd85664e" volume="123.0" />
+        <SourceFile name="setup.py" id="dcd3775a-d06e-4a8b-995e-1527b14802d1" volume="9.0" />
+    </CodeComponent>
+    <DataStore name="DB" id="75087541-f592-41af-868d-d4e7ca301177">
+        <tables>
+            <entity name="object" />
+            <entity name="outgoing_sync" />
+            <entity name="sqlite_master" />
+            <entity name="account_stat)" />
+            <entity name="it" />
+            <entity name="policy_stat" />
+            <entity name="%s_sync" />
+            <entity name="account_stat" />
+            <entity name="container" />
+            <entity name="container_info" />
+            <entity name="incoming_sync" />
+            <entity name="%s" />
+            <entity name="SQLITE_SEQUENCE" />
+            <entity name="container_stat" />
+            <entity name="%s_stat" />
+        </tables>
+        <DataStoreEntity name="%s" id="23242524-cbdc-4cf9-a111-4677915e9f00" />
+        <DataStoreEntity name="%s_stat" id="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" />
+        <DataStoreEntity name="%s_sync" id="9a492039-f0db-40f7-9184-82cff33bcfbf" />
+        <DataStoreEntity name="SQLITE_SEQUENCE" id="dd169406-9ff9-4aa0-beb2-2e3915ea57f5" />
+        <DataStoreEntity name="account_stat" id="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" />
+        <DataStoreEntity name="account_stat)" id="423604cd-a2ea-4b64-860c-b781710c1fe4" />
+        <DataStoreEntity name="container" id="bab5b652-24db-4476-8736-5d46a52de8c1" />
+        <DataStoreEntity name="container_info" id="461c352a-fcee-4ab9-9434-8f8cb95aa83a" />
+        <DataStoreEntity name="container_stat" id="e9f26144-fdc6-47f3-9304-f4021a2d0c35" />
+        <DataStoreEntity name="incoming_sync" id="87726539-0399-4b30-926e-5e7b18097f24" />
+        <DataStoreEntity name="it" id="a16d6402-d816-41a1-9e88-261ef9d4132a" />
+        <DataStoreEntity name="object" id="dce302b5-9bed-42d2-be51-5e1cf1d08290" />
+        <DataStoreEntity name="outgoing_sync" id="0dc4dc85-f144-4754-8ffb-f6cc9b2d78ec" />
+        <DataStoreEntity name="policy_stat" id="af4c68d5-f757-49c9-9118-4bd63dcc9654" />
+        <DataStoreEntity name="sqlite_master" id="a3a974d6-3d1c-4271-8bc9-d8f25830ff69" />
+    </DataStore>
+    <dependencies>
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="%s" targetId="23242524-cbdc-4cf9-a111-4677915e9f00" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="%s_sync" targetId="9a492039-f0db-40f7-9184-82cff33bcfbf" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="SQLITE_SEQUENCE" targetId="dd169406-9ff9-4aa0-beb2-2e3915ea57f5" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="account_stat)" targetId="423604cd-a2ea-4b64-860c-b781710c1fe4" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="container" targetId="bab5b652-24db-4476-8736-5d46a52de8c1" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="container_info" targetId="461c352a-fcee-4ab9-9434-8f8cb95aa83a" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="incoming_sync" targetId="87726539-0399-4b30-926e-5e7b18097f24" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="it" targetId="a16d6402-d816-41a1-9e88-261ef9d4132a" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="object" targetId="dce302b5-9bed-42d2-be51-5e1cf1d08290" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="outgoing_sync" targetId="0dc4dc85-f144-4754-8ffb-f6cc9b2d78ec" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="STORES" sourceName="DB" sourceId="75087541-f592-41af-868d-d4e7ca301177" sourceType="DataStore" targetName="sqlite_master" targetId="a3a974d6-3d1c-4271-8bc9-d8f25830ff69" targetType="DataStoreEntity" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="0fd3dee1-a5eb-4547-b979-15f52111120a" sourceType="CodeComponent" targetName="api-ref/source/conf.py" targetId="3bfffd5e-12d8-4e3f-8540-ecc0678c52a5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="0fd3dee1-a5eb-4547-b979-15f52111120a" sourceType="CodeComponent" targetName="api-ref/source/parameters.yaml" targetId="760aa4ca-2bbd-4f54-9ca3-cafadda30fb3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="0fd3dee1-a5eb-4547-b979-15f52111120a" sourceType="CodeComponent" targetName="bandit.yaml" targetId="000574fa-76ac-4195-9a34-1701d63337c0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="0fd3dee1-a5eb-4547-b979-15f52111120a" sourceType="CodeComponent" targetName="install-guide/source/conf.py" targetId="7eadd358-d643-46e2-a208-5ef315da5ce9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="0fd3dee1-a5eb-4547-b979-15f52111120a" sourceType="CodeComponent" targetName="setup.cfg" targetId="cf13a6f5-d8e4-4a75-abbe-1004cd85664e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="REMAINDER" sourceId="0fd3dee1-a5eb-4547-b979-15f52111120a" sourceType="CodeComponent" targetName="setup.py" targetId="dcd3775a-d06e-4a8b-995e-1527b14802d1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/__init__.py" targetId="d4f186dd-46f5-49a7-a7a4-8a17dbab176d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/__init__.py" targetId="d4f186dd-46f5-49a7-a7a4-8a17dbab176d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/auditor.py" targetId="6991724e-1182-427f-ab22-e0eccf76abfb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/backend.py" targetId="7e3f7e23-a3c4-4139-9930-2f5de8779740" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/reaper.py" targetId="40806933-e06e-445f-823c-a4acf7403bb9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/replicator.py" targetId="10b8f818-bf87-46d4-8fbc-be7620c75eba" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/server.py" targetId="337e5d71-eb87-4d43-9582-ff51b274899a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.account" sourceId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" sourceType="CodeComponent" targetName="swift/account/utils.py" targetId="02ece2d3-5de7-4070-ab75-c2e8441d8931" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/__init__.py" targetId="c062409b-37d2-41f7-81a5-6a5355d70038" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/__init__.py" targetId="c062409b-37d2-41f7-81a5-6a5355d70038" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/form_signature.py" targetId="86462e38-a1f4-41a8-bb6e-2fd7bbe11267" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/info.py" targetId="59ad361f-6e51-4cf7-a0d5-bffbfa86911c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/recon.py" targetId="c397332b-c9cb-43be-b813-62be0f0ec198" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/ring_builder_analyzer.py" targetId="68c75cc9-3cbb-4dd3-b2fb-23df07441950" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.cli" sourceId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" sourceType="CodeComponent" targetName="swift/cli/ringbuilder.py" targetId="7cd6690f-b95c-4b44-845f-6d99f67b0628" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.crypto" sourceId="bea1eee7-3002-4f5c-954b-0edd98f24d26" sourceType="CodeComponent" targetName="swift/common/middleware/crypto/__init__.py" targetId="e4f2d982-195e-4efb-8419-94fe50eed59b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.crypto" sourceId="bea1eee7-3002-4f5c-954b-0edd98f24d26" sourceType="CodeComponent" targetName="swift/common/middleware/crypto/__init__.py" targetId="e4f2d982-195e-4efb-8419-94fe50eed59b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.crypto" sourceId="bea1eee7-3002-4f5c-954b-0edd98f24d26" sourceType="CodeComponent" targetName="swift/common/middleware/crypto/crypto_utils.py" targetId="50f0a2e0-3a84-49af-a786-d85dfd5cdffd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.crypto" sourceId="bea1eee7-3002-4f5c-954b-0edd98f24d26" sourceType="CodeComponent" targetName="swift/common/middleware/crypto/decrypter.py" targetId="80e98e8e-cf95-451d-a78d-419fd7535eb3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.crypto" sourceId="bea1eee7-3002-4f5c-954b-0edd98f24d26" sourceType="CodeComponent" targetName="swift/common/middleware/crypto/encrypter.py" targetId="15523f6d-0f64-4074-97fb-2f700313095c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.crypto" sourceId="bea1eee7-3002-4f5c-954b-0edd98f24d26" sourceType="CodeComponent" targetName="swift/common/middleware/crypto/keymaster.py" targetId="e73e9b9a-ef2b-40f4-8294-2359018bd70e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.x_profile" sourceId="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" sourceType="CodeComponent" targetName="swift/common/middleware/x_profile/__init__.py" targetId="54fccba2-5aa8-4b01-9e51-2031bb4a1e47" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.x_profile" sourceId="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" sourceType="CodeComponent" targetName="swift/common/middleware/x_profile/__init__.py" targetId="54fccba2-5aa8-4b01-9e51-2031bb4a1e47" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.x_profile" sourceId="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" sourceType="CodeComponent" targetName="swift/common/middleware/x_profile/exceptions.py" targetId="1ee6d961-f4ee-44e1-9cd5-68a6613adbec" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.x_profile" sourceId="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" sourceType="CodeComponent" targetName="swift/common/middleware/x_profile/html_viewer.py" targetId="fb5f1cf3-92c7-4527-9936-9f6a08e818c5" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware.x_profile" sourceId="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" sourceType="CodeComponent" targetName="swift/common/middleware/x_profile/profile_model.py" targetId="382a391e-6299-47f6-b356-9e3d2994632c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift.common.middleware.crypto" targetId="bea1eee7-3002-4f5c-954b-0edd98f24d26" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift.common.middleware.x_profile" targetId="7e8064ea-1a44-4c10-ae85-cc4bd6a608d8" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/__init__.py" targetId="8b4389ed-7397-4580-98e9-cb2080aae7ab" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/__init__.py" targetId="8b4389ed-7397-4580-98e9-cb2080aae7ab" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/account_quotas.py" targetId="bce6d966-799c-4509-8b6b-d76d5406f67a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/acl.py" targetId="c2a2bdfe-7908-407d-b539-3980b52972f0" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/bulk.py" targetId="9d35f094-9dfd-4a64-8428-855d90b1871f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/catch_errors.py" targetId="b4621fb6-e51e-4b0b-b57e-bc0d49d0e28a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/cname_lookup.py" targetId="59298cf8-fa39-47f2-ab46-effa45f2e63f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/container_quotas.py" targetId="36512e99-dd67-47db-8b39-93dcfdeb0d33" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/container_sync.py" targetId="9a575e5e-f0a8-42f6-8b57-a16b8a693be6" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/copy.py" targetId="80da6c30-ee77-46b9-9c36-34c7b5457863" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/crossdomain.py" targetId="876d52bc-c928-49ab-9689-7b54ac954045" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/dlo.py" targetId="1d9087e4-2a99-4a3c-8d61-6e5995f5807a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/domain_remap.py" targetId="6a116d43-c628-49b2-a25f-cbe160a5b826" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/formpost.py" targetId="ef1d649b-6166-4cf3-8e4e-28b51040ee4d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/gatekeeper.py" targetId="c6a5071d-9d39-4f90-a9d5-9f554fa137d4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/healthcheck.py" targetId="68f96049-58f0-4c1f-81af-c88de589114f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/keystoneauth.py" targetId="0916146b-db42-4017-ab05-b9d89b606258" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/list_endpoints.py" targetId="eb97e276-19d0-4029-8eb1-7b7f4c078c84" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/memcache.py" targetId="69f69d48-02b2-48b7-8c6a-75ae6753279c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/name_check.py" targetId="8849a9dd-f590-48ca-99be-53b800a06642" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/proxy_logging.py" targetId="79a28044-2098-4b57-a2d0-c0b5ec985414" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/ratelimit.py" targetId="2790cfe3-9512-44f7-abed-525465590293" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/recon.py" targetId="5d3eac74-fc1d-4450-9ee5-faac4f023094" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/slo.py" targetId="bea1f7fe-813e-430c-93c4-e7da8a9048df" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/staticweb.py" targetId="5f9da728-140a-44d3-99cf-69580861be5b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/tempauth.py" targetId="67a43f51-5b65-446f-9ece-363872137196" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/tempurl.py" targetId="760d657c-ebad-4b33-bfcc-691a1e354fe8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/versioned_writes.py" targetId="55e8d9e4-445a-418b-bd3e-81a7e635aa6f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.middleware" sourceId="86d725c9-3016-478e-871a-25fc2e6821d8" sourceType="CodeComponent" targetName="swift/common/middleware/xprofile.py" targetId="9f56652b-ddac-4047-b60b-358aa4dc681b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.ring" sourceId="8c230692-79c2-46a3-a34f-65df9caa3654" sourceType="CodeComponent" targetName="swift/common/ring/__init__.py" targetId="1a83630a-d7cd-4459-87ae-b1817258c1fc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.ring" sourceId="8c230692-79c2-46a3-a34f-65df9caa3654" sourceType="CodeComponent" targetName="swift/common/ring/__init__.py" targetId="1a83630a-d7cd-4459-87ae-b1817258c1fc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.ring" sourceId="8c230692-79c2-46a3-a34f-65df9caa3654" sourceType="CodeComponent" targetName="swift/common/ring/builder.py" targetId="73fbe579-f32d-40fc-b0f0-66f1728958cf" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.ring" sourceId="8c230692-79c2-46a3-a34f-65df9caa3654" sourceType="CodeComponent" targetName="swift/common/ring/ring.py" targetId="3a972964-ac8a-48e5-8fd9-5ebe41dd623a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common.ring" sourceId="8c230692-79c2-46a3-a34f-65df9caa3654" sourceType="CodeComponent" targetName="swift/common/ring/utils.py" targetId="63939e34-db2f-46c2-8b48-402d70070739" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift.common.middleware" targetId="86d725c9-3016-478e-871a-25fc2e6821d8" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/__init__.py" targetId="8e396409-ee0d-49da-907f-36436cd4cfb8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/__init__.py" targetId="8e396409-ee0d-49da-907f-36436cd4cfb8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/base_storage_server.py" targetId="e7b1574a-378c-4a9a-ae65-86e10e5254c2" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/bufferedhttp.py" targetId="79f5fc59-b2a0-437a-8880-1548334f2383" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/constraints.py" targetId="510c55ff-8e53-48ac-98f0-f5cd47869f91" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/container_sync_realms.py" targetId="f4b315d8-b898-45e7-b604-557caf3253e8" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/daemon.py" targetId="4762c7fa-9e34-406f-8a0c-db9b0bae3230" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/db.py" targetId="85ace217-5bf2-4f51-bf33-30f552b175dd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/db_replicator.py" targetId="70466633-d217-466c-aa34-ad9c4d4fc901" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/direct_client.py" targetId="58d88674-769c-4c04-90be-4eba7f986c8e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/exceptions.py" targetId="485abc50-8f98-4503-9013-057ea09fadeb" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/header_key_dict.py" targetId="23a654da-a477-468a-8adb-f1c7796135dd" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/http.py" targetId="d64974d3-a859-40e4-9614-378f8f601f83" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/internal_client.py" targetId="3ed2aa04-d4e6-4256-9ed0-8bfd0acf4d1e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/manager.py" targetId="28b2a04b-f7a0-4f0e-88ea-41c624ac20fc" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/memcached.py" targetId="bb25632a-8c67-455b-87a6-3479cb60319f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/request_helpers.py" targetId="1846176c-7664-4483-8b23-fbbe82cbacef" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/splice.py" targetId="1150e6a5-64cf-42ee-87f2-eef701ade368" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/storage_policy.py" targetId="a9355f6e-29a7-41f9-b487-f4e272800880" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/swob.py" targetId="95b5acf6-2d00-4a84-bc09-0b242ac6867c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/utils.py" targetId="24fb575c-b1aa-461d-a702-434cc751b597" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.common" sourceId="d68760be-0563-451d-a59a-ff9f25ab2b56" sourceType="CodeComponent" targetName="swift/common/wsgi.py" targetId="45942b5c-ec16-48b8-92ca-18eb05c25431" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/__init__.py" targetId="b02e9f3a-e611-4819-bc06-1f26dce3bef7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/__init__.py" targetId="b02e9f3a-e611-4819-bc06-1f26dce3bef7" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/auditor.py" targetId="eecaf4d2-f05a-4afd-b34a-44d0d31c202c" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/backend.py" targetId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/reconciler.py" targetId="2f5087ed-1a83-4556-bdd1-5bea94cb2bf9" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/replicator.py" targetId="0ced4421-bf66-4407-916b-ec9a3f32b31a" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/server.py" targetId="f535b6f9-8463-4886-a73e-910c00541afe" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/sync.py" targetId="9aa080c0-d9fe-47b7-9c40-5ab8bc64e281" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/sync_store.py" targetId="6f9a2aaa-b8fc-4844-8418-499a08f4b28e" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.container" sourceId="b96f65de-b29b-45b1-9609-535a4cad3867" sourceType="CodeComponent" targetName="swift/container/updater.py" targetId="a2e16d61-b6a5-4655-a57d-c9458062d1e4" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/__init__.py" targetId="1d0169eb-1b3f-4e6f-ab95-93d6243dd004" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/__init__.py" targetId="1d0169eb-1b3f-4e6f-ab95-93d6243dd004" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/auditor.py" targetId="a99cd160-7af4-4a42-b84f-2b975e348479" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/diskfile.py" targetId="89b14fd0-1ed4-418d-b67a-830a52a758ed" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/expirer.py" targetId="de83b8f4-3ac0-4364-9da7-fac9ac2a721b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/mem_diskfile.py" targetId="0c8f603d-7cb4-4d5f-90d5-7ba2640b1712" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/mem_server.py" targetId="5474800c-82aa-49dd-b826-93230aa2690b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/reconstructor.py" targetId="1da3df7a-bd82-4721-9ed3-965aa8f07567" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/replicator.py" targetId="cdf07a64-f5c9-4493-a97a-9ac5785099b1" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/server.py" targetId="cff154cd-3e6f-49e4-b44f-1ed2b1535d01" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/ssync_receiver.py" targetId="47134d84-5ce1-4b59-808f-9c7c75265586" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/ssync_sender.py" targetId="2459d8b7-d349-4645-82bf-84cfb5cce27d" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.obj" sourceId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" sourceType="CodeComponent" targetName="swift/obj/updater.py" targetId="34adffd7-85c6-4d9e-933e-e3ffc7ccdd9f" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/__init__.py" targetId="088d2c6d-806e-4b1b-a334-3796e2a99daa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/__init__.py" targetId="088d2c6d-806e-4b1b-a334-3796e2a99daa" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/account.py" targetId="be211bb7-5d0f-4ce4-a483-cb3bb69b11a3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/base.py" targetId="d793f365-8507-4619-87a2-3ea1fe962492" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/container.py" targetId="6e50c2b1-f5a1-4948-91ee-ac3f54970d8b" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/info.py" targetId="c044926a-ce0b-42ab-a002-469c22088539" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy.controllers" sourceId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" sourceType="CodeComponent" targetName="swift/proxy/controllers/obj.py" targetId="2cf3cdca-3e48-4876-b7e8-fb674196be37" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy" sourceId="00aa76d7-3d8f-45ec-bde1-137d6b8300da" sourceType="CodeComponent" targetName="swift.proxy.controllers" targetId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" targetType="CodeComponent" />
+        <dependency type="CONTAINS" sourceName="swift.proxy" sourceId="00aa76d7-3d8f-45ec-bde1-137d6b8300da" sourceType="CodeComponent" targetName="swift/proxy/__init__.py" targetId="32e95c5d-89c2-40f2-ae3e-a26a45305ac3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy" sourceId="00aa76d7-3d8f-45ec-bde1-137d6b8300da" sourceType="CodeComponent" targetName="swift/proxy/__init__.py" targetId="32e95c5d-89c2-40f2-ae3e-a26a45305ac3" targetType="SourceFile" />
+        <dependency type="CONTAINS" sourceName="swift.proxy" sourceId="00aa76d7-3d8f-45ec-bde1-137d6b8300da" sourceType="CodeComponent" targetName="swift/proxy/server.py" targetId="ca07f27b-eba9-4608-951e-73042078ec8d" targetType="SourceFile" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat)" targetId="423604cd-a2ea-4b64-860c-b781710c1fe4" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="account_stat" targetId="9f19ba5d-bea4-44cd-8d97-5f5f86d24061" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="container" targetId="bab5b652-24db-4476-8736-5d46a52de8c1" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="container" targetId="bab5b652-24db-4476-8736-5d46a52de8c1" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="container" targetId="bab5b652-24db-4476-8736-5d46a52de8c1" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="container" targetId="bab5b652-24db-4476-8736-5d46a52de8c1" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="incoming_sync" targetId="87726539-0399-4b30-926e-5e7b18097f24" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/account/backend.py" sourceId="7e3f7e23-a3c4-4139-9930-2f5de8779740" sourceType="SourceFile" targetName="sqlite_master" targetId="a3a974d6-3d1c-4271-8bc9-d8f25830ff69" targetType="DataStoreEntity" />
+        <dependency type="CODE_CALL" sourceName="swift/account/reaper.py" sourceId="40806933-e06e-445f-823c-a4acf7403bb9" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/account/replicator.py" sourceId="10b8f818-bf87-46d4-8fbc-be7620c75eba" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/account/server.py" sourceId="337e5d71-eb87-4d43-9582-ff51b274899a" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/cli/info.py" sourceId="59ad361f-6e51-4cf7-a0d5-bffbfa86911c" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/cli/recon.py" sourceId="c397332b-c9cb-43be-b813-62be0f0ec198" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/cli/ring_builder_analyzer.py" sourceId="68c75cc9-3cbb-4dd3-b2fb-23df07441950" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/cli/ringbuilder.py" sourceId="7cd6690f-b95c-4b44-845f-6d99f67b0628" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/cli/ringbuilder.py" sourceId="7cd6690f-b95c-4b44-845f-6d99f67b0628" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/bufferedhttp.py" sourceId="79f5fc59-b2a0-437a-8880-1548334f2383" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/constraints.py" sourceId="510c55ff-8e53-48ac-98f0-f5cd47869f91" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/daemon.py" sourceId="4762c7fa-9e34-406f-8a0c-db9b0bae3230" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s" targetId="23242524-cbdc-4cf9-a111-4677915e9f00" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s" targetId="23242524-cbdc-4cf9-a111-4677915e9f00" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s" targetId="23242524-cbdc-4cf9-a111-4677915e9f00" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_stat" targetId="e8725dff-e6eb-4013-9fb2-bb2873ed9fdc" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_sync" targetId="9a492039-f0db-40f7-9184-82cff33bcfbf" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_sync" targetId="9a492039-f0db-40f7-9184-82cff33bcfbf" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_sync" targetId="9a492039-f0db-40f7-9184-82cff33bcfbf" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="%s_sync" targetId="9a492039-f0db-40f7-9184-82cff33bcfbf" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="SQLITE_SEQUENCE" targetId="dd169406-9ff9-4aa0-beb2-2e3915ea57f5" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="incoming_sync" targetId="87726539-0399-4b30-926e-5e7b18097f24" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/common/db.py" sourceId="85ace217-5bf2-4f51-bf33-30f552b175dd" sourceType="SourceFile" targetName="outgoing_sync" targetId="0dc4dc85-f144-4754-8ffb-f6cc9b2d78ec" targetType="DataStoreEntity" />
+        <dependency type="CODE_CALL" sourceName="swift/common/db_replicator.py" sourceId="70466633-d217-466c-aa34-ad9c4d4fc901" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/memcached.py" sourceId="bb25632a-8c67-455b-87a6-3479cb60319f" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/middleware/bulk.py" sourceId="9d35f094-9dfd-4a64-8428-855d90b1871f" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/middleware/copy.py" sourceId="80da6c30-ee77-46b9-9c36-34c7b5457863" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/middleware/dlo.py" sourceId="1d9087e4-2a99-4a3c-8d61-6e5995f5807a" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/middleware/keystoneauth.py" sourceId="0916146b-db42-4017-ab05-b9d89b606258" sourceType="SourceFile" targetName="swift.common.middleware" targetId="86d725c9-3016-478e-871a-25fc2e6821d8" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/middleware/keystoneauth.py" sourceId="0916146b-db42-4017-ab05-b9d89b606258" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/ring/builder.py" sourceId="73fbe579-f32d-40fc-b0f0-66f1728958cf" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/ring/builder.py" sourceId="73fbe579-f32d-40fc-b0f0-66f1728958cf" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/common/storage_policy.py" sourceId="a9355f6e-29a7-41f9-b487-f4e272800880" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/common/utils.py" sourceId="24fb575c-b1aa-461d-a702-434cc751b597" sourceType="SourceFile" targetName="it" targetId="a16d6402-d816-41a1-9e88-261ef9d4132a" targetType="DataStoreEntity" />
+        <dependency type="CODE_CALL" sourceName="swift/common/wsgi.py" sourceId="45942b5c-ec16-48b8-92ca-18eb05c25431" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_info" targetId="461c352a-fcee-4ab9-9434-8f8cb95aa83a" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_info" targetId="461c352a-fcee-4ab9-9434-8f8cb95aa83a" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="container_stat" targetId="e9f26144-fdc6-47f3-9304-f4021a2d0c35" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="incoming_sync" targetId="87726539-0399-4b30-926e-5e7b18097f24" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="incoming_sync" targetId="87726539-0399-4b30-926e-5e7b18097f24" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="object" targetId="dce302b5-9bed-42d2-be51-5e1cf1d08290" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="object" targetId="dce302b5-9bed-42d2-be51-5e1cf1d08290" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="object" targetId="dce302b5-9bed-42d2-be51-5e1cf1d08290" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_WRITE" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="policy_stat" targetId="af4c68d5-f757-49c9-9118-4bd63dcc9654" targetType="DataStoreEntity" />
+        <dependency type="DATA_STORE_READ" sourceName="swift/container/backend.py" sourceId="e8864355-dcb1-4c93-94b3-84e5dfe0a490" sourceType="SourceFile" targetName="sqlite_master" targetId="a3a974d6-3d1c-4271-8bc9-d8f25830ff69" targetType="DataStoreEntity" />
+        <dependency type="CODE_CALL" sourceName="swift/container/reconciler.py" sourceId="2f5087ed-1a83-4556-bdd1-5bea94cb2bf9" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/container/replicator.py" sourceId="0ced4421-bf66-4407-916b-ec9a3f32b31a" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/container/server.py" sourceId="f535b6f9-8463-4886-a73e-910c00541afe" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/container/sync.py" sourceId="9aa080c0-d9fe-47b7-9c40-5ab8bc64e281" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/container/updater.py" sourceId="a2e16d61-b6a5-4655-a57d-c9458062d1e4" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/auditor.py" sourceId="a99cd160-7af4-4a42-b84f-2b975e348479" sourceType="SourceFile" targetName="swift.obj" targetId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/mem_server.py" sourceId="5474800c-82aa-49dd-b826-93230aa2690b" sourceType="SourceFile" targetName="swift.obj" targetId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/replicator.py" sourceId="cdf07a64-f5c9-4493-a97a-9ac5785099b1" sourceType="SourceFile" targetName="swift.obj" targetId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/server.py" sourceId="cff154cd-3e6f-49e4-b44f-1ed2b1535d01" sourceType="SourceFile" targetName="swift.obj" targetId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/ssync_receiver.py" sourceId="47134d84-5ce1-4b59-808f-9c7c75265586" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/ssync_sender.py" sourceId="2459d8b7-d349-4645-82bf-84cfb5cce27d" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/obj/updater.py" sourceId="34adffd7-85c6-4d9e-933e-e3ffc7ccdd9f" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/proxy/controllers/account.py" sourceId="be211bb7-5d0f-4ce4-a483-cb3bb69b11a3" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/proxy/controllers/container.py" sourceId="6e50c2b1-f5a1-4948-91ee-ac3f54970d8b" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/proxy/controllers/obj.py" sourceId="2cf3cdca-3e48-4876-b7e8-fb674196be37" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/proxy/server.py" sourceId="ca07f27b-eba9-4608-951e-73042078ec8d" sourceType="SourceFile" targetName="swift.common.ring" targetId="8c230692-79c2-46a3-a34f-65df9caa3654" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/proxy/server.py" sourceId="ca07f27b-eba9-4608-951e-73042078ec8d" sourceType="SourceFile" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="CODE_CALL" sourceName="swift/proxy/server.py" sourceId="ca07f27b-eba9-4608-951e-73042078ec8d" sourceType="SourceFile" targetName="swift.proxy.controllers" targetId="06a4bfb6-f3f0-4d24-8939-0c6394c8ee6e" targetType="CodeComponent" />
+        <dependency type="DEPLOYS" sourceName="swift" sourceId="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" sourceType="DeployableComponent" targetName="swift.account" targetId="c88d1fef-c7b0-4ff8-86cd-84923f7643a7" targetType="CodeComponent" />
+        <dependency type="DEPLOYS" sourceName="swift" sourceId="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" sourceType="DeployableComponent" targetName="swift.cli" targetId="3b11a2e9-0afb-4f5c-b759-f7d87508ba16" targetType="CodeComponent" />
+        <dependency type="DEPLOYS" sourceName="swift" sourceId="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" sourceType="DeployableComponent" targetName="swift.common" targetId="d68760be-0563-451d-a59a-ff9f25ab2b56" targetType="CodeComponent" />
+        <dependency type="DEPLOYS" sourceName="swift" sourceId="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" sourceType="DeployableComponent" targetName="swift.container" targetId="b96f65de-b29b-45b1-9609-535a4cad3867" targetType="CodeComponent" />
+        <dependency type="DEPLOYS" sourceName="swift" sourceId="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" sourceType="DeployableComponent" targetName="swift.obj" targetId="0e7a32ab-825c-4d44-9579-7f9cd9cb78cf" targetType="CodeComponent" />
+        <dependency type="DEPLOYS" sourceName="swift" sourceId="d4bc9e30-049e-4fa1-b10e-7f1e130c0357" sourceType="DeployableComponent" targetName="swift.proxy" targetId="00aa76d7-3d8f-45ec-bde1-137d6b8300da" targetType="CodeComponent" />
+    </dependencies>
+</SystemLevel>

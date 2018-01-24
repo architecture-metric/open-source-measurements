@@ -1,0 +1,2 @@
+opensource-gitlabhq::SystemLevel (752 files, 47463 LOC)
+    REMAINDER::CodeComponent (752 files, 47463 LOC)

@@ -1,0 +1,80 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"org.opendaylight.controller:karaf-aggregator" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="karaf-aggregator
+
+inter component duplication: 100.0%" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="archetypes-parent
+
+inter component duplication: 20.7%" ]
+"org.opendaylight.controller:config-subsystem" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="16" margin="0.256" label="config-subsystem
+
+inter component duplication: 7.0%" ]
+"org.opendaylight.controller:benchmark-aggregator" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="benchmark-aggregator
+
+inter component duplication: 29.3%" ]
+"org.opendaylight.controller:blueprint" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="blueprint
+
+inter component duplication: 14.7%" ]
+"org.opendaylight.controller:liblldp" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="liblldp
+
+inter component duplication: 13.3%" ]
+"org.opendaylight.controller.model:model-parent" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="model-parent
+
+inter component duplication: 100.0%" ]
+"org.opendaylight.controller:sal-parent" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="sal-parent
+
+inter component duplication: 7.3%" ]
+"org.opendaylight.controller:features-controller" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="features-controller
+
+inter component duplication: 70.6%" ]
+"org.opendaylight.controller:benchmark-aggregator" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  98" ]
+"org.opendaylight.controller:blueprint" -> "org.opendaylight.controller:config-subsystem" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  17" ]
+"org.opendaylight.controller:blueprint" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  35" ]
+"org.opendaylight.controller:sal-parent" -> "org.opendaylight.controller:config-subsystem" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  64" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller.archetypes:archetypes-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  15" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller:config-subsystem" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  7" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller:benchmark-aggregator" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  12" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller:blueprint" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller:liblldp" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller.model:model-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  33" ]
+"org.opendaylight.controller:karaf-aggregator" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  14" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller:config-subsystem" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller:benchmark-aggregator" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller:blueprint" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller:liblldp" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller.model:model-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  93" ]
+"org.opendaylight.controller.archetypes:archetypes-parent" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:config-subsystem" -> "org.opendaylight.controller:benchmark-aggregator" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  28" ]
+"org.opendaylight.controller:config-subsystem" -> "org.opendaylight.controller:blueprint" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  91" ]
+"org.opendaylight.controller:config-subsystem" -> "org.opendaylight.controller:liblldp" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  77" ]
+"org.opendaylight.controller:config-subsystem" -> "org.opendaylight.controller.model:model-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  68" ]
+"org.opendaylight.controller:config-subsystem" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  641" ]
+"org.opendaylight.controller:config-subsystem" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:benchmark-aggregator" -> "org.opendaylight.controller:blueprint" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  39" ]
+"org.opendaylight.controller:benchmark-aggregator" -> "org.opendaylight.controller:liblldp" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:benchmark-aggregator" -> "org.opendaylight.controller.model:model-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  6" ]
+"org.opendaylight.controller:benchmark-aggregator" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  195" ]
+"org.opendaylight.controller:benchmark-aggregator" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"org.opendaylight.controller:blueprint" -> "org.opendaylight.controller:liblldp" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  40" ]
+"org.opendaylight.controller:blueprint" -> "org.opendaylight.controller.model:model-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  7" ]
+"org.opendaylight.controller:blueprint" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  359" ]
+"org.opendaylight.controller:blueprint" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.opendaylight.controller:liblldp" -> "org.opendaylight.controller.model:model-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  74" ]
+"org.opendaylight.controller:liblldp" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  153" ]
+"org.opendaylight.controller:liblldp" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  13" ]
+"org.opendaylight.controller.model:model-parent" -> "org.opendaylight.controller:sal-parent" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  121" ]
+"org.opendaylight.controller.model:model-parent" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  7" ]
+"org.opendaylight.controller:sal-parent" -> "org.opendaylight.controller:features-controller" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  68" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

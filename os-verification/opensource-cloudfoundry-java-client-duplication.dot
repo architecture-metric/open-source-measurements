@@ -1,0 +1,43 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"org.cloudfoundry:cloudfoundry-operations" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="19" margin="0.304" label="cloudfoundry-operations
+
+duplication: 9.6%" ]
+"REMAINDER" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="REMAINDER
+
+duplication: 0.0%" ]
+"org.cloudfoundry:cloudfoundry-util" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="11" margin="0.176" label="cloudfoundry-util
+
+duplication: 12.1%" ]
+"org.cloudfoundry:cloudfoundry-client" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="30" margin="0.48" label="cloudfoundry-client
+
+duplication: 12.6%" ]
+"org.cloudfoundry:cloudfoundry-client-reactor" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="17" margin="0.272" label="cloudfoundry-client-reactor
+
+duplication: 4.8%" ]
+"org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  48" ]
+"org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  286" ]
+"org.cloudfoundry:cloudfoundry-util" -> "org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  11" ]
+"org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  3" ]
+"org.cloudfoundry:cloudfoundry-client-reactor" -> "org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  650" ]
+"org.cloudfoundry:cloudfoundry-operations" -> "REMAINDER" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  51" ]
+"org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  100" ]
+"org.cloudfoundry:cloudfoundry-operations" -> "org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  142" ]
+"REMAINDER" -> "org.cloudfoundry:cloudfoundry-util" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"REMAINDER" -> "org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"REMAINDER" -> "org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="" ]
+"org.cloudfoundry:cloudfoundry-util" -> "org.cloudfoundry:cloudfoundry-client" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  55" ]
+"org.cloudfoundry:cloudfoundry-util" -> "org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  84" ]
+"org.cloudfoundry:cloudfoundry-client" -> "org.cloudfoundry:cloudfoundry-client-reactor" [ penwidth="2" color="#bb2d36" fontcolor="#bb2d36" fontname="Helvetica Neue" fontsize="12" arrowhead="both" style="dashed" label="  77" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+</TABLE>
+>  ]
+}

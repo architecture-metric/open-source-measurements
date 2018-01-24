@@ -1,0 +1,37 @@
+digraph "Graph" {
+compound=true
+rankdir=TD
+"plugins" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"core" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"benchmarks" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+":rootProject" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"sniffer" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"rest" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"REMAINDER" [ shape="box" style="filled" fillcolor="#2A568F" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#FFFFFF" fontsize="10" margin="0.16" label="REMAINDER" ]
+"modules" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"buildSrc" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"distribution" [ shape="box" style="filled" fillcolor="#D2D1C7" penwidth="1" color="#FFFFFF" fontname="Helvetica Neue" fontcolor="#323232" fontsize="16" label="web app" ]
+"plugins" -> "core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  578" ]
+"plugins" -> ":rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  634" ]
+"core" -> ":rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  20367" ]
+"benchmarks" -> "core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+"benchmarks" -> ":rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  27" ]
+":rootProject" -> "plugins" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  56" ]
+":rootProject" -> "core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  22224" ]
+":rootProject" -> "modules" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  647" ]
+"modules" -> "core" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1252" ]
+"modules" -> ":rootProject" [ penwidth="2" color="#323232" fontcolor="#323232" fontname="Helvetica Neue" fontsize="12" label="  1899" ]
+"LEGEND" [ shape="box" style="filled" fillcolor="#FFFFFF" penwidth="1" color="#323232" fontname="Helvetica Neue" fontcolor="#323232" fontsize="10" label=<<TABLE BORDER="0" CELLPADDING="1" CELLSPACING="0">
+<TR><TD COLSPAN="2"><B>Legend</B></TD></TR>
+<TR><TD><FONT COLOR="#2A568F">&#9638;</FONT></TD><TD ALIGN="left">Code component</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&#9638;</FONT></TD><TD ALIGN="left">Deployable component</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#9679;</FONT></TD><TD ALIGN="left">End point</TD></TR>
+<TR><TD><FONT COLOR="#323232">&#9679;</FONT></TD><TD ALIGN="left">Data store</TD></TR>
+<TR><TD><FONT COLOR="#323232">&rarr;</FONT></TD><TD ALIGN="left">Code call</TD></TR>
+<TR><TD><FONT COLOR="#72C0B4">&#8212;</FONT></TD><TD ALIGN="left">Provides</TD></TR>
+<TR><TD><FONT COLOR="#820445">&rarr;</FONT></TD><TD ALIGN="left">Interface call</TD></TR>
+<TR><TD><FONT COLOR="#D2D1C7">&rarr;</FONT></TD><TD ALIGN="left">Data store read</TD></TR>
+<TR><TD><FONT COLOR="#A4A38F">&rarr;</FONT></TD><TD ALIGN="left">Data store write</TD></TR>
+</TABLE>
+>  ]
+}

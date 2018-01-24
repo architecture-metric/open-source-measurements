@@ -1,0 +1,2407 @@
+{
+  "systemName": "opensource-rapidjson",
+  "snapshots": [
+    "2017-11-16 00:00:00"
+  ],
+  "systemElements": [
+    {
+      "id": "86883fd0-1f62-4caa-8633-692d0984383e",
+      "name": "opensource-rapidjson",
+      "type": "SYSTEM",
+      "measurementValues": {
+        "LINES_OF_CODE": 9163.0,
+        "COMMUNICATION_COMPLEXITY": 0.0,
+        "DUPLICATION": 7.977736549165121,
+        "CODE_BREAKDOWN": 9163.0
+      },
+      "ratings": {
+        "COMMUNICATION_BOTTLENECKS": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "CLOUD_NATIVENESS": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "COMMUNICATION_CENTRALIZATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "USAGE_COHESION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "ASYNCHRONOUS_COMMUNICATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "SHARED_CODE": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "DATA_STORE_SCALABILITY": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "SHARED_DEPENDENCIES": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "DATA_STORE_ENCAPSULATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "CODE_BREAKDOWN": {
+          "value": 1.213392107472712,
+          "weight": 1.0
+        },
+        "DEPLOYMENT_BREAKDOWN": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "ARCHITECTURE_MAINTAINABILITY": {
+          "value": 3.356696053736356,
+          "weight": 1.0
+        },
+        "STATELESSNESS": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "TECHNOLOGY_COHESION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "INTERFACE_CENTRALIZATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "SOA": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "COMPONENT_COHESION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "OUTGOING_DEPENDENCIES": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "INTER_COMPONENT_DUPLICATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "COMMUNICATION_COMPLEXITY": {
+          "value": 5.5,
+          "weight": 9163.0
+        },
+        "INCOMING_DEPENDENCIES": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "CBA": {
+          "value": 3.356696053736356,
+          "weight": 1.0
+        }
+      }
+    },
+    {
+      "shortName": "REMAINDER",
+      "id": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "name": "REMAINDER",
+      "type": "CODE_COMPONENT",
+      "measurementValues": {
+        "LINES_OF_CODE": 9163.0,
+        "DUPLICATION": 7.977736549165121,
+        "CODE_BREAKDOWN": 9163.0
+      },
+      "ratings": {
+        "COMMUNICATION_CENTRALIZATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "INTERFACE_CENTRALIZATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "COMPONENT_COHESION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "OUTGOING_DEPENDENCIES": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "INTER_COMPONENT_DUPLICATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "DATA_STORE_ENCAPSULATION": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "INCOMING_DEPENDENCIES": {
+          "value": 0.0,
+          "weight": 0.0
+        },
+        "CODE_BREAKDOWN": {
+          "value": 1.213392107472712,
+          "weight": 9163.0
+        }
+      }
+    },
+    {
+      "relativePath": "appveyor.yml",
+      "fileName": "appveyor.yml",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "8d80e621-b07f-4a09-aebc-f1d0b9f3b86c",
+      "name": "appveyor.yml",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 32.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/allocators.h",
+      "fileName": "allocators.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "bd1bddce-ffd4-43e7-a68e-54c765335c56",
+      "name": "include/rapidjson/allocators.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 128.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/cursorstreamwrapper.h",
+      "fileName": "cursorstreamwrapper.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "0519a328-6e7f-4eaf-99a6-983b2758d88b",
+      "name": "include/rapidjson/cursorstreamwrapper.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 32.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/document.h",
+      "fileName": "document.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "name": "include/rapidjson/document.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 1290.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/encodedstream.h",
+      "fileName": "encodedstream.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 29,
+          "length": 7,
+          "startLine": 111,
+          "endLine": 120
+        },
+        {
+          "duplicateId": 29,
+          "length": 7,
+          "startLine": 261,
+          "endLine": 270
+        },
+        {
+          "duplicateId": 41,
+          "length": 6,
+          "startLine": 50,
+          "endLine": 58
+        },
+        {
+          "duplicateId": 41,
+          "length": 6,
+          "startLine": 158,
+          "endLine": 166
+        }
+      ],
+      "observations": [],
+      "id": "145b6a45-0f9d-4bf7-a0fe-2ec70a86d479",
+      "name": "include/rapidjson/encodedstream.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 162.0,
+        "DUPLICATION": 16.049382716049383
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/encodings.h",
+      "fileName": "encodings.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 22,
+          "length": 8,
+          "startLine": 164,
+          "endLine": 171
+        },
+        {
+          "duplicateId": 22,
+          "length": 8,
+          "startLine": 190,
+          "endLine": 197
+        },
+        {
+          "duplicateId": 25,
+          "length": 8,
+          "startLine": 343,
+          "endLine": 352
+        },
+        {
+          "duplicateId": 25,
+          "length": 8,
+          "startLine": 376,
+          "endLine": 385
+        },
+        {
+          "duplicateId": 26,
+          "length": 8,
+          "startLine": 458,
+          "endLine": 467
+        },
+        {
+          "duplicateId": 26,
+          "length": 8,
+          "startLine": 497,
+          "endLine": 506
+        },
+        {
+          "duplicateId": 33,
+          "length": 7,
+          "startLine": 235,
+          "endLine": 243
+        },
+        {
+          "duplicateId": 33,
+          "length": 7,
+          "startLine": 580,
+          "endLine": 588
+        },
+        {
+          "duplicateId": 39,
+          "length": 6,
+          "startLine": 355,
+          "endLine": 362
+        },
+        {
+          "duplicateId": 39,
+          "length": 6,
+          "startLine": 472,
+          "endLine": 479
+        }
+      ],
+      "observations": [],
+      "id": "379107ae-2d33-4a93-8b21-7e5f8af16740",
+      "name": "include/rapidjson/encodings.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 490.0,
+        "DUPLICATION": 15.10204081632653
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/error/en.h",
+      "fileName": "en.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "97095095-7499-4d8f-a510-a0f087635b29",
+      "name": "include/rapidjson/error/en.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 30.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/error/error.h",
+      "fileName": "error.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "af18f9cb-93fd-4384-8bb7-a8044f7c3611",
+      "name": "include/rapidjson/error/error.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 47.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/filereadstream.h",
+      "fileName": "filereadstream.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "d5a33a4b-0465-4535-9cf7-8d982eccc062",
+      "name": "include/rapidjson/filereadstream.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 51.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/filewritestream.h",
+      "fileName": "filewritestream.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 45,
+          "length": 6,
+          "startLine": 75,
+          "endLine": 81
+        }
+      ],
+      "observations": [],
+      "id": "52db758c-5e41-4a6c-bef2-d39b31e228ff",
+      "name": "include/rapidjson/filewritestream.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 55.0,
+        "DUPLICATION": 10.909090909090908
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/fwd.h",
+      "fileName": "fwd.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "26e60d44-b6c9-4c1a-a48d-79eb08a6bc38",
+      "name": "include/rapidjson/fwd.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 67.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/biginteger.h",
+      "fileName": "biginteger.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "90b8db83-ab29-4180-a905-f2b4ea920a21",
+      "name": "include/rapidjson/internal/biginteger.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 216.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/diyfp.h",
+      "fileName": "diyfp.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "e02ea68f-c95d-43a1-ad0f-c0672accb75d",
+      "name": "include/rapidjson/internal/diyfp.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 186.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/dtoa.h",
+      "fileName": "dtoa.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "9b100d44-c02b-4184-8629-6cc264186504",
+      "name": "include/rapidjson/internal/dtoa.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 184.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/ieee754.h",
+      "fileName": "ieee754.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "5c4c6072-b308-4d3e-9e12-5707df9f0f4a",
+      "name": "include/rapidjson/internal/ieee754.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 47.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/itoa.h",
+      "fileName": "itoa.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 3,
+          "length": 15,
+          "startLine": 59,
+          "endLine": 76
+        },
+        {
+          "duplicateId": 3,
+          "length": 15,
+          "startLine": 154,
+          "endLine": 171
+        },
+        {
+          "duplicateId": 4,
+          "length": 14,
+          "startLine": 175,
+          "endLine": 194
+        },
+        {
+          "duplicateId": 4,
+          "length": 14,
+          "startLine": 249,
+          "endLine": 268
+        },
+        {
+          "duplicateId": 19,
+          "length": 9,
+          "startLine": 211,
+          "endLine": 220
+        },
+        {
+          "duplicateId": 19,
+          "length": 9,
+          "startLine": 277,
+          "endLine": 285
+        },
+        {
+          "duplicateId": 20,
+          "length": 8,
+          "startLine": 101,
+          "endLine": 108
+        },
+        {
+          "duplicateId": 20,
+          "length": 8,
+          "startLine": 270,
+          "endLine": 277
+        },
+        {
+          "duplicateId": 36,
+          "length": 6,
+          "startLine": 70,
+          "endLine": 76
+        },
+        {
+          "duplicateId": 36,
+          "length": 6,
+          "startLine": 103,
+          "endLine": 108
+        },
+        {
+          "duplicateId": 36,
+          "length": 6,
+          "startLine": 272,
+          "endLine": 277
+        },
+        {
+          "duplicateId": 40,
+          "length": 6,
+          "startLine": 56,
+          "endLine": 63
+        },
+        {
+          "duplicateId": 40,
+          "length": 6,
+          "startLine": 92,
+          "endLine": 99
+        }
+      ],
+      "observations": [],
+      "id": "7eb0b5e1-0964-4499-a9df-f7bb7fc2b688",
+      "name": "include/rapidjson/internal/itoa.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 236.0,
+        "DUPLICATION": 41.94915254237288
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/meta.h",
+      "fileName": "meta.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "name": "include/rapidjson/internal/meta.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 83.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/pow10.h",
+      "fileName": "pow10.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "c4dd2d1c-777e-4d87-bc1a-9e75246c7bfd",
+      "name": "include/rapidjson/internal/pow10.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 27.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/regex.h",
+      "fileName": "regex.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 37,
+          "length": 6,
+          "startLine": 564,
+          "endLine": 569
+        },
+        {
+          "duplicateId": 37,
+          "length": 6,
+          "startLine": 565,
+          "endLine": 570
+        }
+      ],
+      "observations": [],
+      "id": "1164ced5-dbe2-49f9-9e09-5f521f809db3",
+      "name": "include/rapidjson/internal/regex.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 558.0,
+        "DUPLICATION": 1.2544802867383513
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/stack.h",
+      "fileName": "stack.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 44,
+          "length": 6,
+          "startLine": 52,
+          "endLine": 57
+        },
+        {
+          "duplicateId": 44,
+          "length": 6,
+          "startLine": 78,
+          "endLine": 83
+        }
+      ],
+      "observations": [],
+      "id": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "name": "include/rapidjson/internal/stack.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 156.0,
+        "DUPLICATION": 7.6923076923076925
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/strfunc.h",
+      "fileName": "strfunc.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "a303bd71-9f9d-4d9a-8c56-61cf37bad6f0",
+      "name": "include/rapidjson/internal/strfunc.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 35.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/strtod.h",
+      "fileName": "strtod.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "name": "include/rapidjson/internal/strtod.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 192.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/internal/swap.h",
+      "fileName": "swap.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "5459f0ea-02ee-4946-a945-42c20943c744",
+      "name": "include/rapidjson/internal/swap.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 13.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/istreamwrapper.h",
+      "fileName": "istreamwrapper.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "a943f760-e9fa-4f64-9c52-c358296bb6f7",
+      "name": "include/rapidjson/istreamwrapper.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 57.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/memorybuffer.h",
+      "fileName": "memorybuffer.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "bbe5b5a9-91ed-4df2-bcb0-f01380615306",
+      "name": "include/rapidjson/memorybuffer.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 24.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/memorystream.h",
+      "fileName": "memorystream.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "7b1edc5a-4b8c-4aef-b156-062116529e9c",
+      "name": "include/rapidjson/memorystream.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 25.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/msinttypes/inttypes.h",
+      "fileName": "inttypes.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "fe44762d-21d8-4518-82d3-75a9c22836ac",
+      "name": "include/rapidjson/msinttypes/inttypes.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 17.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/msinttypes/stdint.h",
+      "fileName": "stdint.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "name": "include/rapidjson/msinttypes/stdint.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 39.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/ostreamwrapper.h",
+      "fileName": "ostreamwrapper.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 45,
+          "length": 6,
+          "startLine": 59,
+          "endLine": 65
+        }
+      ],
+      "observations": [],
+      "id": "46aaa085-ba37-44dd-85ff-9ea279777975",
+      "name": "include/rapidjson/ostreamwrapper.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 28.0,
+        "DUPLICATION": 21.428571428571427
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/pointer.h",
+      "fileName": "pointer.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "name": "include/rapidjson/pointer.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 759.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/prettywriter.h",
+      "fileName": "prettywriter.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "93129134-06fc-466e-9013-a6f36179dd44",
+      "name": "include/rapidjson/prettywriter.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 162.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/rapidjson.h",
+      "fileName": "rapidjson.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "name": "include/rapidjson/rapidjson.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 35.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/reader.h",
+      "fileName": "reader.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 1,
+          "length": 17,
+          "startLine": 1888,
+          "endLine": 1908
+        },
+        {
+          "duplicateId": 1,
+          "length": 17,
+          "startLine": 1928,
+          "endLine": 1948
+        },
+        {
+          "duplicateId": 2,
+          "length": 17,
+          "startLine": 1113,
+          "endLine": 1138
+        },
+        {
+          "duplicateId": 2,
+          "length": 17,
+          "startLine": 1277,
+          "endLine": 1302
+        },
+        {
+          "duplicateId": 5,
+          "length": 14,
+          "startLine": 1078,
+          "endLine": 1092
+        },
+        {
+          "duplicateId": 5,
+          "length": 14,
+          "startLine": 1189,
+          "endLine": 1203
+        },
+        {
+          "duplicateId": 6,
+          "length": 13,
+          "startLine": 1843,
+          "endLine": 1857
+        },
+        {
+          "duplicateId": 6,
+          "length": 13,
+          "startLine": 1945,
+          "endLine": 1959
+        },
+        {
+          "duplicateId": 8,
+          "length": 12,
+          "startLine": 328,
+          "endLine": 347
+        },
+        {
+          "duplicateId": 8,
+          "length": 12,
+          "startLine": 413,
+          "endLine": 432
+        },
+        {
+          "duplicateId": 9,
+          "length": 12,
+          "startLine": 1149,
+          "endLine": 1162
+        },
+        {
+          "duplicateId": 9,
+          "length": 12,
+          "startLine": 1197,
+          "endLine": 1210
+        },
+        {
+          "duplicateId": 10,
+          "length": 11,
+          "startLine": 283,
+          "endLine": 296
+        },
+        {
+          "duplicateId": 10,
+          "length": 11,
+          "startLine": 334,
+          "endLine": 347
+        },
+        {
+          "duplicateId": 10,
+          "length": 11,
+          "startLine": 419,
+          "endLine": 432
+        },
+        {
+          "duplicateId": 11,
+          "length": 11,
+          "startLine": 440,
+          "endLine": 452
+        },
+        {
+          "duplicateId": 11,
+          "length": 11,
+          "startLine": 476,
+          "endLine": 488
+        },
+        {
+          "duplicateId": 12,
+          "length": 11,
+          "startLine": 1242,
+          "endLine": 1254
+        },
+        {
+          "duplicateId": 12,
+          "length": 11,
+          "startLine": 1312,
+          "endLine": 1324
+        },
+        {
+          "duplicateId": 13,
+          "length": 11,
+          "startLine": 1879,
+          "endLine": 1891
+        },
+        {
+          "duplicateId": 13,
+          "length": 11,
+          "startLine": 1913,
+          "endLine": 1925
+        },
+        {
+          "duplicateId": 14,
+          "length": 10,
+          "startLine": 361,
+          "endLine": 372
+        },
+        {
+          "duplicateId": 14,
+          "length": 10,
+          "startLine": 397,
+          "endLine": 408
+        },
+        {
+          "duplicateId": 16,
+          "length": 10,
+          "startLine": 1171,
+          "endLine": 1185
+        },
+        {
+          "duplicateId": 16,
+          "length": 10,
+          "startLine": 1343,
+          "endLine": 1357
+        },
+        {
+          "duplicateId": 17,
+          "length": 9,
+          "startLine": 1064,
+          "endLine": 1075
+        },
+        {
+          "duplicateId": 17,
+          "length": 9,
+          "startLine": 1221,
+          "endLine": 1232
+        },
+        {
+          "duplicateId": 18,
+          "length": 9,
+          "startLine": 1820,
+          "endLine": 1832
+        },
+        {
+          "duplicateId": 18,
+          "length": 9,
+          "startLine": 1922,
+          "endLine": 1934
+        },
+        {
+          "duplicateId": 21,
+          "length": 8,
+          "startLine": 345,
+          "endLine": 357
+        },
+        {
+          "duplicateId": 21,
+          "length": 8,
+          "startLine": 381,
+          "endLine": 393
+        },
+        {
+          "duplicateId": 23,
+          "length": 8,
+          "startLine": 1241,
+          "endLine": 1249
+        },
+        {
+          "duplicateId": 24,
+          "length": 8,
+          "startLine": 1828,
+          "endLine": 1837
+        },
+        {
+          "duplicateId": 24,
+          "length": 8,
+          "startLine": 1958,
+          "endLine": 1967
+        },
+        {
+          "duplicateId": 27,
+          "length": 8,
+          "startLine": 1311,
+          "endLine": 1319
+        },
+        {
+          "duplicateId": 27,
+          "length": 8,
+          "startLine": 1367,
+          "endLine": 1375
+        },
+        {
+          "duplicateId": 28,
+          "length": 7,
+          "startLine": 1086,
+          "endLine": 1092
+        },
+        {
+          "duplicateId": 28,
+          "length": 7,
+          "startLine": 1197,
+          "endLine": 1203
+        },
+        {
+          "duplicateId": 28,
+          "length": 7,
+          "startLine": 1149,
+          "endLine": 1155
+        },
+        {
+          "duplicateId": 30,
+          "length": 7,
+          "startLine": 1854,
+          "endLine": 1862
+        },
+        {
+          "duplicateId": 30,
+          "length": 7,
+          "startLine": 1868,
+          "endLine": 1876
+        },
+        {
+          "duplicateId": 31,
+          "length": 7,
+          "startLine": 1242,
+          "endLine": 1249
+        },
+        {
+          "duplicateId": 31,
+          "length": 7,
+          "startLine": 1368,
+          "endLine": 1375
+        },
+        {
+          "duplicateId": 32,
+          "length": 7,
+          "startLine": 430,
+          "endLine": 437
+        },
+        {
+          "duplicateId": 32,
+          "length": 7,
+          "startLine": 466,
+          "endLine": 473
+        },
+        {
+          "duplicateId": 34,
+          "length": 7,
+          "startLine": 1822,
+          "endLine": 1832
+        },
+        {
+          "duplicateId": 34,
+          "length": 7,
+          "startLine": 1884,
+          "endLine": 1894
+        },
+        {
+          "duplicateId": 35,
+          "length": 6,
+          "startLine": 1078,
+          "endLine": 1083
+        },
+        {
+          "duplicateId": 35,
+          "length": 6,
+          "startLine": 1189,
+          "endLine": 1194
+        },
+        {
+          "duplicateId": 35,
+          "length": 6,
+          "startLine": 1141,
+          "endLine": 1146
+        },
+        {
+          "duplicateId": 38,
+          "length": 6,
+          "startLine": 1822,
+          "endLine": 1829
+        },
+        {
+          "duplicateId": 38,
+          "length": 6,
+          "startLine": 1918,
+          "endLine": 1925
+        },
+        {
+          "duplicateId": 43,
+          "length": 6,
+          "startLine": 2071,
+          "endLine": 2077
+        },
+        {
+          "duplicateId": 43,
+          "length": 6,
+          "startLine": 2101,
+          "endLine": 2107
+        },
+        {
+          "duplicateId": 46,
+          "length": 6,
+          "startLine": 483,
+          "endLine": 489
+        },
+        {
+          "duplicateId": 46,
+          "length": 6,
+          "startLine": 1373,
+          "endLine": 1379
+        },
+        {
+          "duplicateId": 47,
+          "length": 6,
+          "startLine": 1101,
+          "endLine": 1108
+        },
+        {
+          "duplicateId": 47,
+          "length": 6,
+          "startLine": 1265,
+          "endLine": 1272
+        }
+      ],
+      "observations": [],
+      "id": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "name": "include/rapidjson/reader.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 1555.0,
+        "DUPLICATION": 25.080385852090032
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/schema.h",
+      "fileName": "schema.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 15,
+          "length": 10,
+          "startLine": 1588,
+          "endLine": 1597
+        },
+        {
+          "duplicateId": 15,
+          "length": 10,
+          "startLine": 1616,
+          "endLine": 1625
+        },
+        {
+          "duplicateId": 42,
+          "length": 6,
+          "startLine": 1594,
+          "endLine": 1599
+        },
+        {
+          "duplicateId": 42,
+          "length": 6,
+          "startLine": 1810,
+          "endLine": 1815
+        }
+      ],
+      "observations": [],
+      "id": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "name": "include/rapidjson/schema.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 1519.0,
+        "DUPLICATION": 1.8433179723502304
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/stream.h",
+      "fileName": "stream.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "name": "include/rapidjson/stream.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 84.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/stringbuffer.h",
+      "fileName": "stringbuffer.h",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "name": "include/rapidjson/stringbuffer.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 56.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include/rapidjson/writer.h",
+      "fileName": "writer.h",
+      "attachedDuplicates": [
+        {
+          "duplicateId": 0,
+          "length": 18,
+          "startLine": 571,
+          "endLine": 592
+        },
+        {
+          "duplicateId": 0,
+          "length": 18,
+          "startLine": 632,
+          "endLine": 653
+        },
+        {
+          "duplicateId": 7,
+          "length": 13,
+          "startLine": 353,
+          "endLine": 367
+        },
+        {
+          "duplicateId": 7,
+          "length": 13,
+          "startLine": 547,
+          "endLine": 561
+        },
+        {
+          "duplicateId": 23,
+          "length": 8,
+          "startLine": 662,
+          "endLine": 670
+        },
+        {
+          "duplicateId": 28,
+          "length": 7,
+          "startLine": 603,
+          "endLine": 609
+        },
+        {
+          "duplicateId": 35,
+          "length": 6,
+          "startLine": 595,
+          "endLine": 600
+        }
+      ],
+      "observations": [],
+      "id": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "name": "include/rapidjson/writer.h",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 460.0,
+        "DUPLICATION": 18.043478260869566
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "include_dirs.js",
+      "fileName": "include_dirs.js",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "3f7c6b45-4e89-44cf-b3b3-b21318d975df",
+      "name": "include_dirs.js",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 2.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    },
+    {
+      "relativePath": "package.json",
+      "fileName": "package.json",
+      "attachedDuplicates": [],
+      "observations": [],
+      "id": "15c85169-2622-49be-acb2-2baf37459f0e",
+      "name": "package.json",
+      "type": "FILE",
+      "measurementValues": {
+        "LINES_OF_CODE": 24.0,
+        "DUPLICATION": 0.0
+      },
+      "ratings": {}
+    }
+  ],
+  "dependencies": [
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "8d80e621-b07f-4a09-aebc-f1d0b9f3b86c",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "bd1bddce-ffd4-43e7-a68e-54c765335c56",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "0519a328-6e7f-4eaf-99a6-983b2758d88b",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "145b6a45-0f9d-4bf7-a0fe-2ec70a86d479",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "379107ae-2d33-4a93-8b21-7e5f8af16740",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "97095095-7499-4d8f-a510-a0f087635b29",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "af18f9cb-93fd-4384-8bb7-a8044f7c3611",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "d5a33a4b-0465-4535-9cf7-8d982eccc062",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "52db758c-5e41-4a6c-bef2-d39b31e228ff",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "26e60d44-b6c9-4c1a-a48d-79eb08a6bc38",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "90b8db83-ab29-4180-a905-f2b4ea920a21",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "e02ea68f-c95d-43a1-ad0f-c0672accb75d",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "9b100d44-c02b-4184-8629-6cc264186504",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "5c4c6072-b308-4d3e-9e12-5707df9f0f4a",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "7eb0b5e1-0964-4499-a9df-f7bb7fc2b688",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "c4dd2d1c-777e-4d87-bc1a-9e75246c7bfd",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "1164ced5-dbe2-49f9-9e09-5f521f809db3",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "a303bd71-9f9d-4d9a-8c56-61cf37bad6f0",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "5459f0ea-02ee-4946-a945-42c20943c744",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "a943f760-e9fa-4f64-9c52-c358296bb6f7",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "bbe5b5a9-91ed-4df2-bcb0-f01380615306",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "7b1edc5a-4b8c-4aef-b156-062116529e9c",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "fe44762d-21d8-4518-82d3-75a9c22836ac",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "46aaa085-ba37-44dd-85ff-9ea279777975",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "93129134-06fc-466e-9013-a6f36179dd44",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "3f7c6b45-4e89-44cf-b3b3-b21318d975df",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "9e8ac54a-6b1c-4461-9307-bfb2697dc382",
+      "targetElementId": "15c85169-2622-49be-acb2-2baf37459f0e",
+      "type": "CONTAINS"
+    },
+    {
+      "sourceElementId": "bd1bddce-ffd4-43e7-a68e-54c765335c56",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "0519a328-6e7f-4eaf-99a6-983b2758d88b",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetElementId": "145b6a45-0f9d-4bf7-a0fe-2ec70a86d479",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetElementId": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetElementId": "a303bd71-9f9d-4d9a-8c56-61cf37bad6f0",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetElementId": "7b1edc5a-4b8c-4aef-b156-062116529e9c",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "145b6a45-0f9d-4bf7-a0fe-2ec70a86d479",
+      "targetElementId": "7b1edc5a-4b8c-4aef-b156-062116529e9c",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "145b6a45-0f9d-4bf7-a0fe-2ec70a86d479",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "379107ae-2d33-4a93-8b21-7e5f8af16740",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "97095095-7499-4d8f-a510-a0f087635b29",
+      "targetElementId": "af18f9cb-93fd-4384-8bb7-a8044f7c3611",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "af18f9cb-93fd-4384-8bb7-a8044f7c3611",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "d5a33a4b-0465-4535-9cf7-8d982eccc062",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "52db758c-5e41-4a6c-bef2-d39b31e228ff",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "26e60d44-b6c9-4c1a-a48d-79eb08a6bc38",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "90b8db83-ab29-4180-a905-f2b4ea920a21",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "e02ea68f-c95d-43a1-ad0f-c0672accb75d",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "9b100d44-c02b-4184-8629-6cc264186504",
+      "targetElementId": "e02ea68f-c95d-43a1-ad0f-c0672accb75d",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "9b100d44-c02b-4184-8629-6cc264186504",
+      "targetElementId": "5c4c6072-b308-4d3e-9e12-5707df9f0f4a",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "9b100d44-c02b-4184-8629-6cc264186504",
+      "targetElementId": "7eb0b5e1-0964-4499-a9df-f7bb7fc2b688",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "5c4c6072-b308-4d3e-9e12-5707df9f0f4a",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "7eb0b5e1-0964-4499-a9df-f7bb7fc2b688",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "c4dd2d1c-777e-4d87-bc1a-9e75246c7bfd",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "1164ced5-dbe2-49f9-9e09-5f521f809db3",
+      "targetElementId": "bd1bddce-ffd4-43e7-a68e-54c765335c56",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "1164ced5-dbe2-49f9-9e09-5f521f809db3",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "1164ced5-dbe2-49f9-9e09-5f521f809db3",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "targetElementId": "bd1bddce-ffd4-43e7-a68e-54c765335c56",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "targetElementId": "5459f0ea-02ee-4946-a945-42c20943c744",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "a303bd71-9f9d-4d9a-8c56-61cf37bad6f0",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "targetElementId": "90b8db83-ab29-4180-a905-f2b4ea920a21",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "targetElementId": "e02ea68f-c95d-43a1-ad0f-c0672accb75d",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "targetElementId": "5c4c6072-b308-4d3e-9e12-5707df9f0f4a",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "targetElementId": "c4dd2d1c-777e-4d87-bc1a-9e75246c7bfd",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "5459f0ea-02ee-4946-a945-42c20943c744",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "a943f760-e9fa-4f64-9c52-c358296bb6f7",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "bbe5b5a9-91ed-4df2-bcb0-f01380615306",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "bbe5b5a9-91ed-4df2-bcb0-f01380615306",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "7b1edc5a-4b8c-4aef-b156-062116529e9c",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "fe44762d-21d8-4518-82d3-75a9c22836ac",
+      "targetElementId": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "46aaa085-ba37-44dd-85ff-9ea279777975",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetElementId": "7eb0b5e1-0964-4499-a9df-f7bb7fc2b688",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "93129134-06fc-466e-9013-a6f36179dd44",
+      "targetElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetElementId": "fe44762d-21d8-4518-82d3-75a9c22836ac",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetElementId": "fe44762d-21d8-4518-82d3-75a9c22836ac",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetElementId": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetElementId": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "bd1bddce-ffd4-43e7-a68e-54c765335c56",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "145b6a45-0f9d-4bf7-a0fe-2ec70a86d479",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "af18f9cb-93fd-4384-8bb7-a8044f7c3611",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "af18f9cb-93fd-4384-8bb7-a8044f7c3611",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "a522d788-50a3-4ddf-9e45-5e1963dcfac7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetElementId": "1164ced5-dbe2-49f9-9e09-5f521f809db3",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "targetElementId": "379107ae-2d33-4a93-8b21-7e5f8af16740",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "targetElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "9b100d44-c02b-4184-8629-6cc264186504",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "7eb0b5e1-0964-4499-a9df-f7bb7fc2b688",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "f1522230-88fb-49ec-90d4-a2f1ea516f20",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "a303bd71-9f9d-4d9a-8c56-61cf37bad6f0",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "c6815950-c2c2-4db3-81b8-11a135e50c15",
+      "type": "CODE_CALL"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "type": "CODE_CALL"
+    }
+  ],
+  "unresolvedDependencies": [],
+  "ambiguousDependencies": [
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetType": "SourceFile",
+      "targetName": "new",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetType": "SourceFile",
+      "targetName": "limits",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetType": "SourceFile",
+      "targetName": "iterator",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "3ccba44d-e856-4ab9-93f3-e14c4b1f7da4",
+      "targetType": "SourceFile",
+      "targetName": "utility",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "d5a33a4b-0465-4535-9cf7-8d982eccc062",
+      "targetType": "SourceFile",
+      "targetName": "cstdio",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "52db758c-5e41-4a6c-bef2-d39b31e228ff",
+      "targetType": "SourceFile",
+      "targetName": "cstdio",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "90b8db83-ab29-4180-a905-f2b4ea920a21",
+      "targetType": "SourceFile",
+      "targetName": "intrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "e02ea68f-c95d-43a1-ad0f-c0672accb75d",
+      "targetType": "SourceFile",
+      "targetName": "intrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "8c48ac02-4e14-47ba-b8e8-65b8524bf80c",
+      "targetType": "SourceFile",
+      "targetName": "type_traits",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "a303bd71-9f9d-4d9a-8c56-61cf37bad6f0",
+      "targetType": "SourceFile",
+      "targetName": "cwchar",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "a943f760-e9fa-4f64-9c52-c358296bb6f7",
+      "targetType": "SourceFile",
+      "targetName": "iosfwd",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "fe44762d-21d8-4518-82d3-75a9c22836ac",
+      "targetType": "SourceFile",
+      "targetName": "inttypes.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "targetType": "SourceFile",
+      "targetName": "stdint.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "c8c3b1cf-304a-4736-bf92-48361e19fb09",
+      "targetType": "SourceFile",
+      "targetName": "limits.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "46aaa085-ba37-44dd-85ff-9ea279777975",
+      "targetType": "SourceFile",
+      "targetName": "iosfwd",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "f139f55a-6c45-4f7a-b304-ef28776d29ef",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetType": "SourceFile",
+      "targetName": "cstdlib",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetType": "SourceFile",
+      "targetName": "cstring",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetType": "SourceFile",
+      "targetName": "rapidjson/...",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetType": "SourceFile",
+      "targetName": "string",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetType": "SourceFile",
+      "targetName": "rapidjson/...",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b3b92881-6f22-4c8c-8ec6-b6ec845d22a7",
+      "targetType": "SourceFile",
+      "targetName": "cassert",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "limits",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "intrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "nmmintrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "emmintrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "arm_neon.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "stdexcept",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "28b84094-a81b-4779-9e9f-e415b7c8e997",
+      "targetType": "SourceFile",
+      "targetName": "rapidjson/reader.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetType": "EndPoint",
+      "targetName": "/",
+      "type": "INTERFACE_CALL",
+      "matchType": "URI"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetType": "SourceFile",
+      "targetName": "cmath",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "46fc72c1-550f-4c5d-8b6e-feade445985d",
+      "targetType": "SourceFile",
+      "targetName": "regex",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "85d61e45-cad3-4b88-9507-77732875fdb4",
+      "targetType": "SourceFile",
+      "targetName": "utility",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetType": "SourceFile",
+      "targetName": "new",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetType": "SourceFile",
+      "targetName": "intrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetType": "SourceFile",
+      "targetName": "nmmintrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetType": "SourceFile",
+      "targetName": "emmintrin.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    },
+    {
+      "sourceElementId": "b9a87aa9-aa65-41aa-8043-a3c8875b51e6",
+      "targetType": "SourceFile",
+      "targetName": "arm_neon.h",
+      "type": "CODE_CALL",
+      "matchType": "FILE_PATH"
+    }
+  ]
+}

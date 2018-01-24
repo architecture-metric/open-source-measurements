@@ -1,0 +1,3 @@
+opensource-vscode::SystemLevel (1425 files, 253560 LOC)
+    extensions/make/test/colorize-fixtures/::DeployableComponent (0 files, 0 LOC)
+    REMAINDER::CodeComponent (1425 files, 253560 LOC)
